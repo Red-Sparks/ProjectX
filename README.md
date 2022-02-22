@@ -1,7 +1,7 @@
 # Smart Intercom
 Rrepository for stm32 project. 
 ## Structure
-* Docs - Plan, roadmap, issues and etc
+* docs - Plan, roadmap, issues and etc
 * src
   * smartIntercomCaller - implementation 1st part of Smart Intercom system: caller
   * smartIntercomReceiver - implementation 2nd part of Smart Intercom system: receiver
