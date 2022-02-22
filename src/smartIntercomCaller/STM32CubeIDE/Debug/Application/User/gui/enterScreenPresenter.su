@@ -1,0 +1,5 @@
+enterScreenPresenter.hpp:28:13:enterScreenPresenter::~enterScreenPresenter()	0	static
+enterScreenPresenter.cpp:10:6:virtual void enterScreenPresenter::activate()	0	static
+enterScreenPresenter.hpp:28:13:virtual enterScreenPresenter::~enterScreenPresenter()	8	static
+enterScreenPresenter.hpp:28:13:virtual void* enterScreenPresenter::_ZThn4_N20enterScreenPresenterD1Ev()	0	static
+enterScreenPresenter.cpp:4:1:enterScreenPresenter::enterScreenPresenter(enterScreenView&)	8	static

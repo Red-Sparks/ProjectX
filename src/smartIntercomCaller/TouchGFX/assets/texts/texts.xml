@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.18.1">
+  <Texts>
+    <Text Id="__SingleUse_E8WY" TypographyId="Large" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_HEZI" TypographyId="Large" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_AFIN" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Enter appartments</Translation>
+    </Text>
+    <Text Id="__SingleUse_F8AW" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">1</Translation>
+    </Text>
+    <Text Id="__SingleUse_GMC6" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">2</Translation>
+    </Text>
+    <Text Id="__SingleUse_L58Y" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">3</Translation>
+    </Text>
+    <Text Id="__SingleUse_T1Z7" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">4</Translation>
+    </Text>
+    <Text Id="__SingleUse_9E2Q" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">5</Translation>
+    </Text>
+    <Text Id="__SingleUse_ED6L" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">6</Translation>
+    </Text>
+    <Text Id="__SingleUse_N8WR" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">7</Translation>
+    </Text>
+    <Text Id="__SingleUse_8U94" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">8</Translation>
+    </Text>
+    <Text Id="__SingleUse_R7DP" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">9</Translation>
+    </Text>
+    <Text Id="__SingleUse_GYE1" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">0</Translation>
+    </Text>
+    <Text Id="__SingleUse_GAYI" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">1</Translation>
+    </Text>
+    <Text Id="__SingleUse_PKOE" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">2</Translation>
+    </Text>
+    <Text Id="__SingleUse_333C" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">3</Translation>
+    </Text>
+    <Text Id="__SingleUse_CYJH" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">4</Translation>
+    </Text>
+    <Text Id="__SingleUse_0V71" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">5</Translation>
+    </Text>
+    <Text Id="__SingleUse_5DGW" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">6</Translation>
+    </Text>
+    <Text Id="__SingleUse_YJ0K" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">7</Translation>
+    </Text>
+    <Text Id="__SingleUse_ABUO" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">8</Translation>
+    </Text>
+    <Text Id="__SingleUse_0TEM" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">9</Translation>
+    </Text>
+    <Text Id="__SingleUse_JNCX" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">0</Translation>
+    </Text>
+    <Text Id="__SingleUse_G5BY" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB" />
+    </Text>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
