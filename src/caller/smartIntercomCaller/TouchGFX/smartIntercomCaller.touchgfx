@@ -1,0 +1,491 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "enterScreen",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 272,
+            "Height": 480,
+            "Color": {
+              "Red": 162,
+              "Green": 242,
+              "Blue": 240
+            }
+          },
+          {
+            "Type": "Container",
+            "Name": "keys",
+            "X": 36,
+            "Y": 160,
+            "Width": 200,
+            "Height": 300,
+            "Components": [
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "btn1",
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
+                "TextId": "__SingleUse_F8AW",
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "btn2",
+                "X": 70,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
+                "TextId": "__SingleUse_GMC6",
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "btn3",
+                "X": 140,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
+                "TextId": "__SingleUse_L58Y",
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "btn4",
+                "Y": 80,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
+                "TextId": "__SingleUse_T1Z7",
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "btn5",
+                "X": 70,
+                "Y": 80,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
+                "TextId": "__SingleUse_9E2Q",
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "btn6",
+                "X": 140,
+                "Y": 80,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
+                "TextId": "__SingleUse_ED6L",
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "btn7",
+                "Y": 160,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
+                "TextId": "__SingleUse_N8WR",
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "btn8",
+                "X": 70,
+                "Y": 160,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
+                "TextId": "__SingleUse_8U94",
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "btn9",
+                "X": 140,
+                "Y": 160,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
+                "TextId": "__SingleUse_R7DP",
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "btn0",
+                "X": 70,
+                "Y": 240,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
+                "TextId": "__SingleUse_GYE1",
+                "TextRotation": "0"
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Name": "backspace",
+                "Y": 240,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
+                "IconPressed": "outline_backspace_black_18dp.png",
+                "IconReleased": "outline_backspace_black_18dp.png",
+                "IconX": 12,
+                "IconY": 12,
+                "IconHeight": 36,
+                "IconWidth": 36
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Name": "call",
+                "X": 140,
+                "Y": 240,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
+                "IconPressed": "outline_call_black_18dp.png",
+                "IconReleased": "outline_call_black_18dp.png",
+                "IconX": 12,
+                "IconY": 12,
+                "IconHeight": 36,
+                "IconWidth": 36
+              }
+            ]
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "clock",
+            "X": 76,
+            "Y": 20,
+            "Width": 120,
+            "Height": 50,
+            "TextId": "__SingleUse_E8WY",
+            "DisplayLeadingZeroForHourIndicator": true,
+            "InitialHour": 9,
+            "InitialMinute": 41
+          },
+          {
+            "Type": "Container",
+            "Name": "enterWindow",
+            "X": 36,
+            "Y": 90,
+            "Width": 200,
+            "Height": 50,
+            "Components": [
+              {
+                "Type": "BoxWithBorder",
+                "Name": "enterBackground",
+                "Width": 200,
+                "Height": 50,
+                "Color": {
+                  "Red": 185,
+                  "Green": 240,
+                  "Blue": 238
+                },
+                "BorderColor": {
+                  "Red": 135,
+                  "Green": 214,
+                  "Blue": 232
+                },
+                "BorderSize": 2
+              },
+              {
+                "Type": "TextArea",
+                "Name": "textArea",
+                "X": 6,
+                "Y": 13,
+                "Width": 188,
+                "Height": 25,
+                "TextId": "__SingleUse_AFIN",
+                "TextRotation": "0",
+                "AutoSize": true
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "enterToCall",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "call"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "callScreen"
+            }
+          },
+          {
+            "InteractionName": "btn1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn1"
+            },
+            "Action": {
+              "Type": "ActionSetText",
+              "TextId": "__SingleUse_GAYI",
+              "ActionComponent": "textArea"
+            }
+          },
+          {
+            "InteractionName": "btn2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn2"
+            },
+            "Action": {
+              "Type": "ActionSetText",
+              "TextId": "__SingleUse_PKOE",
+              "ActionComponent": "textArea"
+            }
+          },
+          {
+            "InteractionName": "btn3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn3"
+            },
+            "Action": {
+              "Type": "ActionSetText",
+              "TextId": "__SingleUse_333C",
+              "ActionComponent": "textArea"
+            }
+          },
+          {
+            "InteractionName": "btn4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn4"
+            },
+            "Action": {
+              "Type": "ActionSetText",
+              "TextId": "__SingleUse_CYJH",
+              "ActionComponent": "textArea"
+            }
+          },
+          {
+            "InteractionName": "btn5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn5"
+            },
+            "Action": {
+              "Type": "ActionSetText",
+              "TextId": "__SingleUse_0V71",
+              "ActionComponent": "textArea"
+            }
+          },
+          {
+            "InteractionName": "btn6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn6"
+            },
+            "Action": {
+              "Type": "ActionSetText",
+              "TextId": "__SingleUse_5DGW",
+              "ActionComponent": "textArea"
+            }
+          },
+          {
+            "InteractionName": "btn7",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn7"
+            },
+            "Action": {
+              "Type": "ActionSetText",
+              "TextId": "__SingleUse_YJ0K",
+              "ActionComponent": "textArea"
+            }
+          },
+          {
+            "InteractionName": "btn8",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn8"
+            },
+            "Action": {
+              "Type": "ActionSetText",
+              "TextId": "__SingleUse_ABUO",
+              "ActionComponent": "textArea"
+            }
+          },
+          {
+            "InteractionName": "btn9",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn9"
+            },
+            "Action": {
+              "Type": "ActionSetText",
+              "TextId": "__SingleUse_0TEM",
+              "ActionComponent": "textArea"
+            }
+          },
+          {
+            "InteractionName": "btn0",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn0"
+            },
+            "Action": {
+              "Type": "ActionSetText",
+              "TextId": "__SingleUse_JNCX",
+              "ActionComponent": "textArea"
+            }
+          },
+          {
+            "InteractionName": "backsapce",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "backspace"
+            },
+            "Action": {
+              "Type": "ActionSetText",
+              "TextId": "__SingleUse_G5BY",
+              "ActionComponent": "textArea"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "callScreen",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 272,
+            "Height": 480,
+            "Color": {
+              "Red": 162,
+              "Green": 242,
+              "Blue": 240
+            }
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "clock",
+            "X": 76,
+            "Y": 20,
+            "Width": 120,
+            "Height": 50,
+            "TextId": "__SingleUse_HEZI",
+            "DisplayLeadingZeroForHourIndicator": true,
+            "InitialHour": 9,
+            "InitialMinute": 41
+          },
+          {
+            "Type": "Image",
+            "Name": "userVideo",
+            "X": 8,
+            "Y": 76,
+            "Width": 256,
+            "Height": 256,
+            "RelativeFilename": "pika.png"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "cancelCall",
+            "X": 51,
+            "Y": 360,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "IconPressed": "outline_phone_disabled_black_18dp.png",
+            "IconReleased": "outline_phone_disabled_black_18dp.png",
+            "IconX": 67,
+            "IconY": 12,
+            "IconHeight": 36,
+            "IconWidth": 36,
+            "ButtonStyle": "Style4"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "cancelAndReturn",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "cancelCall"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "enterScreen"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "smartIntercomCaller",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "enterScreen",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../STM32F746G_DISCO.ioc --platform=m7",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F7"
+  },
+  "Version": "4.18.1",
+  "CreatedBy": "4.18.1"
+}

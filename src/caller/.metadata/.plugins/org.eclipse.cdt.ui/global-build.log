@@ -1,0 +1,30 @@
+15:49:39 **** Incremental Build of configuration Debug for project STM32F746G_DISCO ****
+make -j8 all 
+arm-none-eabi-g++ -o "STM32F746G_DISCO.elf" @"objects.list"  -l:libtouchgfx-float-abi-hard.a -mcpu=cortex-m7 -T"D:\zigal0\stm32\Smart-Intercom\src\caller\smartIntercomCaller\STM32CubeIDE\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F746G_DISCO.map" -Wl,--gc-sections -static -LC:/Dev/STM32F746-DISCO/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/git/STM32F746-dk/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/zigal0/stm32/Smart-Intercom/smartIntercomCaller/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/zigal0/stm32/Smart-Intercom/src/smartIntercomCaller/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F746G_DISCO.elf
+ 
+arm-none-eabi-size   STM32F746G_DISCO.elf 
+arm-none-eabi-objdump -h -S  STM32F746G_DISCO.elf  > "STM32F746G_DISCO.list"
+arm-none-eabi-objcopy  -O ihex  STM32F746G_DISCO.elf  "STM32F746G_DISCO.hex"
+   text	   data	    bss	    dec	    hex	filename
+ 469268	  93640	  91244	 654152	  9fb48	STM32F746G_DISCO.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F746G_DISCO.hex
+ 
+Finished building: STM32F746G_DISCO.list
+ 
+15:50:31 **** Incremental Build of configuration Debug for project STM32F746G_DISCO ****
+make -j8 all 
+arm-none-eabi-size   STM32F746G_DISCO.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 469268	  93640	  91244	 654152	  9fb48	STM32F746G_DISCO.elf
+Finished building: default.size.stdout
+ 
+15:51:28 **** Incremental Build of configuration Debug for project STM32F746G_DISCO ****
+make -j8 all 
+arm-none-eabi-size   STM32F746G_DISCO.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 469268	  93640	  91244	 654152	  9fb48	STM32F746G_DISCO.elf
+Finished building: default.size.stdout
+ 

@@ -1,0 +1,38 @@
+Application.hpp:74:18:virtual void touchgfx::Application::appSwitchScreen(uint8_t)	0	static
+Application.hpp:86:18:virtual void touchgfx::Application::requestRedraw(touchgfx::Rect&)	0	static
+Transition.hpp:71:18:virtual void touchgfx::Transition::tearDown()	0	static
+Transition.hpp:79:18:virtual void touchgfx::Transition::init()	0	static
+Transition.hpp:99:18:virtual void touchgfx::Transition::setScreenContainer(touchgfx::Container&)	0	static
+MVPApplication.hpp:43:7:touchgfx::MVPApplication::~MVPApplication()	0	static
+FrontendApplicationBase.hpp:16:13:FrontendApplicationBase::~FrontendApplicationBase()	0	static
+NoTransition.hpp:35:18:virtual void touchgfx::NoTransition::handleTickEvent()	0	static
+NoTransition.hpp:31:7:touchgfx::NoTransition::~NoTransition()	0	static
+Callback.hpp:424:8:touchgfx::Callback<FrontendApplicationBase>::~Callback()	0	static
+Callback.hpp:449:18:void touchgfx::Callback<dest_type, void, void, void>::execute() [with dest_type = FrontendApplicationBase]	4	static
+Callback.hpp:459:18:bool touchgfx::Callback<dest_type, void, void, void>::isValid() const [with dest_type = FrontendApplicationBase]	0	static
+NoTransition.hpp:31:7:virtual touchgfx::NoTransition::~NoTransition()	8	static
+Callback.hpp:424:8:virtual touchgfx::Callback<FrontendApplicationBase>::~Callback()	8	static
+MVPApplication.hpp:43:7:virtual touchgfx::MVPApplication::~MVPApplication()	8	static
+FrontendApplicationBase.hpp:16:13:virtual FrontendApplicationBase::~FrontendApplicationBase()	8	static
+Transition.hpp:88:18:virtual void touchgfx::Transition::invalidate()	8	static
+MVPApplication.hpp:59:18:virtual void touchgfx::MVPApplication::handlePendingScreenTransition()	8	static
+FrontendApplicationBase.cpp:29:1:FrontendApplicationBase::FrontendApplicationBase(Model&, FrontendHeap&)	24	static
+FrontendApplicationBase.cpp:46:6:void FrontendApplicationBase::gotohomeScreenNoTransition()	0	static
+FrontendApplicationBase.cpp:59:6:void FrontendApplicationBase::gotosettingsScreenNoTransition()	0	static
+FrontendApplicationBase.cpp:72:6:void FrontendApplicationBase::gotorecordingsScreenNoTransition()	0	static
+FrontendApplicationBase.cpp:85:6:void FrontendApplicationBase::gotocamerasScreenNoTransition()	0	static
+FrontendApplicationBase.cpp:98:6:void FrontendApplicationBase::gotodoorsScreenNoTransition()	0	static
+FrontendApplicationBase.cpp:111:6:void FrontendApplicationBase::gotodoNotDisturbScreenNoTransition()	0	static
+AbstractPartition.hpp:135:8:T& touchgfx::AbstractPartition::at(uint16_t) [with T = touchgfx::NoTransition]	0	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = homeView; PresenterType = homePresenter; TransType = touchgfx::NoTransition; ModelType = Model]	40	static
+FrontendApplicationBase.cpp:52:6:void FrontendApplicationBase::gotohomeScreenNoTransitionImpl()	16	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = settingsView; PresenterType = settingsPresenter; TransType = touchgfx::NoTransition; ModelType = Model]	40	static
+FrontendApplicationBase.cpp:65:6:void FrontendApplicationBase::gotosettingsScreenNoTransitionImpl()	16	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = recordingsView; PresenterType = recordingsPresenter; TransType = touchgfx::NoTransition; ModelType = Model]	40	static
+FrontendApplicationBase.cpp:78:6:void FrontendApplicationBase::gotorecordingsScreenNoTransitionImpl()	16	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = camerasView; PresenterType = camerasPresenter; TransType = touchgfx::NoTransition; ModelType = Model]	40	static
+FrontendApplicationBase.cpp:91:6:void FrontendApplicationBase::gotocamerasScreenNoTransitionImpl()	16	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = doorsView; PresenterType = doorsPresenter; TransType = touchgfx::NoTransition; ModelType = Model]	40	static
+FrontendApplicationBase.cpp:104:6:void FrontendApplicationBase::gotodoorsScreenNoTransitionImpl()	16	static
+MVPApplication.hpp:161:16:PresenterType* touchgfx::makeTransition(touchgfx::Screen**, touchgfx::Presenter**, touchgfx::MVPHeap&, touchgfx::Transition**, ModelType*) [with ScreenType = doNotDisturbView; PresenterType = doNotDisturbPresenter; TransType = touchgfx::NoTransition; ModelType = Model]	40	static
+FrontendApplicationBase.cpp:117:6:void FrontendApplicationBase::gotodoNotDisturbScreenNoTransitionImpl()	16	static

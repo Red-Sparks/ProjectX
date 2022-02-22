@@ -1,0 +1,5 @@
+callPresenter.hpp:28:13:callPresenter::~callPresenter()	0	static
+callPresenter.cpp:10:6:virtual void callPresenter::activate()	0	static
+callPresenter.hpp:28:13:virtual callPresenter::~callPresenter()	8	static
+callPresenter.hpp:28:13:virtual void* callPresenter::_ZThn4_N13callPresenterD1Ev()	0	static
+callPresenter.cpp:4:1:callPresenter::callPresenter(callView&)	8	static

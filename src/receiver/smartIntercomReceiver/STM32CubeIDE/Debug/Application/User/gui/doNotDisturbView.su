@@ -1,0 +1,8 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+doNotDisturbView.hpp:11:13:doNotDisturbView::~doNotDisturbView()	0	static
+doNotDisturbView.cpp:13:6:virtual void doNotDisturbView::tearDownScreen()	0	static
+doNotDisturbView.cpp:8:6:virtual void doNotDisturbView::setupScreen()	0	static
+doNotDisturbView.hpp:11:13:virtual doNotDisturbView::~doNotDisturbView()	8	static
+doNotDisturbView.cpp:3:1:doNotDisturbView::doNotDisturbView()	8	static

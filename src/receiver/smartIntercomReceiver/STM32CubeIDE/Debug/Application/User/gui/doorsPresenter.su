@@ -1,0 +1,5 @@
+doorsPresenter.hpp:28:13:doorsPresenter::~doorsPresenter()	0	static
+doorsPresenter.cpp:10:6:virtual void doorsPresenter::activate()	0	static
+doorsPresenter.hpp:28:13:virtual doorsPresenter::~doorsPresenter()	8	static
+doorsPresenter.hpp:28:13:virtual void* doorsPresenter::_ZThn4_N14doorsPresenterD1Ev()	0	static
+doorsPresenter.cpp:4:1:doorsPresenter::doorsPresenter(doorsView&)	8	static
