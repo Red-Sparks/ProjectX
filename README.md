@@ -3,8 +3,8 @@ Rrepository for stm32 project.
 ## Structure
 * docs - plan, roadmap, issues and etc
 * src:
-  * smartIntercomCaller - implementation 1st part of Smart Intercom system: caller
-  * smartIntercomReceiver - implementation 2nd part of Smart Intercom system: receiver
+  * caller - implementation 1st part of Smart Intercom system: caller
+  * receiver - implementation 2nd part of Smart Intercom system: receiver
 ## Tools
 * STM32F746G_DISCO
 * Git: https://gitforwindows.org/
