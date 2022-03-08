@@ -33,5 +33,5 @@ CustomKeyboard.cpp:108:6:void CustomKeyboard::keyPressedhandler(touchgfx::Unicod
 CustomKeyboard.cpp:4:1:CustomKeyboard::CustomKeyboard()	24	static
 CustomKeyboard.cpp:119:6:void CustomKeyboard::setTouchable(bool)	0	static
 CustomKeyboard.cpp:125:23:touchgfx::Unicode::UnicodeChar* CustomKeyboard::getBuffer()	0	static
-CustomKeyboard.cpp:130:6:void CustomKeyboard::clearBuffer()	0	static
-CustomKeyboard.cpp:134:1:cpp)	36	static
+CustomKeyboard.cpp:130:6:void CustomKeyboard::clearBuffer()	8	static
+CustomKeyboard.cpp:133:1:cpp)	36	static
