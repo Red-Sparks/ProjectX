@@ -9,20 +9,18 @@
 #include <touchgfx/Texts.hpp>
 #include <touchgfx/hal/HAL.hpp>
 #include <platform/driver/lcd/LCD16bpp.hpp>
-#include <gui/home_screen/homeView.hpp>
-#include <gui/home_screen/homePresenter.hpp>
-#include <gui/call_screen/callView.hpp>
-#include <gui/call_screen/callPresenter.hpp>
-#include <gui/settings_screen/settingsView.hpp>
-#include <gui/settings_screen/settingsPresenter.hpp>
-#include <gui/recordings_screen/recordingsView.hpp>
-#include <gui/recordings_screen/recordingsPresenter.hpp>
-#include <gui/cameras_screen/camerasView.hpp>
-#include <gui/cameras_screen/camerasPresenter.hpp>
-#include <gui/doors_screen/doorsView.hpp>
-#include <gui/doors_screen/doorsPresenter.hpp>
-#include <gui/donotdisturb_screen/doNotDisturbView.hpp>
-#include <gui/donotdisturb_screen/doNotDisturbPresenter.hpp>
+#include <gui/home_screen/HomeView.hpp>
+#include <gui/home_screen/HomePresenter.hpp>
+#include <gui/settings_screen/SettingsView.hpp>
+#include <gui/settings_screen/SettingsPresenter.hpp>
+#include <gui/recordings_screen/RecordingsView.hpp>
+#include <gui/recordings_screen/RecordingsPresenter.hpp>
+#include <gui/cameras_screen/CamerasView.hpp>
+#include <gui/cameras_screen/CamerasPresenter.hpp>
+#include <gui/doors_screen/DoorsView.hpp>
+#include <gui/doors_screen/DoorsPresenter.hpp>
+#include <gui/call_screen/CallView.hpp>
+#include <gui/call_screen/CallPresenter.hpp>
 
 using namespace touchgfx;
 
@@ -41,80 +39,78 @@ FrontendApplicationBase::FrontendApplicationBase(Model& m, FrontendHeap& heap)
  * Screen Transition Declarations
  */
 
-// home
+// Home
 
-void FrontendApplicationBase::gotohomeScreenNoTransition()
+void FrontendApplicationBase::gotoHomeScreenNoTransition()
 {
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotohomeScreenNoTransitionImpl);
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoHomeScreenNoTransitionImpl);
     pendingScreenTransitionCallback = &transitionCallback;
 }
 
-void FrontendApplicationBase::gotohomeScreenNoTransitionImpl()
+void FrontendApplicationBase::gotoHomeScreenNoTransitionImpl()
 {
-    touchgfx::makeTransition<homeView, homePresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+    touchgfx::makeTransition<HomeView, HomePresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
 
-// settings
-
-void FrontendApplicationBase::gotosettingsScreenNoTransition()
+void FrontendApplicationBase::gotoHomeScreenSlideTransitionWest()
 {
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotosettingsScreenNoTransitionImpl);
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoHomeScreenSlideTransitionWestImpl);
     pendingScreenTransitionCallback = &transitionCallback;
 }
 
-void FrontendApplicationBase::gotosettingsScreenNoTransitionImpl()
+void FrontendApplicationBase::gotoHomeScreenSlideTransitionWestImpl()
 {
-    touchgfx::makeTransition<settingsView, settingsPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+    touchgfx::makeTransition<HomeView, HomePresenter, touchgfx::SlideTransition<WEST>, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
 
-// recordings
+// Settings
 
-void FrontendApplicationBase::gotorecordingsScreenNoTransition()
+void FrontendApplicationBase::gotoSettingsScreenSlideTransitionEast()
 {
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotorecordingsScreenNoTransitionImpl);
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoSettingsScreenSlideTransitionEastImpl);
     pendingScreenTransitionCallback = &transitionCallback;
 }
 
-void FrontendApplicationBase::gotorecordingsScreenNoTransitionImpl()
+void FrontendApplicationBase::gotoSettingsScreenSlideTransitionEastImpl()
 {
-    touchgfx::makeTransition<recordingsView, recordingsPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+    touchgfx::makeTransition<SettingsView, SettingsPresenter, touchgfx::SlideTransition<EAST>, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
 
-// cameras
+// Recordings
 
-void FrontendApplicationBase::gotocamerasScreenNoTransition()
+void FrontendApplicationBase::gotoRecordingsScreenSlideTransitionEast()
 {
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotocamerasScreenNoTransitionImpl);
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoRecordingsScreenSlideTransitionEastImpl);
     pendingScreenTransitionCallback = &transitionCallback;
 }
 
-void FrontendApplicationBase::gotocamerasScreenNoTransitionImpl()
+void FrontendApplicationBase::gotoRecordingsScreenSlideTransitionEastImpl()
 {
-    touchgfx::makeTransition<camerasView, camerasPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+    touchgfx::makeTransition<RecordingsView, RecordingsPresenter, touchgfx::SlideTransition<EAST>, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
 
-// doors
+// Cameras
 
-void FrontendApplicationBase::gotodoorsScreenNoTransition()
+void FrontendApplicationBase::gotoCamerasScreenSlideTransitionEast()
 {
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotodoorsScreenNoTransitionImpl);
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoCamerasScreenSlideTransitionEastImpl);
     pendingScreenTransitionCallback = &transitionCallback;
 }
 
-void FrontendApplicationBase::gotodoorsScreenNoTransitionImpl()
+void FrontendApplicationBase::gotoCamerasScreenSlideTransitionEastImpl()
 {
-    touchgfx::makeTransition<doorsView, doorsPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+    touchgfx::makeTransition<CamerasView, CamerasPresenter, touchgfx::SlideTransition<EAST>, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
 
-// doNotDisturb
+// Doors
 
-void FrontendApplicationBase::gotodoNotDisturbScreenNoTransition()
+void FrontendApplicationBase::gotoDoorsScreenSlideTransitionEast()
 {
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotodoNotDisturbScreenNoTransitionImpl);
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoDoorsScreenSlideTransitionEastImpl);
     pendingScreenTransitionCallback = &transitionCallback;
 }
 
-void FrontendApplicationBase::gotodoNotDisturbScreenNoTransitionImpl()
+void FrontendApplicationBase::gotoDoorsScreenSlideTransitionEastImpl()
 {
-    touchgfx::makeTransition<doNotDisturbView, doNotDisturbPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+    touchgfx::makeTransition<DoorsView, DoorsPresenter, touchgfx::SlideTransition<EAST>, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }

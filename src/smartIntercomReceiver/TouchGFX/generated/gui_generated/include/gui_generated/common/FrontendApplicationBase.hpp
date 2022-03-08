@@ -15,46 +15,44 @@ public:
     FrontendApplicationBase(Model& m, FrontendHeap& heap);
     virtual ~FrontendApplicationBase() { }
 
-    // home
-    void gotohomeScreenNoTransition();
+    // Home
+    void gotoHomeScreenNoTransition();
 
-    // settings
-    void gotosettingsScreenNoTransition();
+    void gotoHomeScreenSlideTransitionWest();
 
-    // recordings
-    void gotorecordingsScreenNoTransition();
+    // Settings
+    void gotoSettingsScreenSlideTransitionEast();
 
-    // cameras
-    void gotocamerasScreenNoTransition();
+    // Recordings
+    void gotoRecordingsScreenSlideTransitionEast();
 
-    // doors
-    void gotodoorsScreenNoTransition();
+    // Cameras
+    void gotoCamerasScreenSlideTransitionEast();
 
-    // doNotDisturb
-    void gotodoNotDisturbScreenNoTransition();
+    // Doors
+    void gotoDoorsScreenSlideTransitionEast();
 
 protected:
     touchgfx::Callback<FrontendApplicationBase> transitionCallback;
     FrontendHeap& frontendHeap;
     Model& model;
 
-    // home
-    void gotohomeScreenNoTransitionImpl();
+    // Home
+    void gotoHomeScreenNoTransitionImpl();
 
-    // settings
-    void gotosettingsScreenNoTransitionImpl();
+    void gotoHomeScreenSlideTransitionWestImpl();
 
-    // recordings
-    void gotorecordingsScreenNoTransitionImpl();
+    // Settings
+    void gotoSettingsScreenSlideTransitionEastImpl();
 
-    // cameras
-    void gotocamerasScreenNoTransitionImpl();
+    // Recordings
+    void gotoRecordingsScreenSlideTransitionEastImpl();
 
-    // doors
-    void gotodoorsScreenNoTransitionImpl();
+    // Cameras
+    void gotoCamerasScreenSlideTransitionEastImpl();
 
-    // doNotDisturb
-    void gotodoNotDisturbScreenNoTransitionImpl();
+    // Doors
+    void gotoDoorsScreenSlideTransitionEastImpl();
 };
 
 #endif // FRONTENDAPPLICATIONBASE_HPP

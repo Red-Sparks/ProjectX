@@ -1,8 +1,8 @@
 Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
 Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
 Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
-recordingsView.hpp:11:13:recordingsView::~recordingsView()	0	static
-recordingsView.cpp:13:6:virtual void recordingsView::tearDownScreen()	0	static
-recordingsView.cpp:8:6:virtual void recordingsView::setupScreen()	0	static
-recordingsView.hpp:11:13:virtual recordingsView::~recordingsView()	8	static
-recordingsView.cpp:3:1:recordingsView::recordingsView()	8	static
+RecordingsView.hpp:11:13:RecordingsView::~RecordingsView()	0	static
+RecordingsView.cpp:13:6:virtual void RecordingsView::tearDownScreen()	0	static
+RecordingsView.cpp:8:6:virtual void RecordingsView::setupScreen()	0	static
+RecordingsView.hpp:11:13:virtual RecordingsView::~RecordingsView()	8	static
+RecordingsView.cpp:3:1:RecordingsView::RecordingsView()	8	static

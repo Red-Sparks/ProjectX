@@ -539,24 +539,24 @@
 			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/callPresenter.cpp</name>
+			<name>Application/User/gui/CallPresenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/call_screen/callPresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/call_screen/CallPresenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/callView.cpp</name>
+			<name>Application/User/gui/CallView.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/call_screen/callView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/call_screen/CallView.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/camerasPresenter.cpp</name>
+			<name>Application/User/gui/CamerasPresenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/cameras_screen/camerasPresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/cameras_screen/CamerasPresenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/camerasView.cpp</name>
+			<name>Application/User/gui/CamerasView.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/cameras_screen/camerasView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/cameras_screen/CamerasView.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/gui/FrontendApplication.cpp</name>
@@ -564,34 +564,24 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/common/FrontendApplication.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/doNotDisturbPresenter.cpp</name>
+			<name>Application/User/gui/DoorsPresenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/donotdisturb_screen/doNotDisturbPresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/doors_screen/DoorsPresenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/doNotDisturbView.cpp</name>
+			<name>Application/User/gui/DoorsView.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/donotdisturb_screen/doNotDisturbView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/doors_screen/DoorsView.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/doorsPresenter.cpp</name>
+			<name>Application/User/gui/HomePresenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/doors_screen/doorsPresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/home_screen/HomePresenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/doorsView.cpp</name>
+			<name>Application/User/gui/HomeView.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/doors_screen/doorsView.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/gui/homePresenter.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/home_screen/homePresenter.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/gui/homeView.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/home_screen/homeView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/home_screen/HomeView.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/gui/Model.cpp</name>
@@ -599,24 +589,24 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/model/Model.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/recordingsPresenter.cpp</name>
+			<name>Application/User/gui/RecordingsPresenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/recordings_screen/recordingsPresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/recordings_screen/RecordingsPresenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/recordingsView.cpp</name>
+			<name>Application/User/gui/RecordingsView.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/recordings_screen/recordingsView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/recordings_screen/RecordingsView.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/settingsPresenter.cpp</name>
+			<name>Application/User/gui/SettingsPresenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings_screen/settingsPresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings_screen/SettingsPresenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/settingsView.cpp</name>
+			<name>Application/User/gui/SettingsView.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings_screen/settingsView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings_screen/SettingsView.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/ApplicationFontProvider.cpp</name>
@@ -644,6 +634,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_verdana_20_4bpp_0.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/Font_verdana_25_4bpp_0.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_verdana_25_4bpp_0.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/Font_verdana_40_4bpp_0.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Font_verdana_40_4bpp_0.cpp</locationURI>
@@ -664,6 +659,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Kerning_verdana_20_4bpp.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/Kerning_verdana_25_4bpp.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Kerning_verdana_25_4bpp.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/Kerning_verdana_40_4bpp.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Kerning_verdana_40_4bpp.cpp</locationURI>
@@ -679,6 +679,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Table_verdana_20_4bpp.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/Table_verdana_25_4bpp.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Table_verdana_25_4bpp.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/Table_verdana_40_4bpp.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/Table_verdana_40_4bpp.cpp</locationURI>
@@ -689,14 +694,14 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/fonts/src/UnmappedDataFont.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/callViewBase.cpp</name>
+			<name>Application/User/generated/CallViewBase.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/call_screen/callViewBase.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/call_screen/CallViewBase.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/camerasViewBase.cpp</name>
+			<name>Application/User/generated/CamerasViewBase.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/cameras_screen/camerasViewBase.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/cameras_screen/CamerasViewBase.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/FrontendApplicationBase.cpp</name>
@@ -704,29 +709,24 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/doNotDisturbViewBase.cpp</name>
+			<name>Application/User/generated/DoorsViewBase.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/donotdisturb_screen/doNotDisturbViewBase.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/doors_screen/DoorsViewBase.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/doorsViewBase.cpp</name>
+			<name>Application/User/generated/HomeViewBase.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/doors_screen/doorsViewBase.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/homeViewBase.cpp</name>
+			<name>Application/User/generated/RecordingsViewBase.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/home_screen/homeViewBase.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/recordings_screen/RecordingsViewBase.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/recordingsViewBase.cpp</name>
+			<name>Application/User/generated/SettingsViewBase.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/recordings_screen/recordingsViewBase.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/settingsViewBase.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/settings_screen/settingsViewBase.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/BitmapDatabase.cpp</name>
@@ -734,24 +734,29 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/BitmapDatabase.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp</name>
+			<name>Application/User/generated/image_Dark_Backgrounds_Main_bg_texture_480x272px.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__designer/image_Blue_Buttons_Round_Edge_icon_button.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__designer/image_Dark_Backgrounds_Main_bg_texture_480x272px.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp</name>
+			<name>Application/User/generated/image_Dark_Buttons_Round_Edge_icon_button.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__designer/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__designer/image_Dark_Buttons_Round_Edge_icon_button.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_Blue_Togglebars_Toggle_RE_large_button_OFF.cpp</name>
+			<name>Application/User/generated/image_Dark_Buttons_Round_Edge_icon_button_pressed.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__designer/image_Blue_Togglebars_Toggle_RE_large_button_OFF.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__designer/image_Dark_Buttons_Round_Edge_icon_button_pressed.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_Blue_Togglebars_Toggle_RE_large_button_ON.cpp</name>
+			<name>Application/User/generated/image_Dark_Togglebars_Toggle_RE_small_button_Off.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__designer/image_Blue_Togglebars_Toggle_RE_large_button_ON.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__designer/image_Dark_Togglebars_Toggle_RE_small_button_Off.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_Dark_Togglebars_Toggle_RE_small_button_On.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__designer/image_Dark_Togglebars_Toggle_RE_small_button_On.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_Settings-02-60.cpp</name>

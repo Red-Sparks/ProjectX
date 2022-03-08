@@ -1,8 +1,8 @@
 Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
 Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
 Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
-doorsView.hpp:11:13:doorsView::~doorsView()	0	static
-doorsView.cpp:13:6:virtual void doorsView::tearDownScreen()	0	static
-doorsView.cpp:8:6:virtual void doorsView::setupScreen()	0	static
-doorsView.hpp:11:13:virtual doorsView::~doorsView()	8	static
-doorsView.cpp:3:1:doorsView::doorsView()	8	static
+DoorsView.hpp:11:13:DoorsView::~DoorsView()	0	static
+DoorsView.cpp:13:6:virtual void DoorsView::tearDownScreen()	0	static
+DoorsView.cpp:8:6:virtual void DoorsView::setupScreen()	0	static
+DoorsView.hpp:11:13:virtual DoorsView::~DoorsView()	8	static
+DoorsView.cpp:3:1:DoorsView::DoorsView()	8	static

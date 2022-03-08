@@ -1,5 +1,5 @@
 Application/User/generated/CachedFont.o: \
- D:/zigal0/stm32/Smart-Intercom/src/receiver/smartIntercomReceiver/TouchGFX/generated/fonts/src/CachedFont.cpp \
+ D:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/generated/fonts/src/CachedFont.cpp \
  ../../TouchGFX/generated/fonts/include/fonts/CachedFont.hpp \
  ../../TouchGFX/generated/fonts/include/fonts/FontCache.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

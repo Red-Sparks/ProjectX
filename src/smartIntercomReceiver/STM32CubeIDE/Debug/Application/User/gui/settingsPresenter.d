@@ -1,7 +1,7 @@
-Application/User/gui/settingsPresenter.o: \
- D:/zigal0/stm32/Smart-Intercom/src/receiver/smartIntercomReceiver/TouchGFX/gui/src/settings_screen/settingsPresenter.cpp \
- ../../TouchGFX/gui/include/gui/settings_screen/settingsView.hpp \
- ../../TouchGFX/generated/gui_generated/include/gui_generated/settings_screen/settingsViewBase.hpp \
+Application/User/gui/SettingsPresenter.o: \
+ D:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/gui/src/settings_screen/SettingsPresenter.cpp \
+ ../../TouchGFX/gui/include/gui/settings_screen/SettingsView.hpp \
+ ../../TouchGFX/generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
@@ -39,23 +39,23 @@ Application/User/gui/settingsPresenter.o: \
  ../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp \
  ../../TouchGFX/gui/include/gui/model/Model.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
- ../../TouchGFX/gui/include/gui/settings_screen/settingsPresenter.hpp \
+ ../../TouchGFX/gui/include/gui/settings_screen/SettingsPresenter.hpp \
  ../../TouchGFX/gui/include/gui/model/ModelListener.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp
 
-../../TouchGFX/gui/include/gui/settings_screen/settingsView.hpp:
+../../TouchGFX/gui/include/gui/settings_screen/SettingsView.hpp:
 
-../../TouchGFX/generated/gui_generated/include/gui_generated/settings_screen/settingsViewBase.hpp:
+../../TouchGFX/generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp:
 
 ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
 
@@ -131,13 +131,15 @@ Application/User/gui/settingsPresenter.o: \
 
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
 
-../../TouchGFX/gui/include/gui/settings_screen/settingsPresenter.hpp:
+../../TouchGFX/gui/include/gui/settings_screen/SettingsPresenter.hpp:
 
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:
 
@@ -150,8 +152,6 @@ Application/User/gui/settingsPresenter.o: \
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
-
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
 

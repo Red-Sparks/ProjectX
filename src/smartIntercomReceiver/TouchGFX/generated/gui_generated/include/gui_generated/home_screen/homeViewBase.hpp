@@ -6,19 +6,20 @@
 
 #include <gui/common/FrontendApplication.hpp>
 #include <mvp/View.hpp>
-#include <gui/home_screen/homePresenter.hpp>
+#include <gui/home_screen/HomePresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
+#include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/containers/Container.hpp>
 #include <touchgfx/containers/clock/DigitalClock.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/ButtonWithIcon.hpp>
 #include <touchgfx/widgets/ToggleButton.hpp>
 
-class homeViewBase : public touchgfx::View<homePresenter>
+class HomeViewBase : public touchgfx::View<HomePresenter>
 {
 public:
-    homeViewBase();
-    virtual ~homeViewBase() {}
+    HomeViewBase();
+    virtual ~HomeViewBase() {}
     virtual void setupScreen();
 
 protected:
@@ -30,12 +31,15 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
+    touchgfx::Image background;
+    touchgfx::Container silenceMode;
+    touchgfx::Box silenceBackground;
+    touchgfx::Image badTimeIcon;
     touchgfx::Container head;
     touchgfx::Box headBackground;
     touchgfx::DigitalClock clock;
     touchgfx::TextArea header;
     touchgfx::Container body;
-    touchgfx::Box bodyBackground;
     touchgfx::Container doors;
     touchgfx::TextArea doorsText;
     touchgfx::ButtonWithIcon doorsIcon;
@@ -48,16 +52,16 @@ protected:
     touchgfx::Container settings;
     touchgfx::TextArea settingsText;
     touchgfx::ButtonWithIcon settingsIcon;
-    touchgfx::Container silence;
+    touchgfx::Container silencePanel;
     touchgfx::TextArea silenceText;
-    touchgfx::ToggleButton silenceMod;
+    touchgfx::ToggleButton toggleSilence;
 
 private:
 
     /*
      * Callback Declarations
      */
-    touchgfx::Callback<homeViewBase, const touchgfx::AbstractButton&> buttonCallback;
+    touchgfx::Callback<HomeViewBase, const touchgfx::AbstractButton&> buttonCallback;
 
     /*
      * Callback Handler Declarations

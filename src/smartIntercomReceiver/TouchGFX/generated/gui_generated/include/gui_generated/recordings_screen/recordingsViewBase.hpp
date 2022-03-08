@@ -6,18 +6,19 @@
 
 #include <gui/common/FrontendApplication.hpp>
 #include <mvp/View.hpp>
-#include <gui/recordings_screen/recordingsPresenter.hpp>
+#include <gui/recordings_screen/RecordingsPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
+#include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/containers/Container.hpp>
 #include <touchgfx/containers/clock/DigitalClock.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
-#include <touchgfx/widgets/ButtonWithIcon.hpp>
+#include <touchgfx/widgets/Button.hpp>
 
-class recordingsViewBase : public touchgfx::View<recordingsPresenter>
+class RecordingsViewBase : public touchgfx::View<RecordingsPresenter>
 {
 public:
-    recordingsViewBase();
-    virtual ~recordingsViewBase() {}
+    RecordingsViewBase();
+    virtual ~RecordingsViewBase() {}
     virtual void setupScreen();
 
 protected:
@@ -29,20 +30,19 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
+    touchgfx::Image background;
     touchgfx::Container head;
     touchgfx::Box headBackground;
     touchgfx::DigitalClock clock;
     touchgfx::TextArea header;
-    touchgfx::Container body;
-    touchgfx::Box background;
-    touchgfx::ButtonWithIcon toHome;
+    touchgfx::Button buttonToHome;
 
 private:
 
     /*
      * Callback Declarations
      */
-    touchgfx::Callback<recordingsViewBase, const touchgfx::AbstractButton&> buttonCallback;
+    touchgfx::Callback<RecordingsViewBase, const touchgfx::AbstractButton&> buttonCallback;
 
     /*
      * Callback Handler Declarations

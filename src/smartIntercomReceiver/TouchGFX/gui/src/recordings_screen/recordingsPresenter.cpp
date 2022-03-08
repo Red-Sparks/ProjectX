@@ -1,18 +1,18 @@
-#include <gui/recordings_screen/recordingsView.hpp>
-#include <gui/recordings_screen/recordingsPresenter.hpp>
+#include <gui/recordings_screen/RecordingsView.hpp>
+#include <gui/recordings_screen/RecordingsPresenter.hpp>
 
-recordingsPresenter::recordingsPresenter(recordingsView& v)
+RecordingsPresenter::RecordingsPresenter(RecordingsView& v)
     : view(v)
 {
 
 }
 
-void recordingsPresenter::activate()
+void RecordingsPresenter::activate()
 {
 
 }
 
-void recordingsPresenter::deactivate()
+void RecordingsPresenter::deactivate()
 {
 
 }

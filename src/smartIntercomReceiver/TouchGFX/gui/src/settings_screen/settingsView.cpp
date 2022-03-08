@@ -1,16 +1,16 @@
-#include <gui/settings_screen/settingsView.hpp>
+#include <gui/settings_screen/SettingsView.hpp>
 
-settingsView::settingsView()
+SettingsView::SettingsView()
 {
 
 }
 
-void settingsView::setupScreen()
+void SettingsView::setupScreen()
 {
-    settingsViewBase::setupScreen();
+    SettingsViewBase::setupScreen();
 }
 
-void settingsView::tearDownScreen()
+void SettingsView::tearDownScreen()
 {
-    settingsViewBase::tearDownScreen();
+    SettingsViewBase::tearDownScreen();
 }

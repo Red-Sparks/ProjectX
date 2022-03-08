@@ -86,8 +86,8 @@ all: main-build
 main-build: STM32F746G_DISCO.elf secondary-outputs
 
 # Tool invocations
-STM32F746G_DISCO.elf: $(OBJS) $(USER_OBJS) D:\zigal0\stm32\Smart-Intercom\src\receiver\smartIntercomReceiver\STM32CubeIDE\STM32F746NGHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "STM32F746G_DISCO.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\zigal0\stm32\Smart-Intercom\src\receiver\smartIntercomReceiver\STM32CubeIDE\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F746G_DISCO.map" -Wl,--gc-sections -static -LC:/Dev/STM32F746-DISCO/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/git/STM32F746-dk/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/zigal0/stm32/Smart-Intercom/src/receiver/smartIntercomReceiver/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+STM32F746G_DISCO.elf: $(OBJS) $(USER_OBJS) D:\zigal0\stm32\Smart-Intercom\src\smartIntercomReceiver\STM32CubeIDE\STM32F746NGHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "STM32F746G_DISCO.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\zigal0\stm32\Smart-Intercom\src\smartIntercomReceiver\STM32CubeIDE\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F746G_DISCO.map" -Wl,--gc-sections -static -LC:/Dev/STM32F746-DISCO/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/git/STM32F746-dk/stm32f746g_disco/STM32F746G_DISCO/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LD:/zigal0/stm32/Smart-Intercom/src/receiver/smartIntercomReceiver/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

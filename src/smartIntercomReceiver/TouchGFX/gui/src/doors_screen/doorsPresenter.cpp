@@ -1,18 +1,18 @@
-#include <gui/doors_screen/doorsView.hpp>
-#include <gui/doors_screen/doorsPresenter.hpp>
+#include <gui/doors_screen/DoorsView.hpp>
+#include <gui/doors_screen/DoorsPresenter.hpp>
 
-doorsPresenter::doorsPresenter(doorsView& v)
+DoorsPresenter::DoorsPresenter(DoorsView& v)
     : view(v)
 {
 
 }
 
-void doorsPresenter::activate()
+void DoorsPresenter::activate()
 {
 
 }
 
-void doorsPresenter::deactivate()
+void DoorsPresenter::deactivate()
 {
 
 }

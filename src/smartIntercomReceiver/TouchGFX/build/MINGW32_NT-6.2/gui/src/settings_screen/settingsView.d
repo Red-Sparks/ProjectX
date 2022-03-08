@@ -1,7 +1,7 @@
-build/MINGW32_NT-6.2/gui/src/settings_screen/settingsView.o: \
- gui/src/settings_screen/settingsView.cpp \
- gui/include/gui/settings_screen/settingsView.hpp \
- generated/gui_generated/include/gui_generated/settings_screen/settingsViewBase.hpp \
+build/MINGW32_NT-6.2/gui/src/settings_screen/SettingsView.o: \
+ gui/src/settings_screen/SettingsView.cpp \
+ gui/include/gui/settings_screen/SettingsView.hpp \
+ generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp \
  gui/include/gui/common/FrontendApplication.hpp \
  generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
@@ -39,23 +39,23 @@ build/MINGW32_NT-6.2/gui/src/settings_screen/settingsView.o: \
  ../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp \
  gui/include/gui/model/Model.hpp \
  ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
- gui/include/gui/settings_screen/settingsPresenter.hpp \
+ gui/include/gui/settings_screen/SettingsPresenter.hpp \
  gui/include/gui/model/ModelListener.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp
 
-gui/include/gui/settings_screen/settingsView.hpp:
+gui/include/gui/settings_screen/SettingsView.hpp:
 
-generated/gui_generated/include/gui_generated/settings_screen/settingsViewBase.hpp:
+generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp:
 
 gui/include/gui/common/FrontendApplication.hpp:
 
@@ -131,13 +131,15 @@ gui/include/gui/model/Model.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
 
-gui/include/gui/settings_screen/settingsPresenter.hpp:
+gui/include/gui/settings_screen/SettingsPresenter.hpp:
 
 gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:
 
@@ -150,8 +152,6 @@ gui/include/gui/model/ModelListener.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
 

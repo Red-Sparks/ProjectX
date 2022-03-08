@@ -1,7 +1,7 @@
-build/MINGW32_NT-6.2/gui/src/home_screen/homePresenter.o: \
- gui/src/home_screen/homePresenter.cpp \
- gui/include/gui/home_screen/homeView.hpp \
- generated/gui_generated/include/gui_generated/home_screen/homeViewBase.hpp \
+build/MINGW32_NT-6.2/gui/src/home_screen/HomePresenter.o: \
+ gui/src/home_screen/HomePresenter.cpp \
+ gui/include/gui/home_screen/HomeView.hpp \
+ generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp \
  gui/include/gui/common/FrontendApplication.hpp \
  generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
@@ -39,10 +39,11 @@ build/MINGW32_NT-6.2/gui/src/home_screen/homePresenter.o: \
  ../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp \
  gui/include/gui/model/Model.hpp \
  ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
- gui/include/gui/home_screen/homePresenter.hpp \
+ gui/include/gui/home_screen/HomePresenter.hpp \
  gui/include/gui/model/ModelListener.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
@@ -54,9 +55,9 @@ build/MINGW32_NT-6.2/gui/src/home_screen/homePresenter.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp
 
-gui/include/gui/home_screen/homeView.hpp:
+gui/include/gui/home_screen/HomeView.hpp:
 
-generated/gui_generated/include/gui_generated/home_screen/homeViewBase.hpp:
+generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp:
 
 gui/include/gui/common/FrontendApplication.hpp:
 
@@ -132,13 +133,15 @@ gui/include/gui/model/Model.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
 
-gui/include/gui/home_screen/homePresenter.hpp:
+gui/include/gui/home_screen/HomePresenter.hpp:
 
 gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:
 

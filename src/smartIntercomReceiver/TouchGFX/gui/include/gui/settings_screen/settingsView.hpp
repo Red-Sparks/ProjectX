@@ -1,14 +1,14 @@
 #ifndef SETTINGSVIEW_HPP
 #define SETTINGSVIEW_HPP
 
-#include <gui_generated/settings_screen/settingsViewBase.hpp>
-#include <gui/settings_screen/settingsPresenter.hpp>
+#include <gui_generated/settings_screen/SettingsViewBase.hpp>
+#include <gui/settings_screen/SettingsPresenter.hpp>
 
-class settingsView : public settingsViewBase
+class SettingsView : public SettingsViewBase
 {
 public:
-    settingsView();
-    virtual ~settingsView() {}
+    SettingsView();
+    virtual ~SettingsView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
 protected:

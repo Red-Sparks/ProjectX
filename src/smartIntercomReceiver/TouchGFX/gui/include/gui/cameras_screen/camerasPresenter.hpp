@@ -6,12 +6,12 @@
 
 using namespace touchgfx;
 
-class camerasView;
+class CamerasView;
 
-class camerasPresenter : public touchgfx::Presenter, public ModelListener
+class CamerasPresenter : public touchgfx::Presenter, public ModelListener
 {
 public:
-    camerasPresenter(camerasView& v);
+    CamerasPresenter(CamerasView& v);
 
     /**
      * The activate function is called automatically when this screen is "switched in"
@@ -25,12 +25,12 @@ public:
      */
     virtual void deactivate();
 
-    virtual ~camerasPresenter() {};
+    virtual ~CamerasPresenter() {};
 
 private:
-    camerasPresenter();
+    CamerasPresenter();
 
-    camerasView& view;
+    CamerasView& view;
 };
 
 #endif // CAMERASPRESENTER_HPP

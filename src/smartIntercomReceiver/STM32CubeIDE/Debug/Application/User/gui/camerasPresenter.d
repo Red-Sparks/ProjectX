@@ -1,7 +1,7 @@
-Application/User/gui/camerasPresenter.o: \
- D:/zigal0/stm32/Smart-Intercom/src/receiver/smartIntercomReceiver/TouchGFX/gui/src/cameras_screen/camerasPresenter.cpp \
- ../../TouchGFX/gui/include/gui/cameras_screen/camerasView.hpp \
- ../../TouchGFX/generated/gui_generated/include/gui_generated/cameras_screen/camerasViewBase.hpp \
+Application/User/gui/CamerasPresenter.o: \
+ D:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/gui/src/cameras_screen/CamerasPresenter.cpp \
+ ../../TouchGFX/gui/include/gui/cameras_screen/CamerasView.hpp \
+ ../../TouchGFX/generated/gui_generated/include/gui_generated/cameras_screen/CamerasViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
@@ -39,23 +39,23 @@ Application/User/gui/camerasPresenter.o: \
  ../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp \
  ../../TouchGFX/gui/include/gui/model/Model.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
- ../../TouchGFX/gui/include/gui/cameras_screen/camerasPresenter.hpp \
+ ../../TouchGFX/gui/include/gui/cameras_screen/CamerasPresenter.hpp \
  ../../TouchGFX/gui/include/gui/model/ModelListener.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp
 
-../../TouchGFX/gui/include/gui/cameras_screen/camerasView.hpp:
+../../TouchGFX/gui/include/gui/cameras_screen/CamerasView.hpp:
 
-../../TouchGFX/generated/gui_generated/include/gui_generated/cameras_screen/camerasViewBase.hpp:
+../../TouchGFX/generated/gui_generated/include/gui_generated/cameras_screen/CamerasViewBase.hpp:
 
 ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
 
@@ -131,13 +131,15 @@ Application/User/gui/camerasPresenter.o: \
 
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
 
-../../TouchGFX/gui/include/gui/cameras_screen/camerasPresenter.hpp:
+../../TouchGFX/gui/include/gui/cameras_screen/CamerasPresenter.hpp:
 
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:
 
@@ -150,8 +152,6 @@ Application/User/gui/camerasPresenter.o: \
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
-
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
 

@@ -9,23 +9,23 @@
 #include <mvp/MVPHeap.hpp>
 
 #include <touchgfx/transitions/NoTransition.hpp>
+#include <touchgfx/transitions/SlideTransition.hpp>
+
 #include <gui/common/FrontendApplication.hpp>
 #include <gui/model/Model.hpp>
 
-#include <gui/home_screen/homeView.hpp>
-#include <gui/home_screen/homePresenter.hpp>
-#include <gui/call_screen/callView.hpp>
-#include <gui/call_screen/callPresenter.hpp>
-#include <gui/settings_screen/settingsView.hpp>
-#include <gui/settings_screen/settingsPresenter.hpp>
-#include <gui/recordings_screen/recordingsView.hpp>
-#include <gui/recordings_screen/recordingsPresenter.hpp>
-#include <gui/cameras_screen/camerasView.hpp>
-#include <gui/cameras_screen/camerasPresenter.hpp>
-#include <gui/doors_screen/doorsView.hpp>
-#include <gui/doors_screen/doorsPresenter.hpp>
-#include <gui/donotdisturb_screen/doNotDisturbView.hpp>
-#include <gui/donotdisturb_screen/doNotDisturbPresenter.hpp>
+#include <gui/home_screen/HomeView.hpp>
+#include <gui/home_screen/HomePresenter.hpp>
+#include <gui/settings_screen/SettingsView.hpp>
+#include <gui/settings_screen/SettingsPresenter.hpp>
+#include <gui/recordings_screen/RecordingsView.hpp>
+#include <gui/recordings_screen/RecordingsPresenter.hpp>
+#include <gui/cameras_screen/CamerasView.hpp>
+#include <gui/cameras_screen/CamerasPresenter.hpp>
+#include <gui/doors_screen/DoorsView.hpp>
+#include <gui/doors_screen/DoorsPresenter.hpp>
+#include <gui/call_screen/CallView.hpp>
+#include <gui/call_screen/CallPresenter.hpp>
 
 
 /**
@@ -48,14 +48,13 @@ public:
      * A list of all view types. Must end with meta::Nil.
      * @note All view types used in the application MUST be added to this list!
      */
-    typedef touchgfx::meta::TypeList< homeView,
-            touchgfx::meta::TypeList< callView,
-            touchgfx::meta::TypeList< settingsView,
-            touchgfx::meta::TypeList< recordingsView,
-            touchgfx::meta::TypeList< camerasView,
-            touchgfx::meta::TypeList< doorsView,
-            touchgfx::meta::TypeList< doNotDisturbView,
-            touchgfx::meta::Nil > > > > > >
+    typedef touchgfx::meta::TypeList< HomeView,
+            touchgfx::meta::TypeList< SettingsView,
+            touchgfx::meta::TypeList< RecordingsView,
+            touchgfx::meta::TypeList< CamerasView,
+            touchgfx::meta::TypeList< DoorsView,
+            touchgfx::meta::TypeList< CallView,
+            touchgfx::meta::Nil > > > > >
             > GeneratedViewTypes;
 
     /**
@@ -67,14 +66,13 @@ public:
      * A list of all presenter types. Must end with meta::Nil.
      * @note All presenter types used in the application MUST be added to this list!
      */
-    typedef touchgfx::meta::TypeList< homePresenter,
-            touchgfx::meta::TypeList< callPresenter,
-            touchgfx::meta::TypeList< settingsPresenter,
-            touchgfx::meta::TypeList< recordingsPresenter,
-            touchgfx::meta::TypeList< camerasPresenter,
-            touchgfx::meta::TypeList< doorsPresenter,
-            touchgfx::meta::TypeList< doNotDisturbPresenter,
-            touchgfx::meta::Nil > > > > > >
+    typedef touchgfx::meta::TypeList< HomePresenter,
+            touchgfx::meta::TypeList< SettingsPresenter,
+            touchgfx::meta::TypeList< RecordingsPresenter,
+            touchgfx::meta::TypeList< CamerasPresenter,
+            touchgfx::meta::TypeList< DoorsPresenter,
+            touchgfx::meta::TypeList< CallPresenter,
+            touchgfx::meta::Nil > > > > >
             > GeneratedPresenterTypes;
 
     /**
@@ -87,7 +85,9 @@ public:
      * @note All transition types used in the application MUST be added to this list!
      */
     typedef touchgfx::meta::TypeList< touchgfx::NoTransition,
-            touchgfx::meta::Nil
+            touchgfx::meta::TypeList< SlideTransition<EAST>,
+            touchgfx::meta::TypeList< SlideTransition<WEST>,
+            touchgfx::meta::Nil > >
             > GeneratedTransitionTypes;
 
     /**
@@ -97,7 +97,7 @@ public:
 
     virtual void gotoStartScreen(FrontendApplication& app)
     {
-        app.gotohomeScreenNoTransition();
+        app.gotoHomeScreenNoTransition();
     }
 protected:
     FrontendHeapBase(touchgfx::AbstractPartition& presenters, touchgfx::AbstractPartition& views, touchgfx::AbstractPartition& transitions, FrontendApplication& app)

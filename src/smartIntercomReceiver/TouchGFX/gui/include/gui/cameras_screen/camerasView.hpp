@@ -1,14 +1,14 @@
 #ifndef CAMERASVIEW_HPP
 #define CAMERASVIEW_HPP
 
-#include <gui_generated/cameras_screen/camerasViewBase.hpp>
-#include <gui/cameras_screen/camerasPresenter.hpp>
+#include <gui_generated/cameras_screen/CamerasViewBase.hpp>
+#include <gui/cameras_screen/CamerasPresenter.hpp>
 
-class camerasView : public camerasViewBase
+class CamerasView : public CamerasViewBase
 {
 public:
-    camerasView();
-    virtual ~camerasView() {}
+    CamerasView();
+    virtual ~CamerasView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
 protected:

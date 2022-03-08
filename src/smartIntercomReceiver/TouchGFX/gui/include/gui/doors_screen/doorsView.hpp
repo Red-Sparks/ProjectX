@@ -1,14 +1,14 @@
 #ifndef DOORSVIEW_HPP
 #define DOORSVIEW_HPP
 
-#include <gui_generated/doors_screen/doorsViewBase.hpp>
-#include <gui/doors_screen/doorsPresenter.hpp>
+#include <gui_generated/doors_screen/DoorsViewBase.hpp>
+#include <gui/doors_screen/DoorsPresenter.hpp>
 
-class doorsView : public doorsViewBase
+class DoorsView : public DoorsViewBase
 {
 public:
-    doorsView();
-    virtual ~doorsView() {}
+    DoorsView();
+    virtual ~DoorsView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
 protected:

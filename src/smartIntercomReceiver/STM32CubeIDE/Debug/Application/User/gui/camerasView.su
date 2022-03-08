@@ -1,8 +1,8 @@
 Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
 Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
 Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
-camerasView.hpp:11:13:camerasView::~camerasView()	0	static
-camerasView.cpp:13:6:virtual void camerasView::tearDownScreen()	0	static
-camerasView.cpp:8:6:virtual void camerasView::setupScreen()	0	static
-camerasView.hpp:11:13:virtual camerasView::~camerasView()	8	static
-camerasView.cpp:3:1:camerasView::camerasView()	8	static
+CamerasView.hpp:11:13:CamerasView::~CamerasView()	0	static
+CamerasView.cpp:13:6:virtual void CamerasView::tearDownScreen()	0	static
+CamerasView.cpp:8:6:virtual void CamerasView::setupScreen()	0	static
+CamerasView.hpp:11:13:virtual CamerasView::~CamerasView()	8	static
+CamerasView.cpp:3:1:CamerasView::CamerasView()	8	static

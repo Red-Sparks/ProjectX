@@ -6,18 +6,19 @@
 
 #include <gui/common/FrontendApplication.hpp>
 #include <mvp/View.hpp>
-#include <gui/cameras_screen/camerasPresenter.hpp>
+#include <gui/cameras_screen/CamerasPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
+#include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/containers/Container.hpp>
 #include <touchgfx/containers/clock/DigitalClock.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
-#include <touchgfx/widgets/ButtonWithIcon.hpp>
+#include <touchgfx/widgets/Button.hpp>
 
-class camerasViewBase : public touchgfx::View<camerasPresenter>
+class CamerasViewBase : public touchgfx::View<CamerasPresenter>
 {
 public:
-    camerasViewBase();
-    virtual ~camerasViewBase() {}
+    CamerasViewBase();
+    virtual ~CamerasViewBase() {}
     virtual void setupScreen();
 
 protected:
@@ -29,20 +30,19 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
+    touchgfx::Image background;
     touchgfx::Container head;
     touchgfx::Box headBackground;
     touchgfx::DigitalClock clock;
     touchgfx::TextArea header;
-    touchgfx::Container body;
-    touchgfx::Box background;
-    touchgfx::ButtonWithIcon toHome;
+    touchgfx::Button buttonToHome;
 
 private:
 
     /*
      * Callback Declarations
      */
-    touchgfx::Callback<camerasViewBase, const touchgfx::AbstractButton&> buttonCallback;
+    touchgfx::Callback<CamerasViewBase, const touchgfx::AbstractButton&> buttonCallback;
 
     /*
      * Callback Handler Declarations

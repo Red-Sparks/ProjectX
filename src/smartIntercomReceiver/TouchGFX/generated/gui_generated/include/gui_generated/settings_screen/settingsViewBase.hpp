@@ -6,18 +6,19 @@
 
 #include <gui/common/FrontendApplication.hpp>
 #include <mvp/View.hpp>
-#include <gui/settings_screen/settingsPresenter.hpp>
+#include <gui/settings_screen/SettingsPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
+#include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/containers/Container.hpp>
 #include <touchgfx/containers/clock/DigitalClock.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
-#include <touchgfx/widgets/ButtonWithIcon.hpp>
+#include <touchgfx/widgets/Button.hpp>
 
-class settingsViewBase : public touchgfx::View<settingsPresenter>
+class SettingsViewBase : public touchgfx::View<SettingsPresenter>
 {
 public:
-    settingsViewBase();
-    virtual ~settingsViewBase() {}
+    SettingsViewBase();
+    virtual ~SettingsViewBase() {}
     virtual void setupScreen();
 
 protected:
@@ -29,20 +30,19 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
+    touchgfx::Image background;
     touchgfx::Container head;
     touchgfx::Box headBackground;
     touchgfx::DigitalClock clock;
     touchgfx::TextArea header;
-    touchgfx::Container body;
-    touchgfx::Box background;
-    touchgfx::ButtonWithIcon toHome;
+    touchgfx::Button buttonToHome;
 
 private:
 
     /*
      * Callback Declarations
      */
-    touchgfx::Callback<settingsViewBase, const touchgfx::AbstractButton&> buttonCallback;
+    touchgfx::Callback<SettingsViewBase, const touchgfx::AbstractButton&> buttonCallback;
 
     /*
      * Callback Handler Declarations

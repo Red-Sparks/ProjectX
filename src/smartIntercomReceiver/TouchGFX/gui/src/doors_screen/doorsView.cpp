@@ -1,16 +1,16 @@
-#include <gui/doors_screen/doorsView.hpp>
+#include <gui/doors_screen/DoorsView.hpp>
 
-doorsView::doorsView()
+DoorsView::DoorsView()
 {
 
 }
 
-void doorsView::setupScreen()
+void DoorsView::setupScreen()
 {
-    doorsViewBase::setupScreen();
+    DoorsViewBase::setupScreen();
 }
 
-void doorsView::tearDownScreen()
+void DoorsView::tearDownScreen()
 {
-    doorsViewBase::tearDownScreen();
+    DoorsViewBase::tearDownScreen();
 }

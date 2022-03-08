@@ -1,6 +1,6 @@
-build/MINGW32_NT-6.2/generated/gui_generated/src/home_screen/homeViewBase.o: \
- generated/gui_generated/src/home_screen/homeViewBase.cpp \
- generated/gui_generated/include/gui_generated/home_screen/homeViewBase.hpp \
+build/MINGW32_NT-6.2/generated/gui_generated/src/home_screen/HomeViewBase.o: \
+ generated/gui_generated/src/home_screen/HomeViewBase.cpp \
+ generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp \
  gui/include/gui/common/FrontendApplication.hpp \
  generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
@@ -38,10 +38,11 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/home_screen/homeViewBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp \
  gui/include/gui/model/Model.hpp \
  ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
- gui/include/gui/home_screen/homePresenter.hpp \
+ gui/include/gui/home_screen/HomePresenter.hpp \
  gui/include/gui/model/ModelListener.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
@@ -53,10 +54,10 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/home_screen/homeViewBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
- generated/texts/include/texts/TextKeysAndLanguages.hpp \
- generated/images/include/BitmapDatabase.hpp
+ generated/images/include/BitmapDatabase.hpp \
+ generated/texts/include/texts/TextKeysAndLanguages.hpp
 
-generated/gui_generated/include/gui_generated/home_screen/homeViewBase.hpp:
+generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp:
 
 gui/include/gui/common/FrontendApplication.hpp:
 
@@ -132,13 +133,15 @@ gui/include/gui/model/Model.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
 
-gui/include/gui/home_screen/homePresenter.hpp:
+gui/include/gui/home_screen/HomePresenter.hpp:
 
 gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:
 
@@ -162,6 +165,6 @@ gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:
 
-generated/texts/include/texts/TextKeysAndLanguages.hpp:
-
 generated/images/include/BitmapDatabase.hpp:
+
+generated/texts/include/texts/TextKeysAndLanguages.hpp:

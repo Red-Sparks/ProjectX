@@ -2,837 +2,34 @@
   "Application": {
     "Screens": [
       {
-        "Name": "home",
+        "Name": "Home",
         "Components": [
           {
-            "Type": "Container",
-            "Name": "head",
-            "Width": 480,
-            "Height": 50,
-            "Components": [
-              {
-                "Type": "Box",
-                "Name": "headBackground",
-                "Width": 480,
-                "Height": 50,
-                "Color": {
-                  "Red": 104,
-                  "Green": 237,
-                  "Blue": 233
-                }
-              },
-              {
-                "Type": "DigitalClock",
-                "Name": "clock",
-                "Y": 13,
-                "Width": 80,
-                "Height": 25,
-                "TextId": "__SingleUse_W287",
-                "InitialHour": 9,
-                "InitialMinute": 41
-              },
-              {
-                "Type": "TextArea",
-                "Name": "header",
-                "X": 211,
-                "Y": 13,
-                "Width": 58,
-                "Height": 25,
-                "TextId": "__SingleUse_H1I2",
-                "TextRotation": "0",
-                "AutoSize": true
-              }
-            ]
-          },
-          {
-            "Type": "Container",
-            "Name": "body",
-            "Y": 50,
-            "Width": 480,
-            "Height": 222,
-            "Components": [
-              {
-                "Type": "Box",
-                "Name": "bodyBackground",
-                "Width": 480,
-                "Height": 222,
-                "Color": {
-                  "Red": 162,
-                  "Green": 242,
-                  "Blue": 240
-                }
-              },
-              {
-                "Type": "Container",
-                "Name": "doors",
-                "X": 360,
-                "Y": 22,
-                "Width": 120,
-                "Height": 100,
-                "Components": [
-                  {
-                    "Type": "TextArea",
-                    "Name": "doorsText",
-                    "X": 31,
-                    "Y": 66,
-                    "Width": 58,
-                    "Height": 25,
-                    "TextId": "__SingleUse_AIQO",
-                    "TextRotation": "0",
-                    "AutoSize": true
-                  },
-                  {
-                    "Type": "ButtonWithIcon",
-                    "Name": "doorsIcon",
-                    "X": 30,
-                    "Y": 6,
-                    "Width": 60,
-                    "Height": 60,
-                    "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                    "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                    "IconPressed": "outline_door_back_black_18dp.png",
-                    "IconReleased": "outline_door_back_black_18dp.png",
-                    "IconX": 12,
-                    "IconY": 12,
-                    "IconHeight": 36,
-                    "IconWidth": 36
-                  }
-                ]
-              },
-              {
-                "Type": "Container",
-                "Name": "cameras",
-                "X": 240,
-                "Y": 22,
-                "Width": 120,
-                "Height": 100,
-                "Components": [
-                  {
-                    "Type": "TextArea",
-                    "Name": "camerasText",
-                    "X": 16,
-                    "Y": 66,
-                    "Width": 88,
-                    "Height": 25,
-                    "TextId": "__SingleUse_FXO9",
-                    "TextRotation": "0",
-                    "AutoSize": true
-                  },
-                  {
-                    "Type": "ButtonWithIcon",
-                    "Name": "camerasIcon",
-                    "X": 30,
-                    "Y": 6,
-                    "Width": 60,
-                    "Height": 60,
-                    "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                    "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                    "IconPressed": "camera.png",
-                    "IconReleased": "camera.png",
-                    "IconX": 12,
-                    "IconY": 12,
-                    "IconHeight": 36,
-                    "IconWidth": 36
-                  }
-                ]
-              },
-              {
-                "Type": "Container",
-                "Name": "recordings",
-                "X": 120,
-                "Y": 22,
-                "Width": 120,
-                "Height": 100,
-                "Components": [
-                  {
-                    "Type": "TextArea",
-                    "Name": "recordingsText",
-                    "X": 5,
-                    "Y": 66,
-                    "Width": 110,
-                    "Height": 25,
-                    "TextId": "__SingleUse_PNJN",
-                    "TextRotation": "0",
-                    "AutoSize": true
-                  },
-                  {
-                    "Type": "ButtonWithIcon",
-                    "Name": "recordingsIcon",
-                    "X": 30,
-                    "Y": 6,
-                    "Width": 60,
-                    "Height": 60,
-                    "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                    "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                    "IconPressed": "outline_list_alt_black_18dp.png",
-                    "IconReleased": "outline_list_alt_black_18dp.png",
-                    "IconX": 12,
-                    "IconY": 12,
-                    "IconHeight": 36,
-                    "IconWidth": 36
-                  }
-                ]
-              },
-              {
-                "Type": "Container",
-                "Name": "settings",
-                "Y": 22,
-                "Width": 120,
-                "Height": 100,
-                "Components": [
-                  {
-                    "Type": "TextArea",
-                    "Name": "settingsText",
-                    "X": 21,
-                    "Y": 66,
-                    "Width": 79,
-                    "Height": 25,
-                    "TextId": "__SingleUse_97OY",
-                    "TextRotation": "0",
-                    "AutoSize": true
-                  },
-                  {
-                    "Type": "ButtonWithIcon",
-                    "Name": "settingsIcon",
-                    "X": 30,
-                    "Y": 6,
-                    "Width": 60,
-                    "Height": 60,
-                    "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                    "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                    "IconPressed": "outline_settings_black_18dp.png",
-                    "IconReleased": "outline_settings_black_18dp.png",
-                    "IconX": 12,
-                    "IconY": 12,
-                    "IconHeight": 36,
-                    "IconWidth": 36
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "Type": "Container",
-            "Name": "silence",
-            "X": 115,
-            "Y": 172,
-            "Width": 250,
-            "Height": 100,
-            "Components": [
-              {
-                "Type": "TextArea",
-                "Name": "silenceText",
-                "X": 53,
-                "Y": 25,
-                "Width": 144,
-                "Height": 25,
-                "TextId": "__SingleUse_1QGA",
-                "TextRotation": "0",
-                "AutoSize": true
-              },
-              {
-                "Type": "ToggleButton",
-                "Name": "silenceMod",
-                "X": 61,
-                "Y": 50,
-                "Width": 128,
-                "Height": 38,
-                "Pressed": "__designer\\Blue_Togglebars_Toggle_RE_large_button_ON.png",
-                "Released": "__designer\\Blue_Togglebars_Toggle_RE_large_button_OFF.png"
-              }
-            ]
-          }
-        ],
-        "Interactions": [
-          {
-            "InteractionName": "homeToSettings",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "settingsIcon"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "settings"
-            }
-          },
-          {
-            "InteractionName": "homeToRecordings",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "recordingsIcon"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "recordings"
-            }
-          },
-          {
-            "InteractionName": "homeToCameras",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "camerasIcon"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "cameras"
-            }
-          },
-          {
-            "InteractionName": "homeToDoors",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "doorsIcon"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "doors"
-            }
-          },
-          {
-            "InteractionName": "homeToSilence",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "silenceMod"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "doNotDisturb"
-            }
-          }
-        ]
-      },
-      {
-        "Name": "call",
-        "Components": [
-          {
-            "Type": "Container",
-            "Name": "body",
-            "Y": 50,
-            "Width": 480,
-            "Height": 222,
-            "Components": [
-              {
-                "Type": "Box",
-                "Name": "background",
-                "Width": 480,
-                "Height": 222,
-                "Color": {
-                  "Red": 162,
-                  "Green": 242,
-                  "Blue": 240
-                }
-              },
-              {
-                "Type": "ButtonWithIcon",
-                "Name": "toHome",
-                "Y": 162,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "IconPressed": "back.png",
-                "IconReleased": "back.png",
-                "IconX": 6,
-                "IconY": 6,
-                "IconHeight": 48,
-                "IconWidth": 48
-              }
-            ]
-          },
-          {
-            "Type": "Container",
-            "Name": "head",
-            "Width": 480,
-            "Height": 50,
-            "Components": [
-              {
-                "Type": "Box",
-                "Name": "headBackground",
-                "Width": 480,
-                "Height": 50,
-                "Color": {
-                  "Red": 104,
-                  "Green": 237,
-                  "Blue": 233
-                }
-              },
-              {
-                "Type": "DigitalClock",
-                "Name": "clock",
-                "Y": 13,
-                "Width": 80,
-                "Height": 25,
-                "TextId": "__SingleUse_YFPV",
-                "InitialHour": 9,
-                "InitialMinute": 41
-              },
-              {
-                "Type": "TextArea",
-                "Name": "header",
-                "X": 211,
-                "Y": 13,
-                "Width": 34,
-                "Height": 25,
-                "TextId": "__SingleUse_9NB6",
-                "TextRotation": "0",
-                "AutoSize": true
-              }
-            ]
-          }
-        ],
-        "Interactions": [
-          {
-            "InteractionName": "toHome",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "toHome"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "home"
-            }
-          }
-        ]
-      },
-      {
-        "Name": "settings",
-        "Components": [
-          {
-            "Type": "Container",
-            "Name": "head",
-            "Width": 480,
-            "Height": 50,
-            "Components": [
-              {
-                "Type": "Box",
-                "Name": "headBackground",
-                "Width": 480,
-                "Height": 50,
-                "Color": {
-                  "Red": 104,
-                  "Green": 237,
-                  "Blue": 233
-                }
-              },
-              {
-                "Type": "DigitalClock",
-                "Name": "clock",
-                "Y": 13,
-                "Width": 80,
-                "Height": 25,
-                "TextId": "__SingleUse_EZEZ",
-                "InitialHour": 9,
-                "InitialMinute": 41
-              },
-              {
-                "Type": "TextArea",
-                "Name": "header",
-                "X": 199,
-                "Y": 13,
-                "Width": 82,
-                "Height": 25,
-                "TextId": "__SingleUse_2AI5",
-                "TextRotation": "0",
-                "AutoSize": true
-              }
-            ]
-          },
-          {
-            "Type": "Container",
-            "Name": "body",
-            "Y": 50,
-            "Width": 480,
-            "Height": 222,
-            "Components": [
-              {
-                "Type": "Box",
-                "Name": "background",
-                "Width": 480,
-                "Height": 222,
-                "Color": {
-                  "Red": 162,
-                  "Green": 242,
-                  "Blue": 240
-                }
-              },
-              {
-                "Type": "ButtonWithIcon",
-                "Name": "toHome",
-                "Y": 162,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "IconPressed": "back.png",
-                "IconReleased": "back.png",
-                "IconX": 6,
-                "IconY": 6,
-                "IconHeight": 48,
-                "IconWidth": 48
-              }
-            ]
-          }
-        ],
-        "Interactions": [
-          {
-            "InteractionName": "toHome",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "toHome"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "home"
-            }
-          }
-        ]
-      },
-      {
-        "Name": "recordings",
-        "Components": [
-          {
-            "Type": "Container",
-            "Name": "head",
-            "Width": 480,
-            "Height": 50,
-            "Components": [
-              {
-                "Type": "Box",
-                "Name": "headBackground",
-                "Width": 480,
-                "Height": 50,
-                "Color": {
-                  "Red": 104,
-                  "Green": 237,
-                  "Blue": 233
-                }
-              },
-              {
-                "Type": "DigitalClock",
-                "Name": "clock",
-                "Y": 13,
-                "Width": 80,
-                "Height": 25,
-                "TextId": "__SingleUse_FWTA",
-                "InitialHour": 9,
-                "InitialMinute": 41
-              },
-              {
-                "Type": "TextArea",
-                "Name": "header",
-                "X": 185,
-                "Y": 13,
-                "Width": 110,
-                "Height": 25,
-                "TextId": "__SingleUse_9CCC",
-                "TextRotation": "0",
-                "AutoSize": true
-              }
-            ]
-          },
-          {
-            "Type": "Container",
-            "Name": "body",
-            "Y": 50,
-            "Width": 480,
-            "Height": 222,
-            "Components": [
-              {
-                "Type": "Box",
-                "Name": "background",
-                "Width": 480,
-                "Height": 222,
-                "Color": {
-                  "Red": 162,
-                  "Green": 242,
-                  "Blue": 240
-                }
-              },
-              {
-                "Type": "ButtonWithIcon",
-                "Name": "toHome",
-                "Y": 162,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "IconPressed": "back.png",
-                "IconReleased": "back.png",
-                "IconX": 6,
-                "IconY": 6,
-                "IconHeight": 48,
-                "IconWidth": 48
-              }
-            ]
-          }
-        ],
-        "Interactions": [
-          {
-            "InteractionName": "toHome",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "toHome"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "home"
-            }
-          }
-        ]
-      },
-      {
-        "Name": "cameras",
-        "Components": [
-          {
-            "Type": "Container",
-            "Name": "head",
-            "Width": 480,
-            "Height": 50,
-            "Components": [
-              {
-                "Type": "Box",
-                "Name": "headBackground",
-                "Width": 480,
-                "Height": 50,
-                "Color": {
-                  "Red": 104,
-                  "Green": 237,
-                  "Blue": 233
-                }
-              },
-              {
-                "Type": "DigitalClock",
-                "Name": "clock",
-                "Y": 13,
-                "Width": 80,
-                "Height": 25,
-                "TextId": "__SingleUse_BRAS",
-                "InitialHour": 9,
-                "InitialMinute": 41
-              },
-              {
-                "Type": "TextArea",
-                "Name": "header",
-                "X": 196,
-                "Y": 13,
-                "Width": 88,
-                "Height": 25,
-                "TextId": "__SingleUse_JCJB",
-                "TextRotation": "0",
-                "AutoSize": true
-              }
-            ]
-          },
-          {
-            "Type": "Container",
-            "Name": "body",
-            "Y": 50,
-            "Width": 480,
-            "Height": 222,
-            "Components": [
-              {
-                "Type": "Box",
-                "Name": "background",
-                "Width": 480,
-                "Height": 222,
-                "Color": {
-                  "Red": 162,
-                  "Green": 242,
-                  "Blue": 240
-                }
-              },
-              {
-                "Type": "ButtonWithIcon",
-                "Name": "toHome",
-                "Y": 162,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "IconPressed": "back.png",
-                "IconReleased": "back.png",
-                "IconX": 6,
-                "IconY": 6,
-                "IconHeight": 48,
-                "IconWidth": 48
-              }
-            ]
-          }
-        ],
-        "Interactions": [
-          {
-            "InteractionName": "toHome",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "toHome"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "home"
-            }
-          }
-        ]
-      },
-      {
-        "Name": "doors",
-        "Components": [
-          {
-            "Type": "Container",
-            "Name": "head",
-            "Width": 480,
-            "Height": 50,
-            "Components": [
-              {
-                "Type": "Box",
-                "Name": "headBackground",
-                "Width": 480,
-                "Height": 50,
-                "Color": {
-                  "Red": 104,
-                  "Green": 237,
-                  "Blue": 233
-                }
-              },
-              {
-                "Type": "DigitalClock",
-                "Name": "clock",
-                "Y": 13,
-                "Width": 80,
-                "Height": 25,
-                "TextId": "__SingleUse_BIIX",
-                "InitialHour": 9,
-                "InitialMinute": 41
-              },
-              {
-                "Type": "TextArea",
-                "Name": "header",
-                "X": 211,
-                "Y": 13,
-                "Width": 58,
-                "Height": 25,
-                "TextId": "__SingleUse_2803",
-                "TextRotation": "0",
-                "AutoSize": true
-              }
-            ]
-          },
-          {
-            "Type": "Container",
-            "Name": "body",
-            "Y": 50,
-            "Width": 480,
-            "Height": 222,
-            "Components": [
-              {
-                "Type": "Box",
-                "Name": "background",
-                "Width": 480,
-                "Height": 272,
-                "Color": {
-                  "Red": 162,
-                  "Green": 242,
-                  "Blue": 240
-                }
-              },
-              {
-                "Type": "ButtonWithIcon",
-                "Name": "toHome",
-                "Y": 162,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "IconPressed": "back.png",
-                "IconReleased": "back.png",
-                "IconX": 6,
-                "IconY": 6,
-                "IconHeight": 48,
-                "IconWidth": 48
-              }
-            ]
-          }
-        ],
-        "Interactions": [
-          {
-            "InteractionName": "toHome",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "toHome"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "home"
-            }
-          }
-        ]
-      },
-      {
-        "Name": "doNotDisturb",
-        "Components": [
-          {
-            "Type": "Container",
-            "Name": "body",
+            "Type": "Image",
+            "Name": "background",
             "Width": 480,
             "Height": 272,
+            "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_480x272px.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "silenceMode",
+            "Width": 480,
+            "Height": 272,
+            "Visible": false,
             "Components": [
               {
                 "Type": "Box",
-                "Name": "background",
-                "Y": 50,
+                "Name": "silenceBackground",
                 "Width": 480,
-                "Height": 222,
-                "Color": {
-                  "Red": 34,
-                  "Green": 36,
-                  "Blue": 36
-                }
-              },
-              {
-                "Type": "Container",
-                "Name": "silence",
-                "X": 115,
-                "Y": 172,
-                "Width": 250,
-                "Height": 100,
-                "Components": [
-                  {
-                    "Type": "TextArea",
-                    "Name": "silenceText",
-                    "X": 53,
-                    "Y": 25,
-                    "Width": 144,
-                    "Height": 25,
-                    "TextId": "__SingleUse_2OTS",
-                    "TextRotation": "0",
-                    "AutoSize": true
-                  },
-                  {
-                    "Type": "ToggleButton",
-                    "Name": "silenceMod",
-                    "X": 61,
-                    "Y": 50,
-                    "Width": 128,
-                    "Height": 38,
-                    "Pressed": "__designer\\Blue_Togglebars_Toggle_RE_large_button_OFF.png",
-                    "Released": "__designer\\Blue_Togglebars_Toggle_RE_large_button_ON.png"
-                  }
-                ]
+                "Height": 272,
+                "Alpha": 150
               },
               {
                 "Type": "Image",
                 "Name": "badTimeIcon",
                 "X": 192,
-                "Y": 76,
+                "Y": 88,
                 "Width": 96,
                 "Height": 96,
                 "RelativeFilename": "outline_bedtime_black_48dp.png"
@@ -850,11 +47,7 @@
                 "Name": "headBackground",
                 "Width": 480,
                 "Height": 50,
-                "Color": {
-                  "Red": 26,
-                  "Green": 26,
-                  "Blue": 26
-                }
+                "Alpha": 50
               },
               {
                 "Type": "DigitalClock",
@@ -862,35 +55,714 @@
                 "Y": 13,
                 "Width": 80,
                 "Height": 25,
-                "TextId": "__SingleUse_YZQ6",
+                "TextColor": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "TextId": "__SingleUse_W287",
                 "InitialHour": 9,
                 "InitialMinute": 41
               },
               {
                 "Type": "TextArea",
                 "Name": "header",
-                "X": 211,
-                "Y": 13,
-                "Width": 58,
-                "Height": 25,
-                "TextId": "__SingleUse_47FO",
+                "X": 204,
+                "Y": 10,
+                "Width": 73,
+                "Height": 31,
+                "TextId": "__SingleUse_H1I2",
                 "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
                 "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "body",
+            "Y": 70,
+            "Width": 480,
+            "Height": 100,
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "doors",
+                "X": 360,
+                "Width": 120,
+                "Height": 100,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "doorsText",
+                    "X": 31,
+                    "Y": 66,
+                    "Width": 58,
+                    "Height": 25,
+                    "TextId": "__SingleUse_AIQO",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 14,
+                      "Green": 237,
+                      "Blue": 237
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "ButtonWithIcon",
+                    "Name": "doorsIcon",
+                    "X": 30,
+                    "Y": 6,
+                    "Width": 60,
+                    "Height": 60,
+                    "Pressed": "__designer\\Dark_Buttons_Round_Edge_icon_button_pressed.png",
+                    "Released": "__designer\\Dark_Buttons_Round_Edge_icon_button.png",
+                    "IconPressed": "outline_door_back_black_18dp.png",
+                    "IconReleased": "outline_door_back_black_18dp.png",
+                    "IconX": 12,
+                    "IconY": 12,
+                    "IconHeight": 36,
+                    "IconWidth": 36
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "cameras",
+                "X": 240,
+                "Width": 120,
+                "Height": 100,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "camerasText",
+                    "X": 16,
+                    "Y": 66,
+                    "Width": 88,
+                    "Height": 25,
+                    "TextId": "__SingleUse_FXO9",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 14,
+                      "Green": 237,
+                      "Blue": 237
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "ButtonWithIcon",
+                    "Name": "camerasIcon",
+                    "X": 30,
+                    "Y": 6,
+                    "Width": 60,
+                    "Height": 60,
+                    "Pressed": "__designer\\Dark_Buttons_Round_Edge_icon_button_pressed.png",
+                    "Released": "__designer\\Dark_Buttons_Round_Edge_icon_button.png",
+                    "IconPressed": "camera.png",
+                    "IconReleased": "camera.png",
+                    "IconX": 12,
+                    "IconY": 12,
+                    "IconHeight": 36,
+                    "IconWidth": 36
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "recordings",
+                "X": 120,
+                "Width": 120,
+                "Height": 100,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "recordingsText",
+                    "X": 5,
+                    "Y": 66,
+                    "Width": 110,
+                    "Height": 25,
+                    "TextId": "__SingleUse_PNJN",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 14,
+                      "Green": 237,
+                      "Blue": 237
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "ButtonWithIcon",
+                    "Name": "recordingsIcon",
+                    "X": 30,
+                    "Y": 6,
+                    "Width": 60,
+                    "Height": 60,
+                    "Pressed": "__designer\\Dark_Buttons_Round_Edge_icon_button_pressed.png",
+                    "Released": "__designer\\Dark_Buttons_Round_Edge_icon_button.png",
+                    "IconPressed": "outline_list_alt_black_18dp.png",
+                    "IconReleased": "outline_list_alt_black_18dp.png",
+                    "IconX": 12,
+                    "IconY": 12,
+                    "IconHeight": 36,
+                    "IconWidth": 36
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "settings",
+                "Width": 120,
+                "Height": 100,
+                "Components": [
+                  {
+                    "Type": "TextArea",
+                    "Name": "settingsText",
+                    "X": 21,
+                    "Y": 66,
+                    "Width": 79,
+                    "Height": 25,
+                    "TextId": "__SingleUse_97OY",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 14,
+                      "Green": 237,
+                      "Blue": 237
+                    },
+                    "AutoSize": true
+                  },
+                  {
+                    "Type": "ButtonWithIcon",
+                    "Name": "settingsIcon",
+                    "X": 30,
+                    "Y": 6,
+                    "Width": 60,
+                    "Height": 60,
+                    "Pressed": "__designer\\Dark_Buttons_Round_Edge_icon_button_pressed.png",
+                    "Released": "__designer\\Dark_Buttons_Round_Edge_icon_button.png",
+                    "IconPressed": "outline_settings_black_18dp.png",
+                    "IconReleased": "outline_settings_black_18dp.png",
+                    "IconX": 12,
+                    "IconY": 12,
+                    "IconHeight": 36,
+                    "IconWidth": 36
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "silencePanel",
+            "X": 115,
+            "Y": 172,
+            "Width": 250,
+            "Height": 100,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "silenceText",
+                "X": 53,
+                "Y": 25,
+                "Width": 144,
+                "Height": 25,
+                "TextId": "__SingleUse_1QGA",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "ToggleButton",
+                "Name": "toggleSilence",
+                "X": 72,
+                "Y": 50,
+                "Width": 96,
+                "Height": 38,
+                "Pressed": "__designer\\Dark_Togglebars_Toggle_RE_small_button_On.png",
+                "Released": "__designer\\Dark_Togglebars_Toggle_RE_small_button_Off.png"
               }
             ]
           }
         ],
         "Interactions": [
           {
-            "InteractionName": "silenceToHome",
+            "InteractionName": "toSettings",
             "Trigger": {
               "Type": "TriggerClicked",
-              "TriggerComponent": "silenceMod"
+              "TriggerComponent": "settingsIcon"
             },
             "Action": {
               "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "home"
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Settings"
+            }
+          },
+          {
+            "InteractionName": "toRecordings",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "recordingsIcon"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Recordings"
+            }
+          },
+          {
+            "InteractionName": "toCameras",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "camerasIcon"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Cameras"
+            }
+          },
+          {
+            "InteractionName": "toDoors",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "doorsIcon"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Doors"
+            }
+          },
+          {
+            "InteractionName": "silenceMode",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleSilence"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "body.setVisible(!body.isVisible());\r\nbody.invalidate();\r\nsilenceMode.setVisible(!silenceMode.isVisible());\r\nsilenceMode.invalidate();"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Settings",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_480x272px.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "head",
+            "Width": 480,
+            "Height": 50,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "headBackground",
+                "Width": 480,
+                "Height": 50,
+                "Alpha": 50
+              },
+              {
+                "Type": "DigitalClock",
+                "Name": "clock",
+                "Y": 13,
+                "Width": 80,
+                "Height": 25,
+                "TextColor": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "TextId": "__SingleUse_TCU2",
+                "InitialHour": 9,
+                "InitialMinute": 41
+              },
+              {
+                "Type": "TextArea",
+                "Name": "header",
+                "X": 189,
+                "Y": 10,
+                "Width": 103,
+                "Height": 31,
+                "TextId": "__SingleUse_BXU1",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Button",
+            "Name": "buttonToHome",
+            "Y": 236,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "back.png",
+            "Released": "back.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "toHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonToHome"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Recordings",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_480x272px.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "head",
+            "Width": 480,
+            "Height": 50,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "headBackground",
+                "Width": 480,
+                "Height": 50,
+                "Alpha": 50
+              },
+              {
+                "Type": "DigitalClock",
+                "Name": "clock",
+                "Y": 13,
+                "Width": 80,
+                "Height": 25,
+                "TextColor": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "TextId": "__SingleUse_UAZL",
+                "InitialHour": 9,
+                "InitialMinute": 41
+              },
+              {
+                "Type": "TextArea",
+                "Name": "header",
+                "X": 171,
+                "Y": 10,
+                "Width": 138,
+                "Height": 31,
+                "TextId": "__SingleUse_2FE5",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Button",
+            "Name": "buttonToHome",
+            "Y": 236,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "back.png",
+            "Released": "back.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "toHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonToHome"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Cameras",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_480x272px.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "head",
+            "Width": 480,
+            "Height": 50,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "headBackground",
+                "Width": 480,
+                "Height": 50,
+                "Alpha": 50
+              },
+              {
+                "Type": "DigitalClock",
+                "Name": "clock",
+                "Y": 13,
+                "Width": 80,
+                "Height": 25,
+                "TextColor": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "TextId": "__SingleUse_45X5",
+                "InitialHour": 9,
+                "InitialMinute": 41
+              },
+              {
+                "Type": "TextArea",
+                "Name": "header",
+                "X": 189,
+                "Y": 10,
+                "Width": 103,
+                "Height": 31,
+                "TextId": "__SingleUse_RFOM",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Button",
+            "Name": "buttonToHome",
+            "Y": 236,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "back.png",
+            "Released": "back.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "toHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonToHome"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Doors",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_480x272px.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "head",
+            "Width": 480,
+            "Height": 50,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "headBackground",
+                "Width": 480,
+                "Height": 50,
+                "Alpha": 50
+              },
+              {
+                "Type": "DigitalClock",
+                "Name": "clock",
+                "Y": 13,
+                "Width": 80,
+                "Height": 25,
+                "TextColor": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "TextId": "__SingleUse_XYKD",
+                "InitialHour": 9,
+                "InitialMinute": 41
+              },
+              {
+                "Type": "TextArea",
+                "Name": "header",
+                "X": 189,
+                "Y": 10,
+                "Width": 103,
+                "Height": 31,
+                "TextId": "__SingleUse_H65B",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Button",
+            "Name": "buttonToHome",
+            "Y": 236,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "back.png",
+            "Released": "back.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "toHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonToHome"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Call",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_480x272px.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "head",
+            "Width": 480,
+            "Height": 50,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "headBackground",
+                "Width": 480,
+                "Height": 50,
+                "Alpha": 50
+              },
+              {
+                "Type": "DigitalClock",
+                "Name": "clock",
+                "Y": 13,
+                "Width": 80,
+                "Height": 25,
+                "TextColor": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "TextId": "__SingleUse_YPD7",
+                "InitialHour": 9,
+                "InitialMinute": 41
+              },
+              {
+                "Type": "TextArea",
+                "Name": "header",
+                "X": 217,
+                "Y": 10,
+                "Width": 46,
+                "Height": 31,
+                "TextId": "__SingleUse_RAS4",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Button",
+            "Name": "buttonToHome",
+            "Y": 236,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "back.png",
+            "Released": "back.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "toHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonToHome"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Home"
             }
           }
         ]
@@ -903,7 +775,7 @@
       "Height": 272
     },
     "SelectedColorDepth": 16,
-    "StartupScreenName": "home",
+    "StartupScreenName": "Home",
     "SelectedStartupLanguage": "GB",
     "Skin": "Blue",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",

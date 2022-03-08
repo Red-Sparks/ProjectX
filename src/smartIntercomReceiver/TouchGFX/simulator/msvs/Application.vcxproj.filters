@@ -208,12 +208,6 @@
     <Filter Include="Source Files\gui\settings_screen">
       <UniqueIdentifier>9B2D38EC-6774-1E61-19AF-E191EC5C3A84</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\donotdisturb_screen">
-      <UniqueIdentifier>891A44ED-17DF-3D5E-FFB4-1D625CC23439</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\gui\donotdisturb_screen">
-      <UniqueIdentifier>5E6A7545-19F1-1976-8972-FE6A1D081D2C</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\gui\recordings_screen">
       <UniqueIdentifier>CDFA252D-631D-C8C5-A5C7-7317DF23C790</UniqueIdentifier>
     </Filter>
@@ -244,12 +238,6 @@
     <Filter Include="Header Files\generated\gui_generated\settings_screen">
       <UniqueIdentifier>ACD39CFD-2E3D-E813-8E42-6E9FCB9239A3</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\generated\gui_generated\donotdisturb_screen">
-      <UniqueIdentifier>3A6B155D-7170-35AA-8976-E23AC05B1A68</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\generated\gui_generated\donotdisturb_screen">
-      <UniqueIdentifier>24E0E33A-7D17-0B4B-E4B5-E0C985FA0424</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\generated\gui_generated\cameras_screen">
       <UniqueIdentifier>4AECB7B7-697D-7271-0A88-1C57410623A4</UniqueIdentifier>
     </Filter>
@@ -276,29 +264,11 @@
     <ClCompile Include="$(ApplicationRoot)\generated\simulator\src\mainBase.cpp">
       <Filter>Source Files\generated\simulator</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\call_screen\callPresenter.cpp">
-      <Filter>Source Files\gui\call_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\call_screen\callView.cpp">
-      <Filter>Source Files\gui\call_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\call_screen\callViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\call_screen</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp">
       <Filter>Source Files\gui\common</Filter>
     </ClCompile>
     <ClCompile Include="..\..\generated\gui_generated\src\common\FrontendApplicationBase.cpp">
       <Filter>Source Files\generated\gui_generated\common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\home_screen\homePresenter.cpp">
-      <Filter>Source Files\gui\home_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\home_screen\homeView.cpp">
-      <Filter>Source Files\gui\home_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\home_screen\homeViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\home_screen</Filter>
     </ClCompile>
     <ClCompile Include="..\..\gui\src\model\Model.cpp">
       <Filter>Source Files\gui\model</Filter>
@@ -306,49 +276,58 @@
     <ClCompile Include="..\..\generated\simulator\src\video\SoftwareMJPEGDecoder.cpp">
       <Filter>Source Files\generated\simulator\video</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\cameras_screen\camerasPresenter.cpp">
+    <ClCompile Include="..\..\gui\src\home_screen\HomePresenter.cpp">
+      <Filter>Source Files\gui\home_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\home_screen\HomeView.cpp">
+      <Filter>Source Files\gui\home_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\home_screen\HomeViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\home_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\call_screen\CallPresenter.cpp">
+      <Filter>Source Files\gui\call_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\call_screen\CallView.cpp">
+      <Filter>Source Files\gui\call_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\call_screen\CallViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\call_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\cameras_screen\CamerasPresenter.cpp">
       <Filter>Source Files\gui\cameras_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\cameras_screen\camerasView.cpp">
+    <ClCompile Include="..\..\gui\src\cameras_screen\CamerasView.cpp">
       <Filter>Source Files\gui\cameras_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\cameras_screen\camerasViewBase.cpp">
+    <ClCompile Include="..\..\generated\gui_generated\src\cameras_screen\CamerasViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\cameras_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\donotdisturb_screen\doNotDisturbPresenter.cpp">
-      <Filter>Source Files\gui\donotdisturb_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\donotdisturb_screen\doNotDisturbView.cpp">
-      <Filter>Source Files\gui\donotdisturb_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\donotdisturb_screen\doNotDisturbViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\donotdisturb_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\doors_screen\doorsPresenter.cpp">
+    <ClCompile Include="..\..\gui\src\doors_screen\DoorsPresenter.cpp">
       <Filter>Source Files\gui\doors_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\doors_screen\doorsView.cpp">
+    <ClCompile Include="..\..\gui\src\doors_screen\DoorsView.cpp">
       <Filter>Source Files\gui\doors_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\doors_screen\doorsViewBase.cpp">
+    <ClCompile Include="..\..\generated\gui_generated\src\doors_screen\DoorsViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\doors_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\recordings_screen\recordingsPresenter.cpp">
+    <ClCompile Include="..\..\gui\src\recordings_screen\RecordingsPresenter.cpp">
       <Filter>Source Files\gui\recordings_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\recordings_screen\recordingsView.cpp">
+    <ClCompile Include="..\..\gui\src\recordings_screen\RecordingsView.cpp">
       <Filter>Source Files\gui\recordings_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\recordings_screen\recordingsViewBase.cpp">
+    <ClCompile Include="..\..\generated\gui_generated\src\recordings_screen\RecordingsViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\recordings_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\settings_screen\settingsPresenter.cpp">
+    <ClCompile Include="..\..\gui\src\settings_screen\SettingsPresenter.cpp">
       <Filter>Source Files\gui\settings_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\settings_screen\settingsView.cpp">
+    <ClCompile Include="..\..\gui\src\settings_screen\SettingsView.cpp">
       <Filter>Source Files\gui\settings_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\settings_screen\settingsViewBase.cpp">
+    <ClCompile Include="..\..\generated\gui_generated\src\settings_screen\SettingsViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\settings_screen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -763,15 +742,6 @@
     <ClInclude Include="$(ApplicationRoot)\generated\simulator\include\simulator\mainBase.hpp">
       <Filter>Header Files\generated\simulator</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\call_screen\callPresenter.hpp">
-      <Filter>Header Files\gui\call_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\call_screen\callView.hpp">
-      <Filter>Header Files\gui\call_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\call_screen\callViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\call_screen</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\DirectFrameBufferVideoController.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
     </ClInclude>
@@ -786,15 +756,6 @@
     </ClInclude>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\FrontendHeapBase.hpp">
       <Filter>Header Files\generated\gui_generated\common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\home_screen\homePresenter.hpp">
-      <Filter>Header Files\gui\home_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\home_screen\homeView.hpp">
-      <Filter>Header Files\gui\home_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\home_screen\homeViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\home_screen</Filter>
     </ClInclude>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\MJPEGDecoder.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
@@ -811,49 +772,58 @@
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\SoftwareMJPEGDecoder.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\cameras_screen\camerasPresenter.hpp">
+    <ClInclude Include="..\..\gui\include\gui\home_screen\HomePresenter.hpp">
+      <Filter>Header Files\gui\home_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\home_screen\HomeView.hpp">
+      <Filter>Header Files\gui\home_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\home_screen\HomeViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\home_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\call_screen\CallPresenter.hpp">
+      <Filter>Header Files\gui\call_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\call_screen\CallView.hpp">
+      <Filter>Header Files\gui\call_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\call_screen\CallViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\call_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\cameras_screen\CamerasPresenter.hpp">
       <Filter>Header Files\gui\cameras_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\cameras_screen\camerasView.hpp">
+    <ClInclude Include="..\..\gui\include\gui\cameras_screen\CamerasView.hpp">
       <Filter>Header Files\gui\cameras_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\cameras_screen\camerasViewBase.hpp">
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\cameras_screen\CamerasViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\cameras_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\donotdisturb_screen\doNotDisturbPresenter.hpp">
-      <Filter>Header Files\gui\donotdisturb_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\donotdisturb_screen\doNotDisturbView.hpp">
-      <Filter>Header Files\gui\donotdisturb_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\donotdisturb_screen\doNotDisturbViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\donotdisturb_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\doors_screen\doorsPresenter.hpp">
+    <ClInclude Include="..\..\gui\include\gui\doors_screen\DoorsPresenter.hpp">
       <Filter>Header Files\gui\doors_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\doors_screen\doorsView.hpp">
+    <ClInclude Include="..\..\gui\include\gui\doors_screen\DoorsView.hpp">
       <Filter>Header Files\gui\doors_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\doors_screen\doorsViewBase.hpp">
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\doors_screen\DoorsViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\doors_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\recordings_screen\recordingsPresenter.hpp">
+    <ClInclude Include="..\..\gui\include\gui\recordings_screen\RecordingsPresenter.hpp">
       <Filter>Header Files\gui\recordings_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\recordings_screen\recordingsView.hpp">
+    <ClInclude Include="..\..\gui\include\gui\recordings_screen\RecordingsView.hpp">
       <Filter>Header Files\gui\recordings_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\recordings_screen\recordingsViewBase.hpp">
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\recordings_screen\RecordingsViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\recordings_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\settings_screen\settingsPresenter.hpp">
+    <ClInclude Include="..\..\gui\include\gui\settings_screen\SettingsPresenter.hpp">
       <Filter>Header Files\gui\settings_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\settings_screen\settingsView.hpp">
+    <ClInclude Include="..\..\gui\include\gui\settings_screen\SettingsView.hpp">
       <Filter>Header Files\gui\settings_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settings_screen\settingsViewBase.hpp">
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settings_screen\SettingsViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\settings_screen</Filter>
     </ClInclude>
   </ItemGroup>

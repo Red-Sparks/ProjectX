@@ -4,6 +4,7 @@ HAL.hpp:825:30:virtual touchgfx::FlashDataReader* touchgfx::HAL::getFlashDataRea
 HAL.hpp:974:18:virtual void touchgfx::HAL::taskDelay(uint16_t)	0	static
 HAL.hpp:1001:22:virtual uint16_t touchgfx::HAL::getTFTCurrentLine()	0	static
 HAL.hpp:1012:21:virtual touchgfx::DMAType touchgfx::HAL::getDMAType()	0	static
+TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	0	static
 core_cm7.h:2427:22:void SCB_CleanInvalidateDCache()	16	static,ignoring_inline_asm
 TouchGFXGeneratedHAL.cpp:66:6:virtual void TouchGFXGeneratedHAL::configureInterrupts()	0	static
 TouchGFXGeneratedHAL.cpp:84:6:virtual void TouchGFXGeneratedHAL::enableLCDControllerInterrupt()	0	static
@@ -28,6 +29,7 @@ DedicatedBufferVideoController.hpp:209:10:void DedicatedBufferController<no_stre
 DedicatedBufferVideoController.hpp:80:10:void DedicatedBufferController<no_streams, width, height, stride, output_format>::unregisterVideoWidget(touchgfx::VideoController::Handle) [with long unsigned int no_streams = 1; long unsigned int width = 216; long unsigned int height = 216; long unsigned int stride = 432; touchgfx::Bitmap::BitmapFormat output_format = touchgfx::Bitmap::RGB565]	16	static
 HAL.hpp:603:18:virtual void touchgfx::HAL::backPorchExited()	8	static
 TouchGFXGeneratedHAL.hpp:105:18:virtual void TouchGFXGeneratedHAL::flushFrameBuffer()	0	static
+TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	8	static
 TouchGFXGeneratedHAL.hpp:29:7:virtual TouchGFXGeneratedHAL::~TouchGFXGeneratedHAL()	8	static
 DedicatedBufferVideoController.hpp:33:7:virtual DedicatedBufferController<1, 216, 216, 432, touchgfx::Bitmap::RGB565>::~DedicatedBufferController()	8	static
 HAL.hpp:298:28:virtual touchgfx::BlitOperations touchgfx::HAL::getBlitCaps()	0	static

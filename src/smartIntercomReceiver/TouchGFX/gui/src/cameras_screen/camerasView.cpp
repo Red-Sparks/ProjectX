@@ -1,16 +1,16 @@
-#include <gui/cameras_screen/camerasView.hpp>
+#include <gui/cameras_screen/CamerasView.hpp>
 
-camerasView::camerasView()
+CamerasView::CamerasView()
 {
 
 }
 
-void camerasView::setupScreen()
+void CamerasView::setupScreen()
 {
-    camerasViewBase::setupScreen();
+    CamerasViewBase::setupScreen();
 }
 
-void camerasView::tearDownScreen()
+void CamerasView::tearDownScreen()
 {
-    camerasViewBase::tearDownScreen();
+    CamerasViewBase::tearDownScreen();
 }

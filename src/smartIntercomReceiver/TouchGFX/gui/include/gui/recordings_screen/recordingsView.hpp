@@ -1,14 +1,14 @@
 #ifndef RECORDINGSVIEW_HPP
 #define RECORDINGSVIEW_HPP
 
-#include <gui_generated/recordings_screen/recordingsViewBase.hpp>
-#include <gui/recordings_screen/recordingsPresenter.hpp>
+#include <gui_generated/recordings_screen/RecordingsViewBase.hpp>
+#include <gui/recordings_screen/RecordingsPresenter.hpp>
 
-class recordingsView : public recordingsViewBase
+class RecordingsView : public RecordingsViewBase
 {
 public:
-    recordingsView();
-    virtual ~recordingsView() {}
+    RecordingsView();
+    virtual ~RecordingsView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
 protected:

@@ -1,18 +1,18 @@
-#include <gui/cameras_screen/camerasView.hpp>
-#include <gui/cameras_screen/camerasPresenter.hpp>
+#include <gui/cameras_screen/CamerasView.hpp>
+#include <gui/cameras_screen/CamerasPresenter.hpp>
 
-camerasPresenter::camerasPresenter(camerasView& v)
+CamerasPresenter::CamerasPresenter(CamerasView& v)
     : view(v)
 {
 
 }
 
-void camerasPresenter::activate()
+void CamerasPresenter::activate()
 {
 
 }
 
-void camerasPresenter::deactivate()
+void CamerasPresenter::deactivate()
 {
 
 }

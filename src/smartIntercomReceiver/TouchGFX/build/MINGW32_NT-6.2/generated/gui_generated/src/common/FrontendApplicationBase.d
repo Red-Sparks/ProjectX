@@ -39,14 +39,18 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/common/FrontendApplicationBase.
  ../Middlewares/ST/touchgfx/framework/include/common/Meta.hpp \
  ../Middlewares/ST/touchgfx/framework/include/common/Partition.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/SlideTransition.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/SnapshotWidget.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
  gui/include/gui/common/FrontendApplication.hpp \
- gui/include/gui/home_screen/homeView.hpp \
- generated/gui_generated/include/gui_generated/home_screen/homeViewBase.hpp \
+ gui/include/gui/home_screen/HomeView.hpp \
+ generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp \
  ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
- gui/include/gui/home_screen/homePresenter.hpp \
+ gui/include/gui/home_screen/HomePresenter.hpp \
  gui/include/gui/model/ModelListener.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
@@ -57,25 +61,21 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/common/FrontendApplicationBase.
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
- gui/include/gui/call_screen/callView.hpp \
- generated/gui_generated/include/gui_generated/call_screen/callViewBase.hpp \
- gui/include/gui/call_screen/callPresenter.hpp \
- gui/include/gui/settings_screen/settingsView.hpp \
- generated/gui_generated/include/gui_generated/settings_screen/settingsViewBase.hpp \
- gui/include/gui/settings_screen/settingsPresenter.hpp \
- gui/include/gui/recordings_screen/recordingsView.hpp \
- generated/gui_generated/include/gui_generated/recordings_screen/recordingsViewBase.hpp \
- gui/include/gui/recordings_screen/recordingsPresenter.hpp \
- gui/include/gui/cameras_screen/camerasView.hpp \
- generated/gui_generated/include/gui_generated/cameras_screen/camerasViewBase.hpp \
- gui/include/gui/cameras_screen/camerasPresenter.hpp \
- gui/include/gui/doors_screen/doorsView.hpp \
- generated/gui_generated/include/gui_generated/doors_screen/doorsViewBase.hpp \
- gui/include/gui/doors_screen/doorsPresenter.hpp \
- gui/include/gui/donotdisturb_screen/doNotDisturbView.hpp \
- generated/gui_generated/include/gui_generated/donotdisturb_screen/doNotDisturbViewBase.hpp \
- gui/include/gui/donotdisturb_screen/doNotDisturbPresenter.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
+ gui/include/gui/settings_screen/SettingsView.hpp \
+ generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp \
+ gui/include/gui/settings_screen/SettingsPresenter.hpp \
+ gui/include/gui/recordings_screen/RecordingsView.hpp \
+ generated/gui_generated/include/gui_generated/recordings_screen/RecordingsViewBase.hpp \
+ gui/include/gui/recordings_screen/RecordingsPresenter.hpp \
+ gui/include/gui/cameras_screen/CamerasView.hpp \
+ generated/gui_generated/include/gui_generated/cameras_screen/CamerasViewBase.hpp \
+ gui/include/gui/cameras_screen/CamerasPresenter.hpp \
+ gui/include/gui/doors_screen/DoorsView.hpp \
+ generated/gui_generated/include/gui_generated/doors_screen/DoorsViewBase.hpp \
+ gui/include/gui/doors_screen/DoorsPresenter.hpp \
+ gui/include/gui/call_screen/CallView.hpp \
+ generated/gui_generated/include/gui_generated/call_screen/CallViewBase.hpp \
+ gui/include/gui/call_screen/CallPresenter.hpp \
  generated/texts/include/texts/TextKeysAndLanguages.hpp \
  ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
@@ -161,21 +161,29 @@ generated/gui_generated/include/gui_generated/common/FrontendHeapBase.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/NoTransition.hpp:
 
+../Middlewares/ST/touchgfx/framework/include/touchgfx/transitions/SlideTransition.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/EasingEquations.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/SnapshotWidget.hpp:
+
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+
 gui/include/gui/common/FrontendApplication.hpp:
 
-gui/include/gui/home_screen/homeView.hpp:
+gui/include/gui/home_screen/HomeView.hpp:
 
-generated/gui_generated/include/gui_generated/home_screen/homeViewBase.hpp:
+generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
 
-gui/include/gui/home_screen/homePresenter.hpp:
+gui/include/gui/home_screen/HomePresenter.hpp:
 
 gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:
 
@@ -197,43 +205,35 @@ gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
 
-gui/include/gui/call_screen/callView.hpp:
+gui/include/gui/settings_screen/SettingsView.hpp:
 
-generated/gui_generated/include/gui_generated/call_screen/callViewBase.hpp:
+generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp:
 
-gui/include/gui/call_screen/callPresenter.hpp:
+gui/include/gui/settings_screen/SettingsPresenter.hpp:
 
-gui/include/gui/settings_screen/settingsView.hpp:
+gui/include/gui/recordings_screen/RecordingsView.hpp:
 
-generated/gui_generated/include/gui_generated/settings_screen/settingsViewBase.hpp:
+generated/gui_generated/include/gui_generated/recordings_screen/RecordingsViewBase.hpp:
 
-gui/include/gui/settings_screen/settingsPresenter.hpp:
+gui/include/gui/recordings_screen/RecordingsPresenter.hpp:
 
-gui/include/gui/recordings_screen/recordingsView.hpp:
+gui/include/gui/cameras_screen/CamerasView.hpp:
 
-generated/gui_generated/include/gui_generated/recordings_screen/recordingsViewBase.hpp:
+generated/gui_generated/include/gui_generated/cameras_screen/CamerasViewBase.hpp:
 
-gui/include/gui/recordings_screen/recordingsPresenter.hpp:
+gui/include/gui/cameras_screen/CamerasPresenter.hpp:
 
-gui/include/gui/cameras_screen/camerasView.hpp:
+gui/include/gui/doors_screen/DoorsView.hpp:
 
-generated/gui_generated/include/gui_generated/cameras_screen/camerasViewBase.hpp:
+generated/gui_generated/include/gui_generated/doors_screen/DoorsViewBase.hpp:
 
-gui/include/gui/cameras_screen/camerasPresenter.hpp:
+gui/include/gui/doors_screen/DoorsPresenter.hpp:
 
-gui/include/gui/doors_screen/doorsView.hpp:
+gui/include/gui/call_screen/CallView.hpp:
 
-generated/gui_generated/include/gui_generated/doors_screen/doorsViewBase.hpp:
+generated/gui_generated/include/gui_generated/call_screen/CallViewBase.hpp:
 
-gui/include/gui/doors_screen/doorsPresenter.hpp:
-
-gui/include/gui/donotdisturb_screen/doNotDisturbView.hpp:
-
-generated/gui_generated/include/gui_generated/donotdisturb_screen/doNotDisturbViewBase.hpp:
-
-gui/include/gui/donotdisturb_screen/doNotDisturbPresenter.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
+gui/include/gui/call_screen/CallPresenter.hpp:
 
 generated/texts/include/texts/TextKeysAndLanguages.hpp:
 

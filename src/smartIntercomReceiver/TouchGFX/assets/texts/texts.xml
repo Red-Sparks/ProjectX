@@ -4,17 +4,11 @@
     <Text Id="__SingleUse_W287" TypographyId="Default" Alignment="Center" Direction="LTR">
       <Translation Language="GB">&lt;&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_YFPV" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">&lt;&gt;</Translation>
-    </Text>
-    <Text Id="__SingleUse_H1I2" TypographyId="Default" Alignment="Left" Direction="LTR">
+    <Text Id="__SingleUse_H1I2" TypographyId="Headers" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Home</Translation>
     </Text>
     <Text Id="__SingleUse_1QGA" TypographyId="Default" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Do not disturb</Translation>
-    </Text>
-    <Text Id="__SingleUse_9NB6" TypographyId="Default" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">call</Translation>
     </Text>
     <Text Id="__SingleUse_97OY" TypographyId="Default" Alignment="Center" Direction="LTR">
       <Translation Language="GB">settings</Translation>
@@ -28,43 +22,41 @@
     <Text Id="__SingleUse_AIQO" TypographyId="Default" Alignment="Center" Direction="LTR">
       <Translation Language="GB">Doors</Translation>
     </Text>
-    <Text Id="__SingleUse_EZEZ" TypographyId="Default" Alignment="Center" Direction="LTR">
+    <Text Id="__SingleUse_YPD7" TypographyId="Default" Alignment="Center" Direction="LTR">
       <Translation Language="GB">&lt;&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_2AI5" TypographyId="Default" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">Settigns</Translation>
+    <Text Id="__SingleUse_RAS4" TypographyId="Headers" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Call</Translation>
     </Text>
-    <Text Id="__SingleUse_FWTA" TypographyId="Default" Alignment="Center" Direction="LTR">
+    <Text Id="__SingleUse_TCU2" TypographyId="Default" Alignment="Center" Direction="LTR">
       <Translation Language="GB">&lt;&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_9CCC" TypographyId="Default" Alignment="Left" Direction="LTR">
+    <Text Id="__SingleUse_BXU1" TypographyId="Headers" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Settings</Translation>
+    </Text>
+    <Text Id="__SingleUse_UAZL" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_2FE5" TypographyId="Headers" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Recordings</Translation>
     </Text>
-    <Text Id="__SingleUse_BRAS" TypographyId="Default" Alignment="Center" Direction="LTR">
+    <Text Id="__SingleUse_45X5" TypographyId="Default" Alignment="Center" Direction="LTR">
       <Translation Language="GB">&lt;&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_JCJB" TypographyId="Default" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">Cameras</Translation>
+    <Text Id="__SingleUse_RFOM" TypographyId="Headers" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Settings</Translation>
     </Text>
-    <Text Id="__SingleUse_BIIX" TypographyId="Default" Alignment="Center" Direction="LTR">
+    <Text Id="__SingleUse_XYKD" TypographyId="Default" Alignment="Center" Direction="LTR">
       <Translation Language="GB">&lt;&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_2803" TypographyId="Default" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">Doors</Translation>
-    </Text>
-    <Text Id="__SingleUse_2OTS" TypographyId="Default" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">Do not disturb</Translation>
-    </Text>
-    <Text Id="__SingleUse_YZQ6" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">&lt;&gt;</Translation>
-    </Text>
-    <Text Id="__SingleUse_47FO" TypographyId="Default" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">Home</Translation>
+    <Text Id="__SingleUse_H65B" TypographyId="Headers" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Settings</Translation>
     </Text>
   </Texts>
   <Typographies>
     <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" />
     <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" FallbackCharacter="?" />
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="Headers" Font="verdana.ttf" Size="25" Bpp="4" FallbackCharacter="?" />
   </Typographies>
 </TextDatabase>

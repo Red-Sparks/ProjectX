@@ -17,19 +17,19 @@ Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
 Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
 Widget.hpp:47:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
 TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	0	static
-View.hpp:36:7:touchgfx::View<callPresenter>::~View()	0	static
-callViewBase.hpp:20:13:callViewBase::~callViewBase()	0	static
-callViewBase.cpp:53:6:virtual void callViewBase::setupScreen()	0	static
-Callback.hpp:357:8:touchgfx::Callback<callViewBase, const touchgfx::AbstractButton&>::~Callback()	0	static
-Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = callViewBase; T1 = const touchgfx::AbstractButton&]	8	static
-Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = callViewBase; T1 = const touchgfx::AbstractButton&]	0	static
+View.hpp:36:7:touchgfx::View<CallPresenter>::~View()	0	static
+CallViewBase.hpp:21:13:CallViewBase::~CallViewBase()	0	static
+CallViewBase.cpp:50:6:virtual void CallViewBase::setupScreen()	0	static
+Callback.hpp:357:8:touchgfx::Callback<CallViewBase, const touchgfx::AbstractButton&>::~Callback()	0	static
+Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = CallViewBase; T1 = const touchgfx::AbstractButton&]	8	static
+Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = CallViewBase; T1 = const touchgfx::AbstractButton&]	0	static
 TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	8	static
-Callback.hpp:357:8:virtual touchgfx::Callback<callViewBase, const touchgfx::AbstractButton&>::~Callback()	8	static
-View.hpp:36:7:virtual touchgfx::View<callPresenter>::~View()	8	static
-callViewBase.hpp:20:13:virtual callViewBase::~callViewBase()	8	static
-callViewBase.cpp:58:6:void callViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	8	static
+Callback.hpp:357:8:virtual touchgfx::Callback<CallViewBase, const touchgfx::AbstractButton&>::~Callback()	8	static
+View.hpp:36:7:virtual touchgfx::View<CallPresenter>::~View()	8	static
+CallViewBase.hpp:21:13:virtual CallViewBase::~CallViewBase()	8	static
+CallViewBase.cpp:55:6:void CallViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	8	static
 Drawable.hpp:48:5:touchgfx::Drawable::Drawable()	0	static
 Drawable.hpp:326:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
 Drawable.hpp:216:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	16	static
 Box.hpp:33:5:touchgfx::Box::Box()	8	static
-callViewBase.cpp:9:1:callViewBase::callViewBase()	88	static
+CallViewBase.cpp:9:1:CallViewBase::CallViewBase()	80	static

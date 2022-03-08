@@ -2,167 +2,95 @@
   "Application": {
     "Screens": [
       {
-        "Name": "enterScreen",
+        "Name": "Home",
         "Components": [
           {
-            "Type": "Box",
+            "Type": "Image",
             "Name": "background",
-            "Width": 272,
-            "Height": 480,
-            "Color": {
-              "Red": 162,
-              "Green": 242,
-              "Blue": 240
-            }
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_480x272px.png"
           },
           {
             "Type": "Container",
-            "Name": "keys",
-            "X": 36,
-            "Y": 160,
-            "Width": 200,
-            "Height": 300,
+            "Name": "header",
+            "Width": 480,
+            "Height": 50,
             "Components": [
               {
-                "Type": "ButtonWithLabel",
-                "Name": "btn1",
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "TextId": "__SingleUse_F8AW",
-                "TextRotation": "0"
+                "Type": "Box",
+                "Name": "headerBackground",
+                "Width": 480,
+                "Height": 50,
+                "Alpha": 50
               },
               {
-                "Type": "ButtonWithLabel",
-                "Name": "btn2",
-                "X": 70,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "TextId": "__SingleUse_GMC6",
-                "TextRotation": "0"
+                "Type": "DigitalClock",
+                "Name": "clock",
+                "Y": 13,
+                "Width": 100,
+                "Height": 25,
+                "TextColor": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "TextId": "__SingleUse_QZU9",
+                "InitialHour": 9,
+                "InitialMinute": 41
               },
               {
-                "Type": "ButtonWithLabel",
-                "Name": "btn3",
-                "X": 140,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "TextId": "__SingleUse_L58Y",
-                "TextRotation": "0"
-              },
+                "Type": "TextArea",
+                "Name": "nameOfPage",
+                "X": 204,
+                "Y": 10,
+                "Width": 73,
+                "Height": 31,
+                "TextId": "__SingleUse_7LJD",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "key",
+            "Y": 76,
+            "Width": 120,
+            "Height": 120,
+            "Components": [
               {
-                "Type": "ButtonWithLabel",
-                "Name": "btn4",
-                "Y": 80,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "TextId": "__SingleUse_T1Z7",
-                "TextRotation": "0"
-              },
-              {
-                "Type": "ButtonWithLabel",
-                "Name": "btn5",
-                "X": 70,
-                "Y": 80,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "TextId": "__SingleUse_9E2Q",
-                "TextRotation": "0"
-              },
-              {
-                "Type": "ButtonWithLabel",
-                "Name": "btn6",
-                "X": 140,
-                "Y": 80,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "TextId": "__SingleUse_ED6L",
-                "TextRotation": "0"
-              },
-              {
-                "Type": "ButtonWithLabel",
-                "Name": "btn7",
-                "Y": 160,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "TextId": "__SingleUse_N8WR",
-                "TextRotation": "0"
-              },
-              {
-                "Type": "ButtonWithLabel",
-                "Name": "btn8",
-                "X": 70,
-                "Y": 160,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "TextId": "__SingleUse_8U94",
-                "TextRotation": "0"
-              },
-              {
-                "Type": "ButtonWithLabel",
-                "Name": "btn9",
-                "X": 140,
-                "Y": 160,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "TextId": "__SingleUse_R7DP",
-                "TextRotation": "0"
-              },
-              {
-                "Type": "ButtonWithLabel",
-                "Name": "btn0",
-                "X": 70,
-                "Y": 240,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "TextId": "__SingleUse_GYE1",
-                "TextRotation": "0"
+                "Type": "TextArea",
+                "Name": "textKey",
+                "X": 42,
+                "Y": 90,
+                "Width": 37,
+                "Height": 25,
+                "TextId": "__SingleUse_3ZSH",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
               },
               {
                 "Type": "ButtonWithIcon",
-                "Name": "backspace",
-                "Y": 240,
+                "Name": "buttonKey",
+                "X": 30,
+                "Y": 30,
                 "Width": 60,
                 "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "IconPressed": "outline_backspace_black_18dp.png",
-                "IconReleased": "outline_backspace_black_18dp.png",
-                "IconX": 12,
-                "IconY": 12,
-                "IconHeight": 36,
-                "IconWidth": 36
-              },
-              {
-                "Type": "ButtonWithIcon",
-                "Name": "call",
-                "X": 140,
-                "Y": 240,
-                "Width": 60,
-                "Height": 60,
-                "Pressed": "__designer\\Blue_Buttons_Round_Edge_icon_button_pressed.png",
-                "Released": "__designer\\Blue_Buttons_Round_Edge_icon_button.png",
-                "IconPressed": "outline_call_black_18dp.png",
-                "IconReleased": "outline_call_black_18dp.png",
+                "Pressed": "__designer\\Dark_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Dark_Buttons_Round_Edge_icon_button.png",
+                "IconPressed": "key.png",
+                "IconReleased": "key.png",
                 "IconX": 12,
                 "IconY": 12,
                 "IconHeight": 36,
@@ -171,267 +99,1267 @@
             ]
           },
           {
-            "Type": "DigitalClock",
-            "Name": "clock",
-            "X": 76,
-            "Y": 20,
+            "Type": "Container",
+            "Name": "call",
+            "X": 120,
+            "Y": 76,
             "Width": 120,
-            "Height": 50,
-            "TextId": "__SingleUse_E8WY",
-            "DisplayLeadingZeroForHourIndicator": true,
-            "InitialHour": 9,
-            "InitialMinute": 41
+            "Height": 120,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "textCall",
+                "X": 43,
+                "Y": 90,
+                "Width": 37,
+                "Height": 25,
+                "TextId": "__SingleUse_A8HA",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Name": "buttonCall",
+                "X": 30,
+                "Y": 30,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Dark_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Dark_Buttons_Round_Edge_icon_button.png",
+                "IconPressed": "call.png",
+                "IconReleased": "call.png",
+                "IconX": 12,
+                "IconY": 12,
+                "IconHeight": 36,
+                "IconWidth": 36
+              }
+            ]
           },
           {
             "Type": "Container",
-            "Name": "enterWindow",
-            "X": 36,
-            "Y": 90,
-            "Width": 200,
-            "Height": 50,
+            "Name": "smsKey",
+            "X": 240,
+            "Y": 76,
+            "Width": 120,
+            "Height": 120,
             "Components": [
               {
-                "Type": "BoxWithBorder",
-                "Name": "enterBackground",
-                "Width": 200,
-                "Height": 50,
+                "Type": "TextArea",
+                "Name": "textSmsKey",
+                "X": 17,
+                "Y": 90,
+                "Width": 86,
+                "Height": 25,
+                "TextId": "__SingleUse_43DR",
+                "TextRotation": "0",
                 "Color": {
-                  "Red": 185,
-                  "Green": 240,
-                  "Blue": 238
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
                 },
-                "BorderColor": {
-                  "Red": 135,
-                  "Green": 214,
-                  "Blue": 232
-                },
-                "BorderSize": 2
+                "AutoSize": true
               },
               {
+                "Type": "ButtonWithIcon",
+                "Name": "buttonSmsKey",
+                "X": 30,
+                "Y": 30,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Dark_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Dark_Buttons_Round_Edge_icon_button.png",
+                "IconPressed": "smsKey.png",
+                "IconReleased": "smsKey.png",
+                "IconX": 12,
+                "IconY": 12,
+                "IconHeight": 36,
+                "IconWidth": 36
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "sms",
+            "X": 360,
+            "Y": 76,
+            "Width": 120,
+            "Height": 120,
+            "Components": [
+              {
                 "Type": "TextArea",
-                "Name": "textArea",
-                "X": 6,
-                "Y": 13,
-                "Width": 188,
+                "Name": "textSms",
+                "X": 39,
+                "Y": 90,
+                "Width": 43,
                 "Height": 25,
-                "TextId": "__SingleUse_AFIN",
+                "TextId": "__SingleUse_MEF0",
                 "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
                 "AutoSize": true
+              },
+              {
+                "Type": "ButtonWithIcon",
+                "Name": "buttonSms",
+                "X": 30,
+                "Y": 30,
+                "Width": 60,
+                "Height": 60,
+                "Pressed": "__designer\\Dark_Buttons_Round_Edge_icon_button_pressed.png",
+                "Released": "__designer\\Dark_Buttons_Round_Edge_icon_button.png",
+                "IconPressed": "notify.png",
+                "IconReleased": "notify.png",
+                "IconX": 12,
+                "IconY": 12,
+                "IconHeight": 36,
+                "IconWidth": 36
               }
             ]
           }
         ],
         "Interactions": [
           {
-            "InteractionName": "enterToCall",
+            "InteractionName": "toKey",
             "Trigger": {
               "Type": "TriggerClicked",
-              "TriggerComponent": "call"
+              "TriggerComponent": "buttonKey"
             },
             "Action": {
               "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "callScreen"
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Key"
             }
           },
           {
-            "InteractionName": "btn1",
+            "InteractionName": "toCall",
             "Trigger": {
               "Type": "TriggerClicked",
-              "TriggerComponent": "btn1"
+              "TriggerComponent": "buttonCall"
             },
             "Action": {
-              "Type": "ActionSetText",
-              "TextId": "__SingleUse_GAYI",
-              "ActionComponent": "textArea"
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Call"
             }
           },
           {
-            "InteractionName": "btn2",
+            "InteractionName": "toSmsKey",
             "Trigger": {
               "Type": "TriggerClicked",
-              "TriggerComponent": "btn2"
+              "TriggerComponent": "buttonSmsKey"
             },
             "Action": {
-              "Type": "ActionSetText",
-              "TextId": "__SingleUse_PKOE",
-              "ActionComponent": "textArea"
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "SmsKey"
             }
           },
           {
-            "InteractionName": "btn3",
+            "InteractionName": "toSms",
             "Trigger": {
               "Type": "TriggerClicked",
-              "TriggerComponent": "btn3"
+              "TriggerComponent": "buttonSms"
             },
             "Action": {
-              "Type": "ActionSetText",
-              "TextId": "__SingleUse_333C",
-              "ActionComponent": "textArea"
-            }
-          },
-          {
-            "InteractionName": "btn4",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "btn4"
-            },
-            "Action": {
-              "Type": "ActionSetText",
-              "TextId": "__SingleUse_CYJH",
-              "ActionComponent": "textArea"
-            }
-          },
-          {
-            "InteractionName": "btn5",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "btn5"
-            },
-            "Action": {
-              "Type": "ActionSetText",
-              "TextId": "__SingleUse_0V71",
-              "ActionComponent": "textArea"
-            }
-          },
-          {
-            "InteractionName": "btn6",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "btn6"
-            },
-            "Action": {
-              "Type": "ActionSetText",
-              "TextId": "__SingleUse_5DGW",
-              "ActionComponent": "textArea"
-            }
-          },
-          {
-            "InteractionName": "btn7",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "btn7"
-            },
-            "Action": {
-              "Type": "ActionSetText",
-              "TextId": "__SingleUse_YJ0K",
-              "ActionComponent": "textArea"
-            }
-          },
-          {
-            "InteractionName": "btn8",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "btn8"
-            },
-            "Action": {
-              "Type": "ActionSetText",
-              "TextId": "__SingleUse_ABUO",
-              "ActionComponent": "textArea"
-            }
-          },
-          {
-            "InteractionName": "btn9",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "btn9"
-            },
-            "Action": {
-              "Type": "ActionSetText",
-              "TextId": "__SingleUse_0TEM",
-              "ActionComponent": "textArea"
-            }
-          },
-          {
-            "InteractionName": "btn0",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "btn0"
-            },
-            "Action": {
-              "Type": "ActionSetText",
-              "TextId": "__SingleUse_JNCX",
-              "ActionComponent": "textArea"
-            }
-          },
-          {
-            "InteractionName": "backsapce",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "backspace"
-            },
-            "Action": {
-              "Type": "ActionSetText",
-              "TextId": "__SingleUse_G5BY",
-              "ActionComponent": "textArea"
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Sms"
             }
           }
         ]
       },
       {
-        "Name": "callScreen",
+        "Name": "Key",
         "Components": [
           {
-            "Type": "Box",
+            "Type": "Image",
             "Name": "background",
-            "Width": 272,
-            "Height": 480,
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_480x272px.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "header",
+            "Width": 480,
+            "Height": 50,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "headerBackground",
+                "Width": 480,
+                "Height": 50,
+                "Alpha": 50
+              },
+              {
+                "Type": "DigitalClock",
+                "Name": "clock",
+                "Y": 13,
+                "Width": 100,
+                "Height": 25,
+                "TextColor": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "TextId": "__SingleUse_UR01",
+                "InitialHour": 9,
+                "InitialMinute": 41
+              },
+              {
+                "Type": "TextArea",
+                "Name": "nameOfPage",
+                "X": 204,
+                "Y": 10,
+                "Width": 73,
+                "Height": 31,
+                "TextId": "__SingleUse_JPZX",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textHelp",
+            "X": 143,
+            "Y": 90,
+            "Width": 195,
+            "Height": 25,
+            "TextId": "__SingleUse_C7KP",
+            "TextRotation": "0",
             "Color": {
-              "Red": 162,
-              "Green": 242,
-              "Blue": 240
+              "Red": 14,
+              "Green": 237,
+              "Blue": 237
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "Button",
+            "Name": "buttonToUnlock",
+            "X": 155,
+            "Y": 150,
+            "Width": 170,
+            "Height": 60,
+            "Pressed": "__designer\\Dark_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Dark_Buttons_Round_Edge_small.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "buttonBack",
+            "Y": 236,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "back.png",
+            "Released": "back.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "toHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonToUnlock"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Home"
             }
           },
           {
-            "Type": "DigitalClock",
-            "Name": "clock",
-            "X": 76,
-            "Y": 20,
-            "Width": 120,
-            "Height": 50,
-            "TextId": "__SingleUse_HEZI",
-            "DisplayLeadingZeroForHourIndicator": true,
-            "InitialHour": 9,
-            "InitialMinute": 41
-          },
+            "InteractionName": "returnHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Call",
+        "Components": [
           {
             "Type": "Image",
-            "Name": "userVideo",
-            "X": 8,
-            "Y": 76,
-            "Width": 256,
-            "Height": 256,
-            "RelativeFilename": "pika.png"
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_480x272px.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "header",
+            "Width": 480,
+            "Height": 50,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "headerBackground",
+                "Width": 480,
+                "Height": 50,
+                "Alpha": 50
+              },
+              {
+                "Type": "DigitalClock",
+                "Name": "clock",
+                "Y": 13,
+                "Width": 100,
+                "Height": 25,
+                "TextColor": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "TextId": "__SingleUse_1NI5",
+                "InitialHour": 9,
+                "InitialMinute": 41
+              },
+              {
+                "Type": "TextArea",
+                "Name": "nameOfPage",
+                "X": 204,
+                "Y": 10,
+                "Width": 73,
+                "Height": 31,
+                "TextId": "__SingleUse_VPEI",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              }
+            ]
           },
           {
             "Type": "ButtonWithIcon",
-            "Name": "cancelCall",
-            "X": 51,
-            "Y": 360,
+            "Name": "buttonCancel",
+            "X": 37,
+            "Y": 199,
             "Width": 170,
             "Height": 60,
-            "Pressed": "__designer\\Blue_Buttons_Round_Edge_small_pressed.png",
-            "Released": "__designer\\Blue_Buttons_Round_Edge_small.png",
+            "Pressed": "__designer\\Dark_Buttons_Round_Edge_small_pressed.png",
+            "Released": "__designer\\Dark_Buttons_Round_Edge_small.png",
             "IconPressed": "outline_phone_disabled_black_18dp.png",
             "IconReleased": "outline_phone_disabled_black_18dp.png",
             "IconX": 67,
             "IconY": 12,
             "IconHeight": 36,
-            "IconWidth": 36,
-            "ButtonStyle": "Style4"
+            "IconWidth": 36
+          },
+          {
+            "Type": "Video",
+            "Name": "video",
+            "X": 240,
+            "Y": 53,
+            "Width": 216,
+            "Height": 216,
+            "VideoFileName": "SampleVideo2_216x216.avi",
+            "AutoPlay": true,
+            "Loop": true
           }
         ],
         "Interactions": [
           {
-            "InteractionName": "cancelAndReturn",
+            "InteractionName": "stopCall",
+            "HasCompletedTrigger": true,
             "Trigger": {
               "Type": "TriggerClicked",
-              "TriggerComponent": "cancelCall"
+              "TriggerComponent": "buttonCancel"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "video"
+            }
+          },
+          {
+            "InteractionName": "toHome",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "stopCall"
             },
             "Action": {
               "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "enterScreen"
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "SmsKey",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_480x272px.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "keyboardContainer",
+            "Width": 480,
+            "Height": 272,
+            "Visible": false,
+            "Components": [
+              {
+                "Type": "Button",
+                "Name": "buttonBack",
+                "Y": 236,
+                "Width": 36,
+                "Height": 36,
+                "Pressed": "back.png",
+                "Released": "back.png"
+              },
+              {
+                "Type": "Button",
+                "Name": "buttonConfirm",
+                "X": 444,
+                "Y": 236,
+                "Width": 36,
+                "Height": 36,
+                "Pressed": "confirm.png",
+                "Released": "confirm.png"
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "fill",
+            "Width": 480,
+            "Height": 272,
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "forSms",
+                "Y": 50,
+                "Width": 480,
+                "Height": 222,
+                "Visible": false,
+                "Components": [
+                  {
+                    "Type": "Button",
+                    "Name": "buttonBackNumber",
+                    "Y": 186,
+                    "Width": 36,
+                    "Height": 36,
+                    "Pressed": "back.png",
+                    "Released": "back.png"
+                  },
+                  {
+                    "Type": "ButtonWithIcon",
+                    "Name": "buttonSms",
+                    "X": 155,
+                    "Y": 120,
+                    "Width": 170,
+                    "Height": 60,
+                    "Pressed": "__designer\\Dark_Buttons_Round_Edge_small_pressed.png",
+                    "Released": "__designer\\Dark_Buttons_Round_Edge_small.png",
+                    "IconPressed": "send.png",
+                    "IconReleased": "send.png",
+                    "IconX": 67,
+                    "IconY": 12,
+                    "IconHeight": 36,
+                    "IconWidth": 36
+                  },
+                  {
+                    "Type": "BoxWithBorder",
+                    "Name": "backgroundForSms",
+                    "X": 115,
+                    "Y": 50,
+                    "Width": 250,
+                    "Height": 50,
+                    "BorderColor": {
+                      "Red": 14,
+                      "Green": 237,
+                      "Blue": 237
+                    },
+                    "BorderSize": 2,
+                    "Alpha": 50
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "areaForSms",
+                    "X": 125,
+                    "Y": 55,
+                    "Width": 230,
+                    "Height": 40,
+                    "TextId": "__SingleUse_WPXN",
+                    "TextRotation": "0",
+                    "Wildcard1": {
+                      "UseBuffer": true,
+                      "BufferSize": 18
+                    }
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "flexForSms",
+                    "X": 115,
+                    "Y": 50,
+                    "Width": 250,
+                    "Height": 50,
+                    "Alpha": 0,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "BoxWithBorderButtonStyle",
+                        "Width": 250,
+                        "Height": 50,
+                        "LockToFlexButtonSize": true,
+                        "BorderSize": 5,
+                        "ColorReleased": {
+                          "Green": 102,
+                          "Blue": 153
+                        },
+                        "ColorPressed": {
+                          "Green": 153,
+                          "Blue": 204
+                        },
+                        "ColorBorderReleased": {
+                          "Green": 51,
+                          "Blue": 102
+                        },
+                        "ColorBorderPressed": {
+                          "Red": 51,
+                          "Green": 102,
+                          "Blue": 153
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textSms",
+                    "X": 163,
+                    "Y": 10,
+                    "Width": 155,
+                    "Height": 25,
+                    "TextId": "__SingleUse_73TH",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 14,
+                      "Green": 237,
+                      "Blue": 237
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "forNumber",
+                "Y": 50,
+                "Width": 480,
+                "Height": 222,
+                "Components": [
+                  {
+                    "Type": "Button",
+                    "Name": "buttonBackHome",
+                    "Y": 186,
+                    "Width": 36,
+                    "Height": 36,
+                    "Pressed": "back.png",
+                    "Released": "back.png"
+                  },
+                  {
+                    "Type": "ButtonWithIcon",
+                    "Name": "buttonSendNumber",
+                    "X": 155,
+                    "Y": 120,
+                    "Width": 170,
+                    "Height": 60,
+                    "Pressed": "__designer\\Dark_Buttons_Round_Edge_small_pressed.png",
+                    "Released": "__designer\\Dark_Buttons_Round_Edge_small.png",
+                    "IconPressed": "send.png",
+                    "IconReleased": "send.png",
+                    "IconX": 67,
+                    "IconY": 12,
+                    "IconHeight": 36,
+                    "IconWidth": 36
+                  },
+                  {
+                    "Type": "BoxWithBorder",
+                    "Name": "backgroundForNumber",
+                    "X": 115,
+                    "Y": 50,
+                    "Width": 250,
+                    "Height": 50,
+                    "BorderColor": {
+                      "Red": 14,
+                      "Green": 237,
+                      "Blue": 237
+                    },
+                    "BorderSize": 2,
+                    "Alpha": 50
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "areaForNumber",
+                    "X": 125,
+                    "Y": 55,
+                    "Width": 230,
+                    "Height": 40,
+                    "TextId": "__SingleUse_0ONI",
+                    "TextRotation": "0",
+                    "Wildcard1": {
+                      "UseBuffer": true,
+                      "BufferSize": 18
+                    }
+                  },
+                  {
+                    "Type": "FlexButton",
+                    "Name": "flexForNumber",
+                    "X": 115,
+                    "Y": 50,
+                    "Width": 250,
+                    "Height": 50,
+                    "Alpha": 0,
+                    "ButtonTrigger": {
+                      "Type": "ClickButtonTrigger"
+                    },
+                    "ButtonStyles": [
+                      {
+                        "Type": "BoxWithBorderButtonStyle",
+                        "Width": 250,
+                        "Height": 50,
+                        "LockToFlexButtonSize": true,
+                        "BorderSize": 5,
+                        "ColorReleased": {
+                          "Green": 102,
+                          "Blue": 153
+                        },
+                        "ColorPressed": {
+                          "Green": 153,
+                          "Blue": 204
+                        },
+                        "ColorBorderReleased": {
+                          "Green": 51,
+                          "Blue": 102
+                        },
+                        "ColorBorderPressed": {
+                          "Red": 51,
+                          "Green": 102,
+                          "Blue": 153
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "textNumber",
+                    "X": 82,
+                    "Y": 10,
+                    "Width": 316,
+                    "Height": 25,
+                    "TextId": "__SingleUse_WCMZ",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 14,
+                      "Green": 237,
+                      "Blue": 237
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              },
+              {
+                "Type": "Container",
+                "Name": "header",
+                "Width": 480,
+                "Height": 50,
+                "Components": [
+                  {
+                    "Type": "Box",
+                    "Name": "headerBackground",
+                    "Width": 480,
+                    "Height": 50,
+                    "Alpha": 50
+                  },
+                  {
+                    "Type": "DigitalClock",
+                    "Name": "clock",
+                    "Y": 13,
+                    "Width": 100,
+                    "Height": 25,
+                    "TextColor": {
+                      "Red": 14,
+                      "Green": 237,
+                      "Blue": 237
+                    },
+                    "TextId": "__SingleUse_8A3V",
+                    "InitialHour": 9,
+                    "InitialMinute": 41
+                  },
+                  {
+                    "Type": "TextArea",
+                    "Name": "nameOfPage",
+                    "X": 185,
+                    "Y": 10,
+                    "Width": 110,
+                    "Height": 31,
+                    "TextId": "__SingleUse_51JU",
+                    "TextRotation": "0",
+                    "Color": {
+                      "Red": 14,
+                      "Green": 237,
+                      "Blue": 237
+                    },
+                    "AutoSize": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "toHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonBackHome"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "buttonNumber",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexForNumber"
+            },
+            "Action": {
+              "Type": "ActionCustom2",
+              "ActionCustomTypeName": "Call SmsKey keyboardSelectedVar",
+              "ParameterValue": "0",
+              "ActionComponent": "SmsKey"
+            }
+          },
+          {
+            "InteractionName": "buttonSms",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexForSms"
+            },
+            "Action": {
+              "Type": "ActionCustom2",
+              "ActionCustomTypeName": "Call SmsKey keyboardSelectedVar",
+              "ParameterValue": "1",
+              "ActionComponent": "SmsKey"
+            }
+          },
+          {
+            "InteractionName": "keyboardSelected",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call SmsKey keyboardSelectedVar"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "keyboardSelected"
+            }
+          },
+          {
+            "InteractionName": "hideFill",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "keyboardSelected"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "fill"
+            }
+          },
+          {
+            "InteractionName": "toKeyboard",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "hideFill"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "keyboardContainer"
+            }
+          },
+          {
+            "InteractionName": "hideSms",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonBackNumber"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "forSms"
+            }
+          },
+          {
+            "InteractionName": "showNumber",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "hideSms"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "forNumber"
+            }
+          },
+          {
+            "InteractionName": "hideNumber",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonSendNumber"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "forNumber"
+            }
+          },
+          {
+            "InteractionName": "ShowSms",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "hideNumber"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "forSms"
+            }
+          },
+          {
+            "InteractionName": "sendSms",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonSms"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "hideKeyboard",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonBack"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "keyboardContainer"
+            }
+          },
+          {
+            "InteractionName": "showFill",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "hideKeyboard"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "fill"
+            }
+          },
+          {
+            "InteractionName": "confirmText",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonConfirm"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "getBuffer"
+            }
+          },
+          {
+            "InteractionName": "hideKeyboardConfirm",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "confirmText"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "keyboardContainer"
+            }
+          },
+          {
+            "InteractionName": "showFillConfirm",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "hideKeyboardConfirm"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "fill"
+            }
+          },
+          {
+            "InteractionName": "clearBuffer",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "toKeyboard"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "clearBuffer"
+            }
+          },
+          {
+            "InteractionName": "updateScreen",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "confirmText"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateScreen"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "keyboardSelectedVar",
+            "HasValue": true,
+            "ValueType": "uint8_t"
+          }
+        ]
+      },
+      {
+        "Name": "Sms",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__designer\\Dark_Backgrounds_Main_bg_texture_480x272px.png"
+          },
+          {
+            "Type": "Container",
+            "Name": "header",
+            "Width": 480,
+            "Height": 50,
+            "Components": [
+              {
+                "Type": "Box",
+                "Name": "headerBackground",
+                "Width": 480,
+                "Height": 50,
+                "Alpha": 50
+              },
+              {
+                "Type": "DigitalClock",
+                "Name": "clock",
+                "Y": 13,
+                "Width": 100,
+                "Height": 25,
+                "TextColor": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "TextId": "__SingleUse_7XLK",
+                "InitialHour": 9,
+                "InitialMinute": 41
+              },
+              {
+                "Type": "TextArea",
+                "Name": "nameOfPage",
+                "X": 213,
+                "Y": 10,
+                "Width": 54,
+                "Height": 31,
+                "TextId": "__SingleUse_L2PT",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "forSms",
+            "X": 65,
+            "Y": 120,
+            "Width": 350,
+            "Height": 140,
+            "Components": [
+              {
+                "Type": "ButtonWithIcon",
+                "Name": "buttonSend",
+                "X": 90,
+                "Y": 80,
+                "Width": 170,
+                "Height": 60,
+                "Pressed": "__designer\\Dark_Buttons_Round_Edge_small_pressed.png",
+                "Released": "__designer\\Dark_Buttons_Round_Edge_small.png",
+                "IconPressed": "send.png",
+                "IconReleased": "send.png",
+                "IconX": 67,
+                "IconY": 12,
+                "IconHeight": 36,
+                "IconWidth": 36
+              },
+              {
+                "Type": "BoxWithBorder",
+                "Name": "backgroundForSms",
+                "X": 50,
+                "Y": 31,
+                "Width": 250,
+                "Height": 40,
+                "BorderColor": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "BorderSize": 2,
+                "Alpha": 50
+              },
+              {
+                "Type": "TextArea",
+                "Name": "areaForSms",
+                "X": 60,
+                "Y": 36,
+                "Width": 230,
+                "Height": 30,
+                "TextId": "__SingleUse_25VU",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 18
+                }
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexForSms",
+                "X": 50,
+                "Y": 31,
+                "Width": 250,
+                "Height": 40,
+                "Alpha": 0,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "Width": 250,
+                    "Height": 40,
+                    "LockToFlexButtonSize": true,
+                    "BorderSize": 5,
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "TextArea",
+                "Name": "textSms",
+                "X": 125,
+                "Y": 6,
+                "Width": 101,
+                "Height": 25,
+                "TextId": "__SingleUse_JZ77",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "forReceiver",
+            "X": 65,
+            "Y": 50,
+            "Width": 350,
+            "Height": 70,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "areaForReceiver",
+                "X": 60,
+                "Y": 35,
+                "Width": 230,
+                "Height": 30,
+                "TextId": "__SingleUse_S9Q6",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 18
+                }
+              },
+              {
+                "Type": "BoxWithBorder",
+                "Name": "backgroundForNumber",
+                "X": 50,
+                "Y": 30,
+                "Width": 250,
+                "Height": 40,
+                "BorderColor": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "BorderSize": 2,
+                "Alpha": 50
+              },
+              {
+                "Type": "FlexButton",
+                "Name": "flexForReceiver",
+                "X": 50,
+                "Y": 30,
+                "Width": 250,
+                "Height": 40,
+                "Alpha": 0,
+                "ButtonTrigger": {
+                  "Type": "ClickButtonTrigger"
+                },
+                "ButtonStyles": [
+                  {
+                    "Type": "BoxWithBorderButtonStyle",
+                    "Width": 250,
+                    "Height": 40,
+                    "LockToFlexButtonSize": true,
+                    "BorderSize": 5,
+                    "ColorReleased": {
+                      "Green": 102,
+                      "Blue": 153
+                    },
+                    "ColorPressed": {
+                      "Green": 153,
+                      "Blue": 204
+                    },
+                    "ColorBorderReleased": {
+                      "Green": 51,
+                      "Blue": 102
+                    },
+                    "ColorBorderPressed": {
+                      "Red": 51,
+                      "Green": 102,
+                      "Blue": 153
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "TextArea",
+                "Name": "textForReceiver",
+                "X": 95,
+                "Y": 5,
+                "Width": 161,
+                "Height": 25,
+                "TextId": "__SingleUse_M03U",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 14,
+                  "Green": 237,
+                  "Blue": 237
+                },
+                "AutoSize": true
+              }
+            ]
+          },
+          {
+            "Type": "Button",
+            "Name": "buttonBack",
+            "Y": 236,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "back.png",
+            "Released": "back.png"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "toHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonSend"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "returnBack",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonBack"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Home"
             }
           }
         ]
@@ -444,7 +1372,7 @@
       "Height": 272
     },
     "SelectedColorDepth": 16,
-    "StartupScreenName": "enterScreen",
+    "StartupScreenName": "Home",
     "SelectedStartupLanguage": "GB",
     "Skin": "Blue",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
@@ -483,7 +1411,7 @@
     "LandscapeSkinY": 0,
     "PortraitSkinX": 0,
     "PortraitSkinY": 0,
-    "DisplayOrientation": "Portrait",
+    "DisplayOrientation": "Landscape",
     "Family": "STM32F7"
   },
   "Version": "4.18.1",

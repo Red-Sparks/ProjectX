@@ -1,16 +1,16 @@
-#include <gui/recordings_screen/recordingsView.hpp>
+#include <gui/recordings_screen/RecordingsView.hpp>
 
-recordingsView::recordingsView()
+RecordingsView::RecordingsView()
 {
 
 }
 
-void recordingsView::setupScreen()
+void RecordingsView::setupScreen()
 {
-    recordingsViewBase::setupScreen();
+    RecordingsViewBase::setupScreen();
 }
 
-void recordingsView::tearDownScreen()
+void RecordingsView::tearDownScreen()
 {
-    recordingsViewBase::tearDownScreen();
+    RecordingsViewBase::tearDownScreen();
 }

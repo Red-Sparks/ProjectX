@@ -1,7 +1,7 @@
-Application/User/gui/homePresenter.o: \
- D:/zigal0/stm32/Smart-Intercom/src/receiver/smartIntercomReceiver/TouchGFX/gui/src/home_screen/homePresenter.cpp \
- ../../TouchGFX/gui/include/gui/home_screen/homeView.hpp \
- ../../TouchGFX/generated/gui_generated/include/gui_generated/home_screen/homeViewBase.hpp \
+Application/User/gui/HomePresenter.o: \
+ D:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/gui/src/home_screen/HomePresenter.cpp \
+ ../../TouchGFX/gui/include/gui/home_screen/HomeView.hpp \
+ ../../TouchGFX/generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \
@@ -39,10 +39,11 @@ Application/User/gui/homePresenter.o: \
  ../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp \
  ../../TouchGFX/gui/include/gui/model/Model.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp \
- ../../TouchGFX/gui/include/gui/home_screen/homePresenter.hpp \
+ ../../TouchGFX/gui/include/gui/home_screen/HomePresenter.hpp \
  ../../TouchGFX/gui/include/gui/model/ModelListener.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp \
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
@@ -54,9 +55,9 @@ Application/User/gui/homePresenter.o: \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp
 
-../../TouchGFX/gui/include/gui/home_screen/homeView.hpp:
+../../TouchGFX/gui/include/gui/home_screen/HomeView.hpp:
 
-../../TouchGFX/generated/gui_generated/include/gui_generated/home_screen/homeViewBase.hpp:
+../../TouchGFX/generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp:
 
 ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
 
@@ -132,13 +133,15 @@ Application/User/gui/homePresenter.o: \
 
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:
 
-../../TouchGFX/gui/include/gui/home_screen/homePresenter.hpp:
+../../TouchGFX/gui/include/gui/home_screen/HomePresenter.hpp:
 
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:
+
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:
 

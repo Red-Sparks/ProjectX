@@ -6,18 +6,19 @@
 
 #include <gui/common/FrontendApplication.hpp>
 #include <mvp/View.hpp>
-#include <gui/doors_screen/doorsPresenter.hpp>
+#include <gui/doors_screen/DoorsPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
+#include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/containers/Container.hpp>
 #include <touchgfx/containers/clock/DigitalClock.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
-#include <touchgfx/widgets/ButtonWithIcon.hpp>
+#include <touchgfx/widgets/Button.hpp>
 
-class doorsViewBase : public touchgfx::View<doorsPresenter>
+class DoorsViewBase : public touchgfx::View<DoorsPresenter>
 {
 public:
-    doorsViewBase();
-    virtual ~doorsViewBase() {}
+    DoorsViewBase();
+    virtual ~DoorsViewBase() {}
     virtual void setupScreen();
 
 protected:
@@ -29,20 +30,19 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
+    touchgfx::Image background;
     touchgfx::Container head;
     touchgfx::Box headBackground;
     touchgfx::DigitalClock clock;
     touchgfx::TextArea header;
-    touchgfx::Container body;
-    touchgfx::Box background;
-    touchgfx::ButtonWithIcon toHome;
+    touchgfx::Button buttonToHome;
 
 private:
 
     /*
      * Callback Declarations
      */
-    touchgfx::Callback<doorsViewBase, const touchgfx::AbstractButton&> buttonCallback;
+    touchgfx::Callback<DoorsViewBase, const touchgfx::AbstractButton&> buttonCallback;
 
     /*
      * Callback Handler Declarations

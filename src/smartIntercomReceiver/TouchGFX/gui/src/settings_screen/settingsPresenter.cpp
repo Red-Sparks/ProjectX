@@ -1,18 +1,18 @@
-#include <gui/settings_screen/settingsView.hpp>
-#include <gui/settings_screen/settingsPresenter.hpp>
+#include <gui/settings_screen/SettingsView.hpp>
+#include <gui/settings_screen/SettingsPresenter.hpp>
 
-settingsPresenter::settingsPresenter(settingsView& v)
+SettingsPresenter::SettingsPresenter(SettingsView& v)
     : view(v)
 {
 
 }
 
-void settingsPresenter::activate()
+void SettingsPresenter::activate()
 {
 
 }
 
-void settingsPresenter::deactivate()
+void SettingsPresenter::deactivate()
 {
 
 }
