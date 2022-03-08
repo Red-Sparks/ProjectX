@@ -1,5 +1,0 @@
-callScreenPresenter.hpp:28:13:callScreenPresenter::~callScreenPresenter()	0	static
-callScreenPresenter.cpp:10:6:virtual void callScreenPresenter::activate()	0	static
-callScreenPresenter.hpp:28:13:virtual callScreenPresenter::~callScreenPresenter()	8	static
-callScreenPresenter.hpp:28:13:virtual void* callScreenPresenter::_ZThn4_N19callScreenPresenterD1Ev()	0	static
-callScreenPresenter.cpp:4:1:callScreenPresenter::callScreenPresenter(callScreenView&)	8	static

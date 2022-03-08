@@ -1,8 +1,0 @@
-SmsKeyPresenter.hpp:28:13:SmsKeyPresenter::~SmsKeyPresenter()	0	static
-TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	0	static
-SmsKeyPresenter.cpp:10:6:virtual void SmsKeyPresenter::activate()	0	static
-SmsKeyPresenter.hpp:28:13:virtual SmsKeyPresenter::~SmsKeyPresenter()	8	static
-TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	8	static
-SmsKeyPresenter.hpp:28:13:virtual void* SmsKeyPresenter::_ZThn4_N15SmsKeyPresenterD1Ev()	0	static
-SmsKeyPresenter.cpp:4:1:SmsKeyPresenter::SmsKeyPresenter(SmsKeyView&)	8	static
-SmsKeyPresenter.cpp:18:1:cpp)	0	static

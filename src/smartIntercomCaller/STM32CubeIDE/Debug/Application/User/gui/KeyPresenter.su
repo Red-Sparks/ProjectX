@@ -1,5 +1,0 @@
-KeyPresenter.hpp:28:13:KeyPresenter::~KeyPresenter()	0	static
-KeyPresenter.cpp:10:6:virtual void KeyPresenter::activate()	0	static
-KeyPresenter.hpp:28:13:virtual KeyPresenter::~KeyPresenter()	8	static
-KeyPresenter.hpp:28:13:virtual void* KeyPresenter::_ZThn4_N12KeyPresenterD1Ev()	0	static
-KeyPresenter.cpp:4:1:KeyPresenter::KeyPresenter(KeyView&)	8	static

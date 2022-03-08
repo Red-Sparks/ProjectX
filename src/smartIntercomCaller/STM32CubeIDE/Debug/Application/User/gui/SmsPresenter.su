@@ -1,5 +1,0 @@
-SmsPresenter.hpp:28:13:SmsPresenter::~SmsPresenter()	0	static
-SmsPresenter.cpp:10:6:virtual void SmsPresenter::activate()	0	static
-SmsPresenter.hpp:28:13:virtual SmsPresenter::~SmsPresenter()	8	static
-SmsPresenter.hpp:28:13:virtual void* SmsPresenter::_ZThn4_N12SmsPresenterD1Ev()	0	static
-SmsPresenter.cpp:4:1:SmsPresenter::SmsPresenter(SmsView&)	8	static
