@@ -55,3 +55,423 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-02-23 10:17:25.141
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-03-08 10:20:42.399 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-08 10:21:05.923
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-08 10:21:06.104
+!MESSAGE Log4j initialized with config file D:\zigal0\stm32\Smart-Intercom\src\caller\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-08 10:21:20.396
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 10:21:20.821
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/callScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 10:21:20.821
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/enterScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 10:21:20.823
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 10:21:20.823
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 10:21:20.823
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 10:21:20.824
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 10:21:20.855
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 10:21:20.855
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 10:21:20.856
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 10:21:20.856
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenView.cpp from Makefile generation (invalid resource)
+!SESSION 2022-03-08 10:22:05.179 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/D:/zigal0/stm32/Smart-Intercom/src/caller/
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-08 10:22:09.642
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-08 10:22:09.688
+!MESSAGE Log4j initialized with config file D:\zigal0\stm32\Smart-Intercom\src\caller\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-08 10:22:14.956
+!MESSAGE Started RMI Server, listening on port 41338
+!SESSION 2022-03-08 10:32:56.766 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-08 10:33:15.389
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-08 10:33:15.437
+!MESSAGE Log4j initialized with config file D:\zigal0\stm32\Smart-Intercom\src\caller\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-08 10:33:20.745
+!MESSAGE Started RMI Server, listening on port 41338
+!SESSION 2022-03-08 12:01:30.747 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-08 12:01:44.333
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-08 12:01:44.385
+!MESSAGE Log4j initialized with config file D:\zigal0\stm32\Smart-Intercom\src\caller\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-08 12:01:50.908
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 13:59:40.330
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/callScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 13:59:40.330
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/enterScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 13:59:40.331
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 13:59:40.332
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 13:59:40.332
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 13:59:40.333
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 13:59:40.392
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 13:59:40.393
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 13:59:40.393
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 13:59:40.393
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:00:57.645
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/callScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:00:57.646
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/enterScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:00:57.646
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:00:57.646
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:00:57.647
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:00:57.647
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:00:57.694
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:00:57.695
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:00:57.695
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:00:57.695
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:01:32.210
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/callScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:01:32.211
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/enterScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:01:32.211
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:01:32.212
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:01:32.212
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:01:32.212
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:01:32.259
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:01:32.259
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:01:32.260
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:01:32.260
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:04:51.771
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/callScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:04:51.771
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/enterScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:04:51.772
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:04:51.772
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:04:51.772
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:04:51.772
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:04:51.817
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:04:51.817
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:04:51.817
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:04:51.817
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:05:01.750
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/callScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:05:01.750
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/enterScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:05:01.750
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:05:01.751
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:05:01.751
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:05:01.751
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:05:01.798
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:05:01.799
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:05:01.799
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 14:05:01.799
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:04.533
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/callScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:04.534
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/enterScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:04.534
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:04.534
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:04.535
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:04.535
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:04.593
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:04.594
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:04.594
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:04.594
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:24.831
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/callScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:24.832
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/enterScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:24.832
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:24.833
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:24.833
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:24.833
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:24.888
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:24.888
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:24.888
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:10:24.888
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:13:57.995
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/callScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:13:57.996
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/enterScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:13:57.996
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:13:57.996
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:13:57.997
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:13:57.997
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:13:58.042
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:13:58.042
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:13:58.042
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:13:58.043
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:14:31.056
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/callScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:14:31.056
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/enterScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:14:31.056
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:14:31.056
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:14:31.057
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:14:31.057
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:14:31.119
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:14:31.119
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:14:31.119
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:14:31.119
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:16.946
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/callScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:16.947
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/enterScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:16.947
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:16.947
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:16.947
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:16.948
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:17.002
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:17.002
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:17.002
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:17.002
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:27.604
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/callScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:27.605
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/enterScreenViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:27.605
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:27.605
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_icon_button_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:27.605
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:27.606
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/generated/image_Blue_Buttons_Round_Edge_small_pressed.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:27.648
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:27.648
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/callScreenView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:27.648
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-08 17:54:27.648
+!MESSAGE Ignored L/STM32F746G_DISCO/Application/User/gui/enterScreenView.cpp from Makefile generation (invalid resource)

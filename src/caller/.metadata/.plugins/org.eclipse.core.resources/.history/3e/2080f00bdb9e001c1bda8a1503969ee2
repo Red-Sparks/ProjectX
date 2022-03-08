@@ -1,0 +1,19 @@
+#ifndef SMSKEYVIEW_HPP
+#define SMSKEYVIEW_HPP
+
+#include <gui_generated/smskey_screen/SmsKeyViewBase.hpp>
+#include <gui/smskey_screen/SmsKeyPresenter.hpp>
+
+class SmsKeyView : public SmsKeyViewBase
+{
+public:
+    SmsKeyView();
+    virtual ~SmsKeyView() {}
+    virtual void setupScreen();
+    virtual void tearDownScreen();
+    virtual void keyboardSelected(uint8_t value);
+    virtual void updateScreen();
+protected:
+};
+
+#endif // SMSKEYVIEW_HPP

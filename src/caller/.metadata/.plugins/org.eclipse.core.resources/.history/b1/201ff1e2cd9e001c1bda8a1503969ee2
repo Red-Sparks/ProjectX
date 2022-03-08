@@ -1,0 +1,16 @@
+#include <gui/smskey_screen/SmsKeyView.hpp>
+
+SmsKeyView::SmsKeyView()
+{
+
+}
+
+void SmsKeyView::setupScreen()
+{
+    SmsKeyViewBase::setupScreen();
+}
+
+void SmsKeyView::tearDownScreen()
+{
+    SmsKeyViewBase::tearDownScreen();
+}

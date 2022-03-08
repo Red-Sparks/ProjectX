@@ -27,6 +27,7 @@
 #include <touchgfx/events/DragEvent.hpp>
 #include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/widgets/TextAreaWithWildcard.hpp>
+#include <string.h>
 
 namespace touchgfx
 {
@@ -199,6 +200,15 @@ public:
     Unicode::UnicodeChar* getBuffer() const
     {
         return buffer;
+    }
+
+    /**
+     * Clears the buffer.
+     */
+    void clearBuffer()
+    {
+    	memset(buffer, 0, bufferSize);
+    	setBufferPosition(0);
     }
 
     /**

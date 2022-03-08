@@ -1,82 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.18.1">
   <Texts>
-    <Text Id="__SingleUse_E8WY" TypographyId="Large" Alignment="Center" Direction="LTR">
+    <Text Id="__SingleUse_QZU9" TypographyId="Default" Alignment="Center" Direction="LTR">
       <Translation Language="GB">&lt;&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_HEZI" TypographyId="Large" Alignment="Center" Direction="LTR">
+    <Text Id="__SingleUse_7LJD" TypographyId="Header" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Home</Translation>
+    </Text>
+    <Text Id="__SingleUse_3ZSH" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Key</Translation>
+    </Text>
+    <Text Id="__SingleUse_A8HA" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Call</Translation>
+    </Text>
+    <Text Id="__SingleUse_43DR" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Sms key</Translation>
+    </Text>
+    <Text Id="__SingleUse_MEF0" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Sms</Translation>
+    </Text>
+    <Text Id="__SingleUse_C7KP" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Press key to unlock</Translation>
+    </Text>
+    <Text Id="__SingleUse_UR01" TypographyId="Default" Alignment="Center" Direction="LTR">
       <Translation Language="GB">&lt;&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_AFIN" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">Enter appartments</Translation>
+    <Text Id="__SingleUse_JPZX" TypographyId="Header" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Home</Translation>
     </Text>
-    <Text Id="__SingleUse_F8AW" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">1</Translation>
+    <Text Id="__SingleUse_1NI5" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_GMC6" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">2</Translation>
+    <Text Id="__SingleUse_VPEI" TypographyId="Header" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Home</Translation>
     </Text>
-    <Text Id="__SingleUse_L58Y" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">3</Translation>
+    <Text Id="__SingleUse_8A3V" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_T1Z7" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">4</Translation>
+    <Text Id="__SingleUse_51JU" TypographyId="Header" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Sms Key</Translation>
     </Text>
-    <Text Id="__SingleUse_9E2Q" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">5</Translation>
+    <Text Id="__SingleUse_WCMZ" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Enter registered phone number</Translation>
     </Text>
-    <Text Id="__SingleUse_ED6L" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">6</Translation>
+    <Text Id="__SingleUse_0ONI" TypographyId="Display" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_N8WR" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">7</Translation>
+    <Text Id="__SingleUse_WPXN" TypographyId="Display" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_8U94" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">8</Translation>
+    <Text Id="__SingleUse_73TH" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Enter sms code</Translation>
     </Text>
-    <Text Id="__SingleUse_R7DP" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">9</Translation>
+    <Text Id="__SingleUse_7XLK" TypographyId="Default" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">&lt;&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_GYE1" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">0</Translation>
+    <Text Id="__SingleUse_L2PT" TypographyId="Header" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Sms</Translation>
     </Text>
-    <Text Id="__SingleUse_GAYI" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">1</Translation>
+    <Text Id="__SingleUse_S9Q6" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_PKOE" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">2</Translation>
+    <Text Id="__SingleUse_M03U" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Choose receiver</Translation>
     </Text>
-    <Text Id="__SingleUse_333C" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">3</Translation>
+    <Text Id="__SingleUse_25VU" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_CYJH" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">4</Translation>
+    <Text Id="__SingleUse_JZ77" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Enter sms</Translation>
     </Text>
-    <Text Id="__SingleUse_0V71" TypographyId="Default" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">5</Translation>
+    <Text Id="EnteredText" TypographyId="Display" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;placeholder&gt;</Translation>
     </Text>
-    <Text Id="__SingleUse_5DGW" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">6</Translation>
+    <Text Id="NumMode" TypographyId="Mode" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">ABC</Translation>
     </Text>
-    <Text Id="__SingleUse_YJ0K" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">7</Translation>
-    </Text>
-    <Text Id="__SingleUse_ABUO" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">8</Translation>
-    </Text>
-    <Text Id="__SingleUse_0TEM" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">9</Translation>
-    </Text>
-    <Text Id="__SingleUse_JNCX" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">0</Translation>
-    </Text>
-    <Text Id="__SingleUse_G5BY" TypographyId="Default" Alignment="Center" Direction="LTR">
-      <Translation Language="GB" />
+    <Text Id="AlphaMode" TypographyId="Mode" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">123</Translation>
     </Text>
   </Texts>
   <Typographies>
-    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" FallbackCharacter="?" />
-    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" />
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" FallbackCharacter="?" WidgetWildcardCharacters="0123456789 :APM" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" FallbackCharacter="?" />
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="Header" Font="verdana.ttf" Size="25" Bpp="4" FallbackCharacter="?" />
+    <Typography Id="Display" Font="arial.ttf" Size="28" Bpp="4" FallbackCharacter="?" WildcardCharacters="!”&quot;#*%&amp;()'$+-@_, .:;?/~±×÷•º`´{}©£€^®¥_=[]¡¢|\¿&gt;&lt;" WildcardCharacterRanges="a-z,A-Z,0-9" />
+    <Typography Id="Keyboard" Font="arial.ttf" Size="20" Bpp="4" FallbackCharacter="?" WildcardCharacters="!”&quot;#*%&amp;()'$+-@_, .:;?/~±×÷•º`´{}©£€^®¥_=[]¡¢|\¿&gt;&lt;" WildcardCharacterRanges="a-z,A-Z,0-9" />
+    <Typography Id="Mode" Font="arial.ttf" Size="24" Bpp="4" FallbackCharacter="?" />
   </Typographies>
 </TextDatabase>

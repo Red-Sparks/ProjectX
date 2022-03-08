@@ -17,16 +17,26 @@
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl2\OSWrappers.cpp"/>
     <ClCompile Include="$(ApplicationRoot)\simulator\main.cpp"/>
     <ClCompile Include="$(ApplicationRoot)\generated\simulator\src\mainBase.cpp"/>
-    <ClCompile Include="..\..\gui\src\callscreen_screen\callScreenPresenter.cpp"/>
-    <ClCompile Include="..\..\gui\src\callscreen_screen\callScreenView.cpp"/>
-    <ClCompile Include="..\..\generated\gui_generated\src\callscreen_screen\callScreenViewBase.cpp"/>
-    <ClCompile Include="..\..\gui\src\enterscreen_screen\enterScreenPresenter.cpp"/>
-    <ClCompile Include="..\..\gui\src\enterscreen_screen\enterScreenView.cpp"/>
-    <ClCompile Include="..\..\generated\gui_generated\src\enterscreen_screen\enterScreenViewBase.cpp"/>
     <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\common\FrontendApplicationBase.cpp"/>
     <ClCompile Include="..\..\gui\src\model\Model.cpp"/>
     <ClCompile Include="..\..\generated\simulator\src\video\SoftwareMJPEGDecoder.cpp"/>
+    <ClCompile Include="..\..\gui\src\call_screen\CallPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\call_screen\CallView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\call_screen\CallViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\key_screen\KeyPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\key_screen\KeyView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\key_screen\KeyViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\home_screen\HomePresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\home_screen\HomeView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\home_screen\HomeViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\smskey_screen\SmsKeyPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\smskey_screen\SmsKeyView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\smskey_screen\SmsKeyViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\sms_screen\SmsPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\sms_screen\SmsView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\sms_screen\SmsViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\common\CustomKeyboard.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xml"/>
@@ -167,13 +177,7 @@
     <ClInclude Include="$(TouchGFXReleasePath)\framework\include\touchgfx\widgets\TouchArea.hpp"/>
     <ClInclude Include="$(TouchGFXReleasePath)\framework\include\touchgfx\widgets\Widget.hpp"/>
     <ClInclude Include="$(ApplicationRoot)\generated\simulator\include\simulator\mainBase.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\callscreen_screen\callScreenPresenter.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\callscreen_screen\callScreenView.hpp"/>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\callscreen_screen\callScreenViewBase.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\DirectFrameBufferVideoController.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\enterscreen_screen\enterScreenPresenter.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\enterscreen_screen\enterScreenView.hpp"/>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\enterscreen_screen\enterScreenViewBase.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\FrontendApplicationBase.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\FrontendHeap.hpp"/>
@@ -183,6 +187,24 @@
     <ClInclude Include="..\..\gui\include\gui\model\ModelListener.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\SimConstants.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\SoftwareMJPEGDecoder.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\call_screen\CallPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\call_screen\CallView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\call_screen\CallViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\key_screen\KeyPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\key_screen\KeyView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\key_screen\KeyViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\home_screen\HomePresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\home_screen\HomeView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\home_screen\HomeViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\smskey_screen\SmsKeyPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\smskey_screen\SmsKeyView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\smskey_screen\SmsKeyViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\sms_screen\SmsPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\sms_screen\SmsView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\sms_screen\SmsViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\common\CustomKeyboard.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\common\KeyboardKeyMapping.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\common\KeyboardLayout.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

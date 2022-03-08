@@ -15,22 +15,44 @@ public:
     FrontendApplicationBase(Model& m, FrontendHeap& heap);
     virtual ~FrontendApplicationBase() { }
 
-    // enterScreen
-    void gotoenterScreenScreenNoTransition();
+    // Home
+    void gotoHomeScreenNoTransition();
 
-    // callScreen
-    void gotocallScreenScreenNoTransition();
+    void gotoHomeScreenSlideTransitionWest();
+
+    // Key
+    void gotoKeyScreenSlideTransitionEast();
+
+    // Call
+    void gotoCallScreenSlideTransitionEast();
+
+    // SmsKey
+    void gotoSmsKeyScreenSlideTransitionEast();
+
+    // Sms
+    void gotoSmsScreenSlideTransitionEast();
 
 protected:
     touchgfx::Callback<FrontendApplicationBase> transitionCallback;
     FrontendHeap& frontendHeap;
     Model& model;
 
-    // enterScreen
-    void gotoenterScreenScreenNoTransitionImpl();
+    // Home
+    void gotoHomeScreenNoTransitionImpl();
 
-    // callScreen
-    void gotocallScreenScreenNoTransitionImpl();
+    void gotoHomeScreenSlideTransitionWestImpl();
+
+    // Key
+    void gotoKeyScreenSlideTransitionEastImpl();
+
+    // Call
+    void gotoCallScreenSlideTransitionEastImpl();
+
+    // SmsKey
+    void gotoSmsKeyScreenSlideTransitionEastImpl();
+
+    // Sms
+    void gotoSmsScreenSlideTransitionEastImpl();
 };
 
 #endif // FRONTENDAPPLICATIONBASE_HPP

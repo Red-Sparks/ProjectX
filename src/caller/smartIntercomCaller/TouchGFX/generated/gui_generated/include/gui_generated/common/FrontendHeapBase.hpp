@@ -9,13 +9,21 @@
 #include <mvp/MVPHeap.hpp>
 
 #include <touchgfx/transitions/NoTransition.hpp>
+#include <touchgfx/transitions/SlideTransition.hpp>
+
 #include <gui/common/FrontendApplication.hpp>
 #include <gui/model/Model.hpp>
 
-#include <gui/enterscreen_screen/enterScreenView.hpp>
-#include <gui/enterscreen_screen/enterScreenPresenter.hpp>
-#include <gui/callscreen_screen/callScreenView.hpp>
-#include <gui/callscreen_screen/callScreenPresenter.hpp>
+#include <gui/home_screen/HomeView.hpp>
+#include <gui/home_screen/HomePresenter.hpp>
+#include <gui/key_screen/KeyView.hpp>
+#include <gui/key_screen/KeyPresenter.hpp>
+#include <gui/call_screen/CallView.hpp>
+#include <gui/call_screen/CallPresenter.hpp>
+#include <gui/smskey_screen/SmsKeyView.hpp>
+#include <gui/smskey_screen/SmsKeyPresenter.hpp>
+#include <gui/sms_screen/SmsView.hpp>
+#include <gui/sms_screen/SmsPresenter.hpp>
 
 
 /**
@@ -38,9 +46,12 @@ public:
      * A list of all view types. Must end with meta::Nil.
      * @note All view types used in the application MUST be added to this list!
      */
-    typedef touchgfx::meta::TypeList< enterScreenView,
-            touchgfx::meta::TypeList< callScreenView,
-            touchgfx::meta::Nil >
+    typedef touchgfx::meta::TypeList< HomeView,
+            touchgfx::meta::TypeList< KeyView,
+            touchgfx::meta::TypeList< CallView,
+            touchgfx::meta::TypeList< SmsKeyView,
+            touchgfx::meta::TypeList< SmsView,
+            touchgfx::meta::Nil > > > >
             > GeneratedViewTypes;
 
     /**
@@ -52,9 +63,12 @@ public:
      * A list of all presenter types. Must end with meta::Nil.
      * @note All presenter types used in the application MUST be added to this list!
      */
-    typedef touchgfx::meta::TypeList< enterScreenPresenter,
-            touchgfx::meta::TypeList< callScreenPresenter,
-            touchgfx::meta::Nil >
+    typedef touchgfx::meta::TypeList< HomePresenter,
+            touchgfx::meta::TypeList< KeyPresenter,
+            touchgfx::meta::TypeList< CallPresenter,
+            touchgfx::meta::TypeList< SmsKeyPresenter,
+            touchgfx::meta::TypeList< SmsPresenter,
+            touchgfx::meta::Nil > > > >
             > GeneratedPresenterTypes;
 
     /**
@@ -67,7 +81,9 @@ public:
      * @note All transition types used in the application MUST be added to this list!
      */
     typedef touchgfx::meta::TypeList< touchgfx::NoTransition,
-            touchgfx::meta::Nil
+            touchgfx::meta::TypeList< SlideTransition<EAST>,
+            touchgfx::meta::TypeList< SlideTransition<WEST>,
+            touchgfx::meta::Nil > >
             > GeneratedTransitionTypes;
 
     /**
@@ -77,7 +93,7 @@ public:
 
     virtual void gotoStartScreen(FrontendApplication& app)
     {
-        app.gotoenterScreenScreenNoTransition();
+        app.gotoHomeScreenNoTransition();
     }
 protected:
     FrontendHeapBase(touchgfx::AbstractPartition& presenters, touchgfx::AbstractPartition& views, touchgfx::AbstractPartition& transitions, FrontendApplication& app)
