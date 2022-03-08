@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/queue.o: \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/Middlewares/Third_Party/FreeRTOS/Source/queue.c \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/Middlewares/Third_Party/FreeRTOS/Source/queue.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

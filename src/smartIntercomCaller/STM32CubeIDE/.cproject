@@ -127,6 +127,7 @@
                   <listOptionValue builtIn="false" value="D:/zigal0/stm32/Smart-Intercom/smartIntercomCaller/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
                   <listOptionValue builtIn="false" value="D:/zigal0/stm32/Smart-Intercom/src/smartIntercomCaller/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
                   <listOptionValue builtIn="false" value="D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
+                  <listOptionValue builtIn="false" value="D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
                 </option>
                 <inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.759218838" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
                   <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -270,6 +271,7 @@
                   <listOptionValue builtIn="false" value="D:/zigal0/stm32/Smart-Intercom/smartIntercomCaller/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
                   <listOptionValue builtIn="false" value="D:/zigal0/stm32/Smart-Intercom/src/smartIntercomCaller/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
                   <listOptionValue builtIn="false" value="D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
+                  <listOptionValue builtIn="false" value="D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc"/>
                 </option>
                 <inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input.961771524" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.input">
                   <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>

@@ -1,5 +1,5 @@
 Application/User/gui/SmsPresenter.o: \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/TouchGFX/gui/src/sms_screen/SmsPresenter.cpp \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/TouchGFX/gui/src/sms_screen/SmsPresenter.cpp \
  ../../TouchGFX/gui/include/gui/sms_screen/SmsView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/sms_screen/SmsViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

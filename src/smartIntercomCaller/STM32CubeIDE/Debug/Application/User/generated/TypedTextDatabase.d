@@ -1,5 +1,5 @@
 Application/User/generated/TypedTextDatabase.o: \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/TouchGFX/generated/texts/src/TypedTextDatabase.cpp \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/TouchGFX/generated/texts/src/TypedTextDatabase.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \

@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/port.o: \
- D:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomReceiver/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

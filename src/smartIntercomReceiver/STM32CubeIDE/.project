@@ -539,24 +539,24 @@
 			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/TouchGFX/target/generated/TouchGFXGeneratedHAL.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/CallPresenter.cpp</name>
+			<name>Application/User/gui/callPresenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/call_screen/CallPresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/call_screen/callPresenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/CallView.cpp</name>
+			<name>Application/User/gui/callView.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/call_screen/CallView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/call_screen/callView.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/CamerasPresenter.cpp</name>
+			<name>Application/User/gui/camerasPresenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/cameras_screen/CamerasPresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/cameras_screen/camerasPresenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/CamerasView.cpp</name>
+			<name>Application/User/gui/camerasView.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/cameras_screen/CamerasView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/cameras_screen/camerasView.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/gui/FrontendApplication.cpp</name>
@@ -564,24 +564,24 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/common/FrontendApplication.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/DoorsPresenter.cpp</name>
+			<name>Application/User/gui/doorsPresenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/doors_screen/DoorsPresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/doors_screen/doorsPresenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/DoorsView.cpp</name>
+			<name>Application/User/gui/doorsView.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/doors_screen/DoorsView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/doors_screen/doorsView.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/HomePresenter.cpp</name>
+			<name>Application/User/gui/homePresenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/home_screen/HomePresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/home_screen/homePresenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/HomeView.cpp</name>
+			<name>Application/User/gui/homeView.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/home_screen/HomeView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/home_screen/homeView.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/gui/Model.cpp</name>
@@ -589,24 +589,24 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/model/Model.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/RecordingsPresenter.cpp</name>
+			<name>Application/User/gui/recordingsPresenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/recordings_screen/RecordingsPresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/recordings_screen/recordingsPresenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/RecordingsView.cpp</name>
+			<name>Application/User/gui/recordingsView.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/recordings_screen/RecordingsView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/recordings_screen/recordingsView.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/SettingsPresenter.cpp</name>
+			<name>Application/User/gui/settingsPresenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings_screen/SettingsPresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings_screen/settingsPresenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/SettingsView.cpp</name>
+			<name>Application/User/gui/settingsView.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings_screen/SettingsView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings_screen/settingsView.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/ApplicationFontProvider.cpp</name>

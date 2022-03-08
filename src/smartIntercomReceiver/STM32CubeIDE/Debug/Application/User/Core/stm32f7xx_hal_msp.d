@@ -1,5 +1,5 @@
 Application/User/Core/stm32f7xx_hal_msp.o: \
- D:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/Core/Src/stm32f7xx_hal_msp.c \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomReceiver/Core/Src/stm32f7xx_hal_msp.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../../Core/Inc/stm32f7xx_hal_conf.h \

@@ -1,6 +1,6 @@
 Middlewares/FreeRTOS/cmsis_os2.o: \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
  ../../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../../Drivers/CMSIS/Include/cmsis_gcc.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
@@ -18,7 +18,7 @@ Middlewares/FreeRTOS/cmsis_os2.o: \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 
-D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
+D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
 
 ../../Drivers/CMSIS/Include/cmsis_compiler.h:
 

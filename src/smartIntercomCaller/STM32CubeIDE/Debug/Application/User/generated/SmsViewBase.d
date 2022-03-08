@@ -1,5 +1,5 @@
 Application/User/generated/SmsViewBase.o: \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/TouchGFX/generated/gui_generated/src/sms_screen/SmsViewBase.cpp \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/TouchGFX/generated/gui_generated/src/sms_screen/SmsViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/sms_screen/SmsViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

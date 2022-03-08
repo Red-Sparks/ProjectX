@@ -1,5 +1,5 @@
 CamerasPresenter.hpp:28:13:CamerasPresenter::~CamerasPresenter()	0	static
-CamerasPresenter.cpp:10:6:virtual void CamerasPresenter::activate()	0	static
+camerasPresenter.cpp:10:6:virtual void CamerasPresenter::activate()	0	static
 CamerasPresenter.hpp:28:13:virtual CamerasPresenter::~CamerasPresenter()	8	static
 CamerasPresenter.hpp:28:13:virtual void* CamerasPresenter::_ZThn4_N16CamerasPresenterD1Ev()	0	static
-CamerasPresenter.cpp:4:1:CamerasPresenter::CamerasPresenter(CamerasView&)	8	static
+camerasPresenter.cpp:4:1:CamerasPresenter::CamerasPresenter(CamerasView&)	8	static

@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/CortexMMCUInstrumentation.o: \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/TouchGFX/target/CortexMMCUInstrumentation.cpp \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/TouchGFX/target/CortexMMCUInstrumentation.cpp \
  ../../TouchGFX/target/CortexMMCUInstrumentation.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

@@ -1,5 +1,5 @@
-Application/User/gui/SettingsView.o: \
- D:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/gui/src/settings_screen/SettingsView.cpp \
+Application/User/gui/settingsView.o: \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/gui/src/settings_screen/settingsView.cpp \
  ../../TouchGFX/gui/include/gui/settings_screen/SettingsView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

@@ -1,5 +1,5 @@
-Application/User/gui/CamerasPresenter.o: \
- D:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/gui/src/cameras_screen/CamerasPresenter.cpp \
+Application/User/gui/camerasPresenter.o: \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/gui/src/cameras_screen/camerasPresenter.cpp \
  ../../TouchGFX/gui/include/gui/cameras_screen/CamerasView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/cameras_screen/CamerasViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

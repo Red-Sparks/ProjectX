@@ -1,5 +1,5 @@
 RecordingsPresenter.hpp:28:13:RecordingsPresenter::~RecordingsPresenter()	0	static
-RecordingsPresenter.cpp:10:6:virtual void RecordingsPresenter::activate()	0	static
+recordingsPresenter.cpp:10:6:virtual void RecordingsPresenter::activate()	0	static
 RecordingsPresenter.hpp:28:13:virtual RecordingsPresenter::~RecordingsPresenter()	8	static
 RecordingsPresenter.hpp:28:13:virtual void* RecordingsPresenter::_ZThn4_N19RecordingsPresenterD1Ev()	0	static
-RecordingsPresenter.cpp:4:1:RecordingsPresenter::RecordingsPresenter(RecordingsView&)	8	static
+recordingsPresenter.cpp:4:1:RecordingsPresenter::RecordingsPresenter(RecordingsView&)	8	static

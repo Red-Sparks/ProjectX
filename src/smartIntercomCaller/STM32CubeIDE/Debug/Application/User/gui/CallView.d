@@ -1,5 +1,5 @@
 Application/User/gui/CallView.o: \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/TouchGFX/gui/src/call_screen/CallView.cpp \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/TouchGFX/gui/src/call_screen/CallView.cpp \
  ../../TouchGFX/gui/include/gui/call_screen/CallView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/call_screen/CallViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

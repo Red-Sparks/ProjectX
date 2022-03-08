@@ -1,5 +1,5 @@
-Application/User/gui/RecordingsPresenter.o: \
- D:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/gui/src/recordings_screen/RecordingsPresenter.cpp \
+Application/User/gui/recordingsPresenter.o: \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/gui/src/recordings_screen/recordingsPresenter.cpp \
  ../../TouchGFX/gui/include/gui/recordings_screen/RecordingsView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/recordings_screen/RecordingsViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

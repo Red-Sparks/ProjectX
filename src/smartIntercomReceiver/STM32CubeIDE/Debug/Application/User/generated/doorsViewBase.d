@@ -1,5 +1,5 @@
 Application/User/generated/DoorsViewBase.o: \
- D:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/generated/gui_generated/src/doors_screen/DoorsViewBase.cpp \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/generated/gui_generated/src/doors_screen/DoorsViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/doors_screen/DoorsViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

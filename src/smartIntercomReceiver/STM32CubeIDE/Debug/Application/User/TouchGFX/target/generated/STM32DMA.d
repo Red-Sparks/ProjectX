@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/STM32DMA.o: \
- D:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/target/generated/STM32DMA.cpp \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/target/generated/STM32DMA.cpp \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../../Core/Inc/stm32f7xx_hal_conf.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \

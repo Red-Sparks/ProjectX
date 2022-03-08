@@ -1,5 +1,5 @@
 Application/User/gui/SmsKeyView.o: \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/TouchGFX/gui/src/smskey_screen/SmsKeyView.cpp \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/TouchGFX/gui/src/smskey_screen/SmsKeyView.cpp \
  ../../TouchGFX/gui/include/gui/smskey_screen/SmsKeyView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/smskey_screen/SmsKeyViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

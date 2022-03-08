@@ -1,5 +1,5 @@
 Application/User/generated/HomeViewBase.o: \
- D:/zigal0/stm32/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomReceiver/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

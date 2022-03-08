@@ -1,5 +1,5 @@
 Application/User/Core/freertos.o: \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/Core/Src/freertos.c \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/Core/Src/freertos.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

@@ -1,6 +1,6 @@
 Drivers/BSP/stm32746g_discovery_qspi.o: \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.h \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.c \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../../Core/Inc/stm32f7xx_hal_conf.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
@@ -37,9 +37,9 @@ Drivers/BSP/stm32746g_discovery_qspi.o: \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_qspi.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h \
- d:\zigal0\stm32\smart-intercom\src\caller\smartintercomcaller\drivers\bsp\components\n25q128a\n25q128a.h
+ d:\zigal0\stm32\new\smart-intercom\src\smartintercomcaller\drivers\bsp\components\n25q128a\n25q128a.h
 
-D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.h:
+D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/Drivers/BSP/STM32746G-Discovery/stm32746g_discovery_qspi.h:
 
 ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 
@@ -113,4 +113,4 @@ D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/Drivers/BSP/STM327
 
 ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_tim_ex.h:
 
-d:\zigal0\stm32\smart-intercom\src\caller\smartintercomcaller\drivers\bsp\components\n25q128a\n25q128a.h:
+d:\zigal0\stm32\new\smart-intercom\src\smartintercomcaller\drivers\bsp\components\n25q128a\n25q128a.h:

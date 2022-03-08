@@ -1,5 +1,5 @@
 Application/User/gui/KeyView.o: \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/TouchGFX/gui/src/key_screen/KeyView.cpp \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/TouchGFX/gui/src/key_screen/KeyView.cpp \
  ../../TouchGFX/gui/include/gui/key_screen/KeyView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/key_screen/KeyViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

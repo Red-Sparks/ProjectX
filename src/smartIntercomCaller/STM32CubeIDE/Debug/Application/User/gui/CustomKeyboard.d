@@ -1,5 +1,5 @@
 Application/User/gui/CustomKeyboard.o: \
- D:/zigal0/stm32/Smart-Intercom/src/caller/smartIntercomCaller/TouchGFX/gui/src/common/CustomKeyboard.cpp \
+ D:/zigal0/stm32/new/Smart-Intercom/src/smartIntercomCaller/TouchGFX/gui/src/common/CustomKeyboard.cpp \
  ../../TouchGFX/gui/include/gui/common/CustomKeyboard.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Keyboard.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
