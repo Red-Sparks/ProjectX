@@ -21,7 +21,7 @@ SmsViewBase::SmsViewBase() :
 
     headerBackground.setPosition(0, 0, 480, 50);
     headerBackground.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    headerBackground.setAlpha(68);
+    headerBackground.setAlpha(50);
     header.add(headerBackground);
 
     clock.setPosition(0, 13, 100, 25);
@@ -47,10 +47,10 @@ SmsViewBase::SmsViewBase() :
     forSms.add(buttonSend);
 
     backgroundForSms.setPosition(50, 31, 250, 40);
-    backgroundForSms.setColor(touchgfx::Color::getColorFromRGB(110, 110, 110));
+    backgroundForSms.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     backgroundForSms.setBorderColor(touchgfx::Color::getColorFromRGB(14, 237, 237));
     backgroundForSms.setBorderSize(2);
-    backgroundForSms.setAlpha(127);
+    backgroundForSms.setAlpha(50);
     forSms.add(backgroundForSms);
 
     areaForSms.setPosition(60, 36, 230, 30);
@@ -85,10 +85,10 @@ SmsViewBase::SmsViewBase() :
     forReceiver.add(areaForReceiver);
 
     backgroundForNumber.setPosition(50, 30, 250, 40);
-    backgroundForNumber.setColor(touchgfx::Color::getColorFromRGB(110, 110, 110));
+    backgroundForNumber.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     backgroundForNumber.setBorderColor(touchgfx::Color::getColorFromRGB(14, 237, 237));
     backgroundForNumber.setBorderSize(2);
-    backgroundForNumber.setAlpha(127);
+    backgroundForNumber.setAlpha(50);
     forReceiver.add(backgroundForNumber);
 
     flexForReceiver.setBoxWithBorderPosition(0, 0, 250, 40);

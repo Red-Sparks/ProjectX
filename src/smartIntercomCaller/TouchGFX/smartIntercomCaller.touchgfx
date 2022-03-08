@@ -22,7 +22,7 @@
                 "Name": "headerBackground",
                 "Width": 480,
                 "Height": 50,
-                "Alpha": 68
+                "Alpha": 50
               },
               {
                 "Type": "DigitalClock",
@@ -301,7 +301,7 @@
                 "Name": "headerBackground",
                 "Width": 480,
                 "Height": 50,
-                "Alpha": 68
+                "Alpha": 50
               },
               {
                 "Type": "DigitalClock",
@@ -422,7 +422,7 @@
                 "Name": "headerBackground",
                 "Width": 480,
                 "Height": 50,
-                "Alpha": 68
+                "Alpha": 50
               },
               {
                 "Type": "DigitalClock",
@@ -597,18 +597,13 @@
                     "Y": 50,
                     "Width": 250,
                     "Height": 50,
-                    "Color": {
-                      "Red": 110,
-                      "Green": 110,
-                      "Blue": 110
-                    },
                     "BorderColor": {
                       "Red": 14,
                       "Green": 237,
                       "Blue": 237
                     },
                     "BorderSize": 2,
-                    "Alpha": 127
+                    "Alpha": 50
                   },
                   {
                     "Type": "TextArea",
@@ -719,18 +714,13 @@
                     "Y": 50,
                     "Width": 250,
                     "Height": 50,
-                    "Color": {
-                      "Red": 110,
-                      "Green": 110,
-                      "Blue": 110
-                    },
                     "BorderColor": {
                       "Red": 14,
                       "Green": 237,
                       "Blue": 237
                     },
                     "BorderSize": 2,
-                    "Alpha": 127
+                    "Alpha": 50
                   },
                   {
                     "Type": "TextArea",
@@ -813,7 +803,7 @@
                     "Name": "headerBackground",
                     "Width": 480,
                     "Height": 50,
-                    "Alpha": 68
+                    "Alpha": 50
                   },
                   {
                     "Type": "DigitalClock",
@@ -1098,7 +1088,7 @@
                 "Name": "headerBackground",
                 "Width": 480,
                 "Height": 50,
-                "Alpha": 68
+                "Alpha": 50
               },
               {
                 "Type": "DigitalClock",
@@ -1164,18 +1154,13 @@
                 "Y": 31,
                 "Width": 250,
                 "Height": 40,
-                "Color": {
-                  "Red": 110,
-                  "Green": 110,
-                  "Blue": 110
-                },
                 "BorderColor": {
                   "Red": 14,
                   "Green": 237,
                   "Blue": 237
                 },
                 "BorderSize": 2,
-                "Alpha": 127
+                "Alpha": 50
               },
               {
                 "Type": "TextArea",
@@ -1276,18 +1261,13 @@
                 "Y": 30,
                 "Width": 250,
                 "Height": 40,
-                "Color": {
-                  "Red": 110,
-                  "Green": 110,
-                  "Blue": 110
-                },
                 "BorderColor": {
                   "Red": 14,
                   "Green": 237,
                   "Blue": 237
                 },
                 "BorderSize": 2,
-                "Alpha": 127
+                "Alpha": 50
               },
               {
                 "Type": "FlexButton",

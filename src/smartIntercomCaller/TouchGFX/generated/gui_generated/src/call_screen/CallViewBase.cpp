@@ -21,7 +21,7 @@ CallViewBase::CallViewBase() :
 
     headerBackground.setPosition(0, 0, 480, 50);
     headerBackground.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    headerBackground.setAlpha(68);
+    headerBackground.setAlpha(50);
     header.add(headerBackground);
 
     clock.setPosition(0, 13, 100, 25);
