@@ -26,7 +26,7 @@ public:
     virtual void deactivate();
 
     virtual ~RecordingsPresenter() {};
-
+    void updateTime(uint8_t hour, uint8_t minute, uint8_t second);
 private:
     RecordingsPresenter();
 

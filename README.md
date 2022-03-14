@@ -23,8 +23,8 @@ Rrepository for stm32 project.
   * https://support.touchgfx.com/4.16/docs/introduction/welcome
   * https://www.youtube.com/watch?v=12KXreXaLp0&ab_channel=EEbyKarl 
 * Keyboard: https://www.youtube.com/watch?v=uE6eiTjOP-g&t=1187s&ab_channel=EEbyKarl
+* clock: https://www.youtube.com/watch?v=dx7xHRH9YXg&t=265s&ab_channel=STMicroelectronics
 ### Unwathed
 * Advanced TouchGFXDesigner:
   * https://www.youtube.com/watch?v=bCppZf8FKYg&t=1921s&ab_channel=EEbyKarl
   * https://www.youtube.com/watch?v=Zy0bTHvviiE&ab_channel=TouchGFX%2CSTMicroelectronics
-  * https://www.youtube.com/watch?v=OraJaTLn0CA&ab_channel=STMicroelectronics

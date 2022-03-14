@@ -52,12 +52,9 @@ Application/User/generated/CallViewBase.o: \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/VideoWidget.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VideoController.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
  ../../TouchGFX/generated/images/include/BitmapDatabase.hpp \
- ../../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
- ../../TouchGFX/generated/videos/include/videos/VideoDatabase.hpp
+ ../../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp
 
 ../../TouchGFX/generated/gui_generated/include/gui_generated/call_screen/CallViewBase.hpp:
 
@@ -163,14 +160,8 @@ Application/User/generated/CallViewBase.o: \
 
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
 
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/VideoWidget.hpp:
-
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VideoController.hpp:
-
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:
 
 ../../TouchGFX/generated/images/include/BitmapDatabase.hpp:
 
 ../../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
-
-../../TouchGFX/generated/videos/include/videos/VideoDatabase.hpp:

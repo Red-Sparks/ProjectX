@@ -16,6 +16,7 @@ public:
     virtual void updateScreen(); // add
     virtual void getBuffer(); // add
     virtual void clearBuffer(); // add
+    void updateTime(uint8_t hour, uint8_t minute, uint8_t second);
 protected:
     CustomKeyboard keyboard; // add
 };

@@ -6,3 +6,4 @@ homeView.cpp:13:6:virtual void HomeView::tearDownScreen()	0	static
 homeView.cpp:8:6:virtual void HomeView::setupScreen()	0	static
 HomeView.hpp:11:13:virtual HomeView::~HomeView()	8	static
 homeView.cpp:3:1:HomeView::HomeView()	8	static
+homeView.cpp:18:6:void HomeView::updateTime(uint8_t, uint8_t, uint8_t)	0	static

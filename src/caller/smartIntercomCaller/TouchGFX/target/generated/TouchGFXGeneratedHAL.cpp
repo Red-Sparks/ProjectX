@@ -30,7 +30,7 @@ SoftwareMJPEGDecoder mjpegdecoder1((uint8_t*)lineBuffer);
 
 LOCATION_PRAGMA("Video_RGB_Buffer")
 uint32_t videoRGBBuffer[23328] LOCATION_ATTRIBUTE("Video_RGB_Buffer");
-DedicatedBufferController<1, 216, 216, 216 * 2U, Bitmap::RGB565> videoController;
+DedicatedBufferController<1, 216, 216, 216*2U, Bitmap::RGB565> videoController;
 
 //Singleton Factory
 VideoController& VideoController::getInstance()
@@ -45,8 +45,8 @@ using namespace touchgfx;
 
 namespace
 {
-static uint16_t lcd_int_active_line;
-static uint16_t lcd_int_porch_line;
+    static uint16_t lcd_int_active_line;
+    static uint16_t lcd_int_porch_line;
 }
 
 void TouchGFXGeneratedHAL::initialize()
@@ -160,7 +160,7 @@ void TouchGFXGeneratedHAL::FlushCache()
     }
 }
 
-extern "C" void videoTaskFunc(void* argument)
+extern "C" void videoTaskFunc(void *argument)
 {
     videoController.decoderTaskEntry();
 }

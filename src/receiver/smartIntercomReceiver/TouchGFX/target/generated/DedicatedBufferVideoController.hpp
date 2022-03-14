@@ -242,7 +242,7 @@ public:
         // Running in UI thread
 
         // Check if we should invalidate in next frame
-        for (uint32_t i = 0; i < no_streams; i++)
+        for (uint32_t i = 0; i<no_streams; i++)
         {
             Stream& stream = streams[i];
             if (stream.isPlaying)
@@ -271,7 +271,7 @@ public:
     {
         // Running in Decoder thread!!
 
-        while (1)
+        while(1)
         {
             // Wait for synchronisation signal from UI thread
             SEM_WAIT(semDecode);
@@ -285,7 +285,7 @@ public:
                 Stream& stream = streams[i];
                 if (stream.doDecode)
                 {
-                    stream.doInvalidateOnNextTick = true;
+                  stream.doInvalidateOnNextTick = true;
                 }
             }
 
@@ -343,8 +343,8 @@ private:
     {
     public:
         Stream() : frameNumber(0), frameCount(0), tickCount(0), frame_rate_video(0), frame_rate_ticks(0),
-            seek_to_frame(0),
-            isActive(false), doInvalidateOnNextTick(false), hasMoreFrames(false), repeat(true), doDecode(false) {}
+                   seek_to_frame(0),
+                   isActive(false), doInvalidateOnNextTick(false), hasMoreFrames(false), repeat(true), doDecode(false) {}
         uint32_t frameNumber;      // Video frame number shown
         uint32_t frameCount;       // Video frame counter (for frame rate)
         uint32_t tickCount;        // UI frames since play

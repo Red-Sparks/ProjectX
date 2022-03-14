@@ -1,5 +1,5 @@
-build/MINGW32_NT-6.2/gui/src/recordings_screen/RecordingsPresenter.o: \
- gui/src/recordings_screen/RecordingsPresenter.cpp \
+build/MINGW32_NT-6.2/gui/src/recordings_screen/recordingsPresenter.o: \
+ gui/src/recordings_screen/recordingsPresenter.cpp \
  gui/include/gui/recordings_screen/RecordingsView.hpp \
  generated/gui_generated/include/gui_generated/recordings_screen/RecordingsViewBase.hpp \
  gui/include/gui/common/FrontendApplication.hpp \

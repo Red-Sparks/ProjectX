@@ -6,3 +6,4 @@ callView.cpp:13:6:virtual void CallView::tearDownScreen()	0	static
 callView.cpp:8:6:virtual void CallView::setupScreen()	0	static
 CallView.hpp:11:13:virtual CallView::~CallView()	8	static
 callView.cpp:3:1:CallView::CallView()	8	static
+callView.cpp:18:6:void CallView::updateTime(uint8_t, uint8_t, uint8_t)	0	static

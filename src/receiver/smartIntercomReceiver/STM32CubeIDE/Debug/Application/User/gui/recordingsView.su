@@ -6,3 +6,4 @@ recordingsView.cpp:13:6:virtual void RecordingsView::tearDownScreen()	0	static
 recordingsView.cpp:8:6:virtual void RecordingsView::setupScreen()	0	static
 RecordingsView.hpp:11:13:virtual RecordingsView::~RecordingsView()	8	static
 recordingsView.cpp:3:1:RecordingsView::RecordingsView()	8	static
+recordingsView.cpp:18:6:void RecordingsView::updateTime(uint8_t, uint8_t, uint8_t)	0	static

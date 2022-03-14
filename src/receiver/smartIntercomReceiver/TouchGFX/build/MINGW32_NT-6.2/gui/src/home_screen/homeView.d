@@ -1,5 +1,5 @@
-build/MINGW32_NT-6.2/gui/src/home_screen/HomeView.o: \
- gui/src/home_screen/HomeView.cpp \
+build/MINGW32_NT-6.2/gui/src/home_screen/homeView.o: \
+ gui/src/home_screen/homeView.cpp \
  gui/include/gui/home_screen/HomeView.hpp \
  generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp \
  gui/include/gui/common/FrontendApplication.hpp \

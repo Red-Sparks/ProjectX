@@ -12,4 +12,5 @@ TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	8	static
 SmsKeyView.hpp:12:13:virtual SmsKeyView::~SmsKeyView()	8	static
 SmsKeyView.cpp:34:6:virtual void SmsKeyView::updateScreen()	8	static
 SmsKeyView.cpp:7:1:SmsKeyView::SmsKeyView()	16	static
-SmsKeyView.cpp:55:1:cpp)	0	static
+SmsKeyView.cpp:57:6:void SmsKeyView::updateTime(uint8_t, uint8_t, uint8_t)	0	static
+SmsKeyView.cpp:60:1:cpp)	0	static

@@ -88,8 +88,6 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  gui/include/gui/call_screen/CallView.hpp \
  generated/gui_generated/include/gui_generated/call_screen/CallViewBase.hpp \
  gui/include/gui/call_screen/CallPresenter.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/VideoWidget.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VideoController.hpp \
  gui/include/gui/smskey_screen/SmsKeyView.hpp \
  generated/gui_generated/include/gui_generated/smskey_screen/SmsKeyViewBase.hpp \
  gui/include/gui/smskey_screen/SmsKeyPresenter.hpp \
@@ -120,11 +118,7 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  gui/include/gui/sms_screen/SmsPresenter.hpp \
  ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD16DebugPrinter.hpp \
- generated/simulator/include/simulator/video/DirectFrameBufferVideoController.hpp \
- generated/simulator/include/simulator/video/MJPEGDecoder.hpp \
- generated/simulator/include/simulator/video/SoftwareMJPEGDecoder.hpp \
- generated/videos/include/videos/VideoDatabase.hpp
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD16DebugPrinter.hpp
 
 generated/simulator/include/simulator/mainBase.hpp:
 
@@ -304,10 +298,6 @@ generated/gui_generated/include/gui_generated/call_screen/CallViewBase.hpp:
 
 gui/include/gui/call_screen/CallPresenter.hpp:
 
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/VideoWidget.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VideoController.hpp:
-
 gui/include/gui/smskey_screen/SmsKeyView.hpp:
 
 generated/gui_generated/include/gui_generated/smskey_screen/SmsKeyViewBase.hpp:
@@ -369,11 +359,3 @@ gui/include/gui/sms_screen/SmsPresenter.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD16DebugPrinter.hpp:
-
-generated/simulator/include/simulator/video/DirectFrameBufferVideoController.hpp:
-
-generated/simulator/include/simulator/video/MJPEGDecoder.hpp:
-
-generated/simulator/include/simulator/video/SoftwareMJPEGDecoder.hpp:
-
-generated/videos/include/videos/VideoDatabase.hpp:

@@ -474,35 +474,21 @@
             "IconWidth": 36
           },
           {
-            "Type": "Video",
-            "Name": "video",
-            "X": 240,
-            "Y": 53,
-            "Width": 216,
-            "Height": 216,
-            "VideoFileName": "SampleVideo2_216x216.avi",
-            "AutoPlay": true,
-            "Loop": true
+            "Type": "Image",
+            "Name": "image1",
+            "X": 251,
+            "Y": 59,
+            "Width": 200,
+            "Height": 200,
+            "RelativeFilename": "pika.png"
           }
         ],
         "Interactions": [
           {
-            "InteractionName": "stopCall",
-            "HasCompletedTrigger": true,
+            "InteractionName": "toHome",
             "Trigger": {
               "Type": "TriggerClicked",
               "TriggerComponent": "buttonCancel"
-            },
-            "Action": {
-              "Type": "ActionHide",
-              "ActionComponent": "video"
-            }
-          },
-          {
-            "InteractionName": "toHome",
-            "Trigger": {
-              "Type": "TriggerInteractionCompleted",
-              "InteractionToTriggerOn": "stopCall"
             },
             "Action": {
               "Type": "ActionGotoScreen",

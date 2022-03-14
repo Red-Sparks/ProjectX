@@ -1,5 +1,5 @@
-build/MINGW32_NT-6.2/gui/src/call_screen/CallPresenter.o: \
- gui/src/call_screen/CallPresenter.cpp \
+build/MINGW32_NT-6.2/gui/src/call_screen/callPresenter.o: \
+ gui/src/call_screen/callPresenter.cpp \
  gui/include/gui/call_screen/CallView.hpp \
  generated/gui_generated/include/gui_generated/call_screen/CallViewBase.hpp \
  gui/include/gui/common/FrontendApplication.hpp \

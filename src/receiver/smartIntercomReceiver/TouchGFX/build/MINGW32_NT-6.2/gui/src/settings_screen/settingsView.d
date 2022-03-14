@@ -1,5 +1,5 @@
-build/MINGW32_NT-6.2/gui/src/settings_screen/SettingsView.o: \
- gui/src/settings_screen/SettingsView.cpp \
+build/MINGW32_NT-6.2/gui/src/settings_screen/settingsView.o: \
+ gui/src/settings_screen/settingsView.cpp \
  gui/include/gui/settings_screen/SettingsView.hpp \
  generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp \
  gui/include/gui/common/FrontendApplication.hpp \

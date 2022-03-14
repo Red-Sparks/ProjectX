@@ -1,5 +1,5 @@
-build/MINGW32_NT-6.2/gui/src/cameras_screen/CamerasView.o: \
- gui/src/cameras_screen/CamerasView.cpp \
+build/MINGW32_NT-6.2/gui/src/cameras_screen/camerasView.o: \
+ gui/src/cameras_screen/camerasView.cpp \
  gui/include/gui/cameras_screen/CamerasView.hpp \
  generated/gui_generated/include/gui_generated/cameras_screen/CamerasViewBase.hpp \
  gui/include/gui/common/FrontendApplication.hpp \

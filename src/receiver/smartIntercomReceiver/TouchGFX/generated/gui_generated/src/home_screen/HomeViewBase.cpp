@@ -119,7 +119,7 @@ HomeViewBase::HomeViewBase() :
     silenceText.setTypedText(touchgfx::TypedText(T___SINGLEUSE_1QGA));
     silencePanel.add(silenceText);
 
-    toggleSilence.setXY(72, 50);
+    toggleSilence.setXY(77, 50);
     toggleSilence.setBitmaps(touchgfx::Bitmap(BITMAP_DARK_TOGGLEBARS_TOGGLE_RE_SMALL_BUTTON_OFF_ID), touchgfx::Bitmap(BITMAP_DARK_TOGGLEBARS_TOGGLE_RE_SMALL_BUTTON_ON_ID));
     toggleSilence.setAction(buttonCallback);
     silencePanel.add(toggleSilence);

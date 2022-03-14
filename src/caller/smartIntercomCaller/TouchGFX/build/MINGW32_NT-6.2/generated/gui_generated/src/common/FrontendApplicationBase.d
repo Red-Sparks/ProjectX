@@ -66,8 +66,6 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/common/FrontendApplicationBase.
  gui/include/gui/call_screen/CallView.hpp \
  generated/gui_generated/include/gui_generated/call_screen/CallViewBase.hpp \
  gui/include/gui/call_screen/CallPresenter.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/VideoWidget.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VideoController.hpp \
  gui/include/gui/smskey_screen/SmsKeyView.hpp \
  generated/gui_generated/include/gui_generated/smskey_screen/SmsKeyViewBase.hpp \
  gui/include/gui/smskey_screen/SmsKeyPresenter.hpp \
@@ -236,10 +234,6 @@ gui/include/gui/call_screen/CallView.hpp:
 generated/gui_generated/include/gui_generated/call_screen/CallViewBase.hpp:
 
 gui/include/gui/call_screen/CallPresenter.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/VideoWidget.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VideoController.hpp:
 
 gui/include/gui/smskey_screen/SmsKeyView.hpp:
 

@@ -6,3 +6,4 @@ camerasView.cpp:13:6:virtual void CamerasView::tearDownScreen()	0	static
 camerasView.cpp:8:6:virtual void CamerasView::setupScreen()	0	static
 CamerasView.hpp:11:13:virtual CamerasView::~CamerasView()	8	static
 camerasView.cpp:3:1:CamerasView::CamerasView()	8	static
+camerasView.cpp:18:6:void CamerasView::updateTime(uint8_t, uint8_t, uint8_t)	0	static

@@ -13,7 +13,6 @@
 #include <touchgfx/containers/clock/DigitalClock.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/ButtonWithIcon.hpp>
-#include <touchgfx/widgets/VideoWidget.hpp>
 
 class CallViewBase : public touchgfx::View<CallPresenter>
 {
@@ -37,7 +36,7 @@ protected:
     touchgfx::DigitalClock clock;
     touchgfx::TextArea nameOfPage;
     touchgfx::ButtonWithIcon buttonCancel;
-    touchgfx::VideoWidget video;
+    touchgfx::Image image1;
 
 private:
 

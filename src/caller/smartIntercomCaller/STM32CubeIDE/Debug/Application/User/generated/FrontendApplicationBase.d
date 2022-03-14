@@ -67,8 +67,6 @@ Application/User/generated/FrontendApplicationBase.o: \
  ../../TouchGFX/gui/include/gui/call_screen/CallView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/call_screen/CallViewBase.hpp \
  ../../TouchGFX/gui/include/gui/call_screen/CallPresenter.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/VideoWidget.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VideoController.hpp \
  ../../TouchGFX/gui/include/gui/smskey_screen/SmsKeyView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/smskey_screen/SmsKeyViewBase.hpp \
  ../../TouchGFX/gui/include/gui/smskey_screen/SmsKeyPresenter.hpp \
@@ -237,10 +235,6 @@ Application/User/generated/FrontendApplicationBase.o: \
 ../../TouchGFX/generated/gui_generated/include/gui_generated/call_screen/CallViewBase.hpp:
 
 ../../TouchGFX/gui/include/gui/call_screen/CallPresenter.hpp:
-
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/VideoWidget.hpp:
-
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/VideoController.hpp:
 
 ../../TouchGFX/gui/include/gui/smskey_screen/SmsKeyView.hpp:
 

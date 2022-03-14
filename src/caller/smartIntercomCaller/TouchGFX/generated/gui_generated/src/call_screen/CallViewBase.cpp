@@ -5,7 +5,6 @@
 #include <touchgfx/Color.hpp>
 #include <BitmapDatabase.hpp>
 #include <texts/TextKeysAndLanguages.hpp>
-#include <videos/VideoDatabase.hpp>
 
 CallViewBase::CallViewBase() :
     buttonCallback(this, &CallViewBase::buttonCallbackHandler)
@@ -43,16 +42,14 @@ CallViewBase::CallViewBase() :
     buttonCancel.setIconXY(67, 12);
     buttonCancel.setAction(buttonCallback);
 
-    video.setPosition(240, 53, 216, 216);
-    video.setRepeat(true);
-    video.setVideoData(video_SampleVideo2_216x216_bin_start, video_SampleVideo2_216x216_bin_length);
-    video.play();
+    image1.setXY(251, 59);
+    image1.setBitmap(touchgfx::Bitmap(BITMAP_PIKA_ID));
 
     add(__background);
     add(background);
     add(header);
     add(buttonCancel);
-    add(video);
+    add(image1);
 }
 
 void CallViewBase::setupScreen()
@@ -64,14 +61,8 @@ void CallViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
 {
     if (&src == &buttonCancel)
     {
-        //stopCall
-        //When buttonCancel clicked hide video
-        //Hide video
-        video.setVisible(false);
-        video.invalidate();
-
         //toHome
-        //When stopCall completed change screen to Home
+        //When buttonCancel clicked change screen to Home
         //Go to Home with screen transition towards West
         application().gotoHomeScreenSlideTransitionWest();
     }

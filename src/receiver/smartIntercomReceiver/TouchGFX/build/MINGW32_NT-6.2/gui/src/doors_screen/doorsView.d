@@ -1,5 +1,5 @@
-build/MINGW32_NT-6.2/gui/src/doors_screen/DoorsView.o: \
- gui/src/doors_screen/DoorsView.cpp \
+build/MINGW32_NT-6.2/gui/src/doors_screen/doorsView.o: \
+ gui/src/doors_screen/doorsView.cpp \
  gui/include/gui/doors_screen/DoorsView.hpp \
  generated/gui_generated/include/gui_generated/doors_screen/DoorsViewBase.hpp \
  gui/include/gui/common/FrontendApplication.hpp \

@@ -6,3 +6,4 @@ KeyView.cpp:13:6:virtual void KeyView::tearDownScreen()	0	static
 KeyView.cpp:8:6:virtual void KeyView::setupScreen()	0	static
 KeyView.hpp:11:13:virtual KeyView::~KeyView()	8	static
 KeyView.cpp:3:1:KeyView::KeyView()	8	static
+KeyView.cpp:18:6:void KeyView::updateTime(uint8_t, uint8_t, uint8_t)	0	static

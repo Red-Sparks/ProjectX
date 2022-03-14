@@ -281,7 +281,7 @@
               {
                 "Type": "ToggleButton",
                 "Name": "toggleSilence",
-                "X": 72,
+                "X": 77,
                 "Y": 50,
                 "Width": 96,
                 "Height": 38,

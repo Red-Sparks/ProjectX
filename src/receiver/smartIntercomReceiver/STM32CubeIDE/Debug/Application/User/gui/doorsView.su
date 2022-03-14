@@ -6,3 +6,4 @@ doorsView.cpp:13:6:virtual void DoorsView::tearDownScreen()	0	static
 doorsView.cpp:8:6:virtual void DoorsView::setupScreen()	0	static
 DoorsView.hpp:11:13:virtual DoorsView::~DoorsView()	8	static
 doorsView.cpp:3:1:DoorsView::DoorsView()	8	static
+doorsView.cpp:18:6:void DoorsView::updateTime(uint8_t, uint8_t, uint8_t)	0	static
